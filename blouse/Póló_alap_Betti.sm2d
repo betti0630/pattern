@@ -89,8 +89,78 @@
             <line firstPoint="24" id="127" lineColor="mediumseagreen" lineType="dotLine" lineWeight="0.35" secondPoint="14"/>
             <line firstPoint="13" id="128" lineColor="black" lineType="solidLine" lineWeight="0.35" secondPoint="9"/>
         </calculation>
-        <modeling/>
-        <pieces/>
+        <modeling>
+            <point id="200" idObject="24" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
+            <point id="201" idObject="15" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
+            <spline id="202" idObject="27" inUse="true" type="modelingSpline"/>
+            <point id="203" idObject="10" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
+            <point id="204" idObject="46" inUse="true" mx="0.132292" my="0.264583" showPointName="false" type="modeling"/>
+            <point id="205" idObject="39" inUse="true" mx="0.132292" my="0.264583" showPointName="false" type="modeling"/>
+            <point id="206" idObject="14" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
+            <spline id="207" idObject="29" inUse="true" type="modelingSpline"/>
+            <point id="208" idObject="26" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
+            <point id="209" idObject="20" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
+            <spline id="210" idObject="28" inUse="true" type="modelingSpline"/>
+            <point id="211" idObject="17" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
+            <point id="212" idObject="46" inUse="true" mx="0.132292" my="0.264583" showPointName="false" type="modeling"/>
+            <point id="213" idObject="38" inUse="true" mx="0.132292" my="0.264583" showPointName="false" type="modeling"/>
+            <point id="214" idObject="14" inUse="true" mx="0.132292" my="0.264583" showPointName="false" type="modeling"/>
+            <spline id="215" idObject="30" inUse="true" type="modelingSpline"/>
+            <point id="216" idObject="8" inUse="true" mx="0.132292" my="0.264583" showPointName="false" type="modeling"/>
+            <point id="217" idObject="39" inUse="true" mx="0.132292" my="0.264583" showPointName="false" type="modeling"/>
+            <path cut="false" extendEndPoint="false" extendStartPoint="false" id="220" inUse="true" lineColor="black" lineType="dashLine" lineWeight="0.35" name="Derékvonal" type="2">
+                <nodes>
+                    <node idObject="216" type="NodePoint"/>
+                    <node idObject="217" type="NodePoint"/>
+                </nodes>
+            </path>
+            <point id="218" idObject="16" inUse="true" mx="0.132292" my="0.264583" showPointName="false" type="modeling"/>
+            <point id="219" idObject="38" inUse="true" mx="0.132292" my="0.264583" showPointName="false" type="modeling"/>
+            <path cut="false" extendEndPoint="false" extendStartPoint="false" id="221" inUse="true" lineColor="black" lineType="dashLine" lineWeight="0.35" name="Derékvonal" type="2">
+                <nodes>
+                    <node idObject="218" type="NodePoint"/>
+                    <node idObject="219" type="NodePoint"/>
+                </nodes>
+            </path>
+        </modeling>
+        <pieces>
+            <piece color="#ffffff" fill="nobrush" forbidFlipping="false" hideMainPath="false" id="230" inLayout="true" locked="false" mx="-5.84158" my="-0.517602" name="Hátulja" seamAllowance="false" united="false" version="2" width="1">
+                <data annotation="Hajtott szél a hátközépnél" foldPosition="Left/Right" fontSize="0" height="2" letter="Hátulja" mx="-291.791" my="1078.67" onFold="false" orientation="Left" quantity="1" rotation="0" rotationWay="None" tilt="None" visible="true" width="3"/>
+                <patternInfo fontSize="0" height="2" mx="-821.988" my="1078.67" rotation="0" visible="true" width="3"/>
+                <grainline arrowLength="1.27" arrows="0" length="2.667" mx="-500.197" my="1166.86" rotation="90" visible="true"/>
+                <nodes>
+                    <node idObject="200" type="NodePoint"/>
+                    <node idObject="201" type="NodePoint"/>
+                    <node idObject="202" reverse="0" type="NodeSpline"/>
+                    <node idObject="203" type="NodePoint"/>
+                    <node idObject="204" type="NodePoint"/>
+                    <node idObject="205" type="NodePoint"/>
+                    <node idObject="206" type="NodePoint"/>
+                    <node idObject="207" reverse="1" type="NodeSpline"/>
+                </nodes>
+                <iPaths>
+                    <record path="220"/>
+                </iPaths>
+            </piece>
+            <piece color="#ffffff" fill="nobrush" forbidFlipping="false" hideMainPath="false" id="231" inLayout="true" locked="false" mx="-9.5" my="-1.2" name="Eleje" seamAllowance="false" united="false" version="2" width="1">
+                <data annotation="Hajtott szél az elejeközépnél" foldPosition="Left/Right" fontSize="0" height="2" letter="Eleje" mx="-1434.33" my="1027.4" onFold="false" orientation="Right" quantity="1" rotation="0" rotationWay="None" tilt="None" visible="true" width="3"/>
+                <patternInfo fontSize="0" height="2" mx="-2128.82" my="1027.4" rotation="0" visible="true" width="3"/>
+                <grainline arrowLength="1.27" arrows="0" length="2.667" mx="-1724.88" my="1115.6" rotation="90" visible="true"/>
+                <nodes>
+                    <node idObject="208" type="NodePoint"/>
+                    <node idObject="209" type="NodePoint"/>
+                    <node idObject="210" reverse="0" type="NodeSpline"/>
+                    <node idObject="211" type="NodePoint"/>
+                    <node idObject="212" type="NodePoint"/>
+                    <node idObject="213" type="NodePoint"/>
+                    <node idObject="214" type="NodePoint"/>
+                    <node idObject="215" reverse="0" type="NodeSpline"/>
+                </nodes>
+                <iPaths>
+                    <record path="221"/>
+                </iPaths>
+            </piece>
+        </pieces>
         <groups/>
         <images/>
     </draftBlock>
@@ -119,9 +189,31 @@
             <point firstPoint="100" id="123" length="Line_SA_SD/3" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="B5" secondPoint="103" showPointName="false" type="alongLine"/>
             <point firstPoint="100" id="124" length="Line_SA_SE/3" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="B6" secondPoint="104" showPointName="false" type="alongLine"/>
             <point firstPoint="104" id="125" length="Line_SA_SE/3" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="B7" secondPoint="100" showPointName="false" type="alongLine"/>
+            <line firstPoint="118" id="129" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="119"/>
         </calculation>
-        <modeling/>
-        <pieces/>
+        <modeling>
+            <point id="300" idObject="103" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
+            <spline id="301" idObject="114" inUse="true" type="modelingSpline"/>
+            <spline id="302" idObject="115" inUse="true" type="modelingSpline"/>
+            <point id="303" idObject="104" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
+            <point id="304" idObject="119" inUse="true" mx="0.132292" my="0.264583" showPointName="false" type="modeling"/>
+            <point id="305" idObject="118" inUse="true" mx="0.132292" my="0.264583" showPointName="false" type="modeling"/>
+        </modeling>
+        <pieces>
+            <piece color="#ffffff" fill="nobrush" forbidFlipping="false" hideMainPath="false" id="310" inLayout="true" locked="false" mx="-88.1984" my="-28.5419" name="Ujja" seamAllowance="false" united="false" version="2" width="1">
+                <data annotation="Rövidujj, rugalmas anyaghoz" foldPosition="Undefined" fontSize="0" height="2" letter="Ujja" mx="3077.67" my="1268.41" onFold="false" orientation="Undefined" quantity="2" rotation="0" rotationWay="None" tilt="None" visible="true" width="3"/>
+                <patternInfo fontSize="0" height="2" mx="2378.46" my="1268.41" rotation="0" visible="true" width="3"/>
+                <grainline arrowLength="1.27" arrows="0" length="2.667" mx="2784.76" my="1356.6" rotation="90" visible="true"/>
+                <nodes>
+                    <node idObject="300" type="NodePoint"/>
+                    <node idObject="301" reverse="0" type="NodeSpline"/>
+                    <node idObject="302" reverse="0" type="NodeSpline"/>
+                    <node idObject="303" type="NodePoint"/>
+                    <node idObject="304" type="NodePoint"/>
+                    <node idObject="305" type="NodePoint"/>
+                </nodes>
+            </piece>
+        </pieces>
         <groups/>
         <images/>
     </draftBlock>
