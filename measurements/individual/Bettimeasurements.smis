@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<smis>
+    <!--Measurements created with SeamlyMe v2026.8.24.201 (https://seamly.io/).-->
+    <version>0.3.4</version>
+    <read-only>false</read-only>
+    <notes/>
+    <unit>cm</unit>
+    <pm_system>998</pm_system>
+    <personal>
+        <family-name>Dudás</family-name>
+        <given-name>Beáta</given-name>
+        <birth-date>1979-06-30</birth-date>
+        <gender>male</gender>
+        <email/>
+    </personal>
+    <body-measurements>
+        <m name="height" value="170"/>
+        <m name="bustpoint_to_neck_front" value="25"/>
+        <m name="neck_side_to_bust_b" value="19"/>
+        <m name="neck_side_to_waist_f" value="54"/>
+        <m name="waist_to_hip_f" value="20"/>
+        <m name="armfold_to_armfold_b" value="37"/>
+        <m name="armfold_to_armfold_f" value="44"/>
+        <m name="neck_front_to_waist_f" value="37"/>
+        <m name="shoulder_tip_to_shoulder_tip_b" value="37"/>
+        <m name="shoulder_tip_to_shoulder_tip_f" value="35"/>
+        <m name="armpit_to_waist_side" value="28"/>
+        <m name="armscye_width" value="10"/>
+        <m name="shoulder_tip_to_armfold_f" value="17"/>
+        <m name="neck_back_to_waist_b" value="40"/>
+        <m name="shoulder_tip_to_armfold_b" value="22"/>
+        <m name="neck_circ" value="36"/>
+        <m name="neck_arc_f" value="18"/>
+        <m name="shoulder_length" value="14"/>
+        <m name="bustpoint_neck_side_to_waist" value="(bustpoint_to_neck_side + bustpoint_to_waist)"/>
+        <m name="bust_circ" value="102"/>
+        <m name="highbust_circ" value="90"/>
+        <m name="lowbust_circ" value="81"/>
+        <m name="bust_arc_f" value="60"/>
+        <m name="bust_arc_b" value="(bust_circ - bust_arc_f)"/>
+        <m name="bustpoint_to_bustpoint" value="20"/>
+        <m name="bustpoint_to_neck_side" value="35"/>
+        <m name="bustpoint_to_lowbust" value="11"/>
+        <m name="bustpoint_to_waist" value="16"/>
+        <m name="bustpoint_to_shoulder_center" value="33"/>
+        <m name="waist_circ" value="85"/>
+        <m name="waist_arc_f" value="41"/>
+        <m name="waist_arc_b" value="(waist_circ - waist_arc_f)"/>
+        <m name="height_waist_front" value="102"/>
+        <m name="hip_circ" value="100"/>
+        <m name="hip_arc_f" value="47"/>
+        <m name="hip_arc_b" value="(hip_circ - hip_arc_f)"/>
+    </body-measurements>
+</smis>
