@@ -5,7 +5,7 @@
     <unit>cm</unit>
     <description/>
     <notes/>
-    <measurements>../Seamly2d/measurements/individual/Bettimeasurements2.smis</measurements>
+    <measurements>../measurements/individual/Bettimeasurements.smis</measurements>
     <variables>
         <variable description="Testmagasság" formula="height" name="#tm"/>
         <variable description="Mellbőség" formula="bust_circ/2" name="#mb"/>
