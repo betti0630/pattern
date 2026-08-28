@@ -17,12 +17,12 @@
         <variable description="Csípőmélység (közvetlenül mérve, mint a Blúz_alap_Betti mintában)" formula="waist_to_hip_f" name="#cm"/>
         <variable description="Hátszélesség (közvetlenül mérve, mint a Blúz_alap_Betti mintában)" formula="armfold_to_armfold_b/2" name="#hsz"/>
         <variable description="Hátszélesség öltöztetési bősége" formula="1.5" name="#hsz_öb"/>
-        <variable description="Hónaljszélesség (közvetlenül mérve, mint a Blúz_alap_Betti mintában)" formula="armscye_width" name="#hósz"/>
+        <variable description="Hónaljszélesség (közvetlenül mérve, mint a Blúz_alap_Betti mintában)" formula="12" name="#hósz"/>
         <variable description="Hónaljszélesség öltöztetési bősége (mellvarrás nélküli alapnál nagyobb)" formula="3" name="#hósz_öb"/>
         <variable description="Elejeszélesség (a próbán bevált Blúz_alap_Betti képlet: bust_arc_f/2-8,5 - érdekesség, hogy ez pontosan ugyanazt az értéket adja, mint a könyv generikus mb-képlete a te alkatodra)" formula="bust_arc_f/2-8.5" name="#esz"/>
         <variable description="Elejeszélesség öltöztetési bősége" formula="2" name="#esz_öb"/>
-        <variable description="Nyakszélesség (hátul és elöl egyaránt)" formula="#mb/10+2" name="#nysz"/>
-        <variable description="Háta-nyaktőmagasság" formula="#mb/10*0.5+0.5" name="#hnyt"/>
+        <variable description="Nyakszélesség (hátul és elöl egyaránt)" formula="neck_width/2" name="#nysz"/>
+        <variable description="Háta-nyaktőmagasság" formula="3" name="#hnyt"/>
         <variable description="Mell mélysége a hónaljvonal alatt (saját mérés, ugyanaz mint a Blúz_alap_Betti mintában) - itt nincs kivét, ami helyet adna neki, ezért az elejederékhossznál kompenzáljuk" formula="4.5" name="#mellmelyseg"/>
         <variable description="Elejederékhossz (a könyv 1-1 cm-es rövidítése a kedvezőbb váll-/karöltő-kialakításért, de visszaadva a mellmélység fele, mert kivét nélkül a rövidítés felhúzná az elejét a mellen - próbadarabon ellenőrizendő)" formula="#tm/10*2+#mb/10*2.5-1-1+#mellmelyseg/2" name="#edh"/>
         <variable description="Vállszélesség (elöl; hátul ehhez jön még 0,5 cm betartás, lásd K2 pont)" formula="shoulder_length+1" name="#vsz"/>

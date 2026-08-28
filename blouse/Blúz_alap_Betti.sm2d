@@ -18,12 +18,12 @@
         <variable description="Csípőmélység" formula="waist_to_hip_f" name="#cm"/>
         <variable description="Hátszélesség" formula="armfold_to_armfold_b/2" name="#hsz"/>
         <variable description="Hátszélesség öltöztetési bőség" formula="1.5" name="#hsz_öb"/>
-        <variable description="Hónaljszélesség" formula="armscye_width" name="#hósz"/>
+        <variable description="Hónaljszélesség" formula="12" name="#hósz"/>
         <variable description="Hónaljszélesség öltöztetési bőség" formula="2.5" name="#hósz_öb"/>
         <variable description="Elejeszélesség (a mellbőség legszélesebb pontján mérve, a próbán mért 17 cm-es összefogás alapján -8,5 cm-rel csökkentve, mivel az a teljes elejére vonatkozott, ami félmintában a fele)" formula="bust_arc_f/2-8.5" name="#esz"/>
         <variable description="Elejeszélesség öltöztetési bőség" formula="1.5" name="#esz_öb"/>
-        <variable description="Nyakszélesség" formula="#mb/10+2" name="#nysz"/>
-        <variable description="Háta-nyaktőmagasság" formula="#mb/10*0.5+0.5" name="#hnyt"/>
+        <variable description="Nyakszélesség" formula="neck_width/2" name="#nysz"/>
+        <variable description="Háta-nyaktőmagasság" formula="3" name="#hnyt"/>
         <variable description="Elejederékhossz" formula="#tm/10*2+#mb/10*2.5-1" name="#edh"/>
         <variable description="Válszélesség" formula="shoulder_length+1" name="#vsz"/>
         <variable description="Melltávolság EK-től" formula="bustpoint_to_bustpoint/2" name="#mt"/>
@@ -381,17 +381,6 @@
             <line firstPoint="143" id="148" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="105"/>
         </calculation>
         <modeling>
-            <spline id="256" idObject="134" inUse="false" type="modelingSpline"/>
-            <point id="257" idObject="121" inUse="false" mx="0.132292" my="0.264583" showPointName="false" type="modeling"/>
-            <spline id="258" idObject="122" inUse="false" type="modelingSpline"/>
-            <spline id="259" idObject="119" inUse="false" type="modelingSpline"/>
-            <point id="260" idObject="145" inUse="false" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
-            <spline id="261" idObject="140" inUse="false" type="modelingSpline"/>
-            <point id="262" idObject="143" inUse="false" mx="0.132292" my="0.264583" showPointName="false" type="modeling"/>
-            <point id="263" idObject="105" inUse="false" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
-            <point id="264" idObject="104" inUse="false" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
-            <point id="265" idObject="131" inUse="false" mx="0.132292" my="0.264583" showPointName="false" type="modeling"/>
-            <point id="266" idObject="135" inUse="false" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
             <point id="267" idObject="131" inUse="true" mx="0.132292" my="0.264583" showPointName="false" type="modeling"/>
             <point id="268" idObject="135" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
             <spline id="269" idObject="134" inUse="true" type="modelingSpline"/>

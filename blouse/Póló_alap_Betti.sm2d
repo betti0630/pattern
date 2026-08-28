@@ -31,7 +31,7 @@
         <variable description="Elejeszélesség (a próbán bevált Blúz_alap_Betti képlet)" formula="bust_arc_f/2-8.5" name="#esz"/>
         <variable description="Elejeszélesség bősége - NEGATÍV, mert rugalmas anyagnál a testhezálló, feszes hatáshoz a sík szélességnek kisebbnek kell lennie, mint a testméret, a nyúlás tölti ki a különbséget" formula="-1" name="#esz_öb"/>
         <variable description="Nyakszélesség" formula="neck_width/2" name="#nysz"/>
-        <variable description="Háta-nyaktőmagasság - a próba alapján tovább növelve (a blúzban #mb/10*0.5+0.5, az első pólópróbán #mb/10*0.5+1.5 volt)" formula="4" name="#hnyt"/>
+        <variable description="Háta-nyaktőmagasság" formula="3" name="#hnyt"/>
         <variable description="Mell mélysége a hónaljvonal alatt (saját mérés)" formula="4.5" name="#mellmelyseg"/>
         <variable description="Elejederékhossz (ugyanaz a logika, mint a blúznál: a könyv rövidítését a mellmélység felével kompenzálva)" formula="#tm/10*2+#mb/10*2.5-1-1+#mellmelyseg/2" name="#edh"/>
         <variable description="Vállszélesség (a másik pólódhoz képest még ennél is keskenyebbre véve - a meredekséget nem ezzel, hanem a J1v pont bevezetésével kezeljük)" formula="shoulder_length-2" name="#vsz"/>
