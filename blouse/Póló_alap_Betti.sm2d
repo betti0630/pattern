@@ -180,7 +180,7 @@
             <line firstPoint="103" id="111" lineColor="black" lineType="dashLine" lineWeight="0.35" secondPoint="105"/>
             <line firstPoint="104" id="112" lineColor="black" lineType="dashLine" lineWeight="0.35" secondPoint="106"/>
             <line firstPoint="105" id="113" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="106"/>
-            <spline angle1="22.2965" angle2="176.958" color="darkGreen" id="114" length="Spl_H_K4" length1="7.76128" length2="6.98034" lengthMode="2" lineWeight="0.7" penStyle="solidLine" point1="103" point4="100" type="simpleInteractive"/>
+            <spline angle1="15.9032" angle2="176.958" color="darkGreen" id="114" length="Spl_H_K4" length1="6.18564" length2="6.87127" lengthMode="2" lineWeight="0.7" penStyle="solidLine" point1="103" point4="100" type="simpleInteractive"/>
             <line firstPoint="101" id="117" lineColor="mediumseagreen" lineType="dashLine" lineWeight="0.35" secondPoint="104"/>
             <point firstPoint="105" id="118" length="1" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="B2" secondPoint="102" showPointName="false" type="alongLine"/>
             <point firstPoint="106" id="119" length="1" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="B3" secondPoint="102" showPointName="false" type="alongLine"/>
@@ -207,8 +207,53 @@
             <point id="303" idObject="104" inUse="false" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
             <point id="304" idObject="119" inUse="false" mx="0.132292" my="0.264583" showPointName="false" type="modeling"/>
             <point id="305" idObject="118" inUse="false" mx="0.132292" my="0.264583" showPointName="false" type="modeling"/>
+            <point id="308" idObject="100" inUse="false" mx="0.132292" my="0.264583" showPointName="false" type="modeling"/>
+            <path cut="false" extendEndPoint="false" extendStartPoint="false" id="309" inUse="false" lineColor="black" lineType="dotLine" lineWeight="0.35" name="Illesztési pontok" type="2">
+                <nodes>
+                    <node idObject="300" type="NodePoint"/>
+                    <node idObject="308" type="NodePoint"/>
+                    <node idObject="303" type="NodePoint"/>
+                </nodes>
+            </path>
+            <spline id="311" idObject="114" inUse="false" type="modelingSpline"/>
+            <spline id="312" idObject="307" inUse="false" type="modelingSpline"/>
+            <point id="313" idObject="119" inUse="false" mx="0.132292" my="0.264583" showPointName="false" type="modeling"/>
+            <point id="314" idObject="118" inUse="false" mx="0.132292" my="0.264583" showPointName="false" type="modeling"/>
+            <point id="316" idObject="100" inUse="false" type="anchor"/>
+            <point id="317" idObject="100" inUse="false" type="anchor"/>
+            <spline id="318" idObject="114" inUse="true" type="modelingSpline"/>
+            <spline id="319" idObject="307" inUse="true" type="modelingSpline"/>
+            <point id="320" idObject="119" inUse="true" mx="0.132292" my="0.264583" showPointName="false" type="modeling"/>
+            <point id="321" idObject="118" inUse="true" mx="0.132292" my="0.264583" showPointName="false" type="modeling"/>
+            <point id="323" idObject="100" inUse="true" type="anchor"/>
+            <point id="324" idObject="100" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
+            <point id="325" idObject="102" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
+            <path cut="false" extendEndPoint="false" extendStartPoint="false" id="326" inUse="true" lineColor="black" lineType="dashLine" lineWeight="0.35" name="Középvonal" type="2">
+                <nodes>
+                    <node idObject="324" type="NodePoint"/>
+                    <node idObject="325" type="NodePoint"/>
+                </nodes>
+            </path>
         </modeling>
-        <pieces/>
+        <pieces>
+            <piece color="#ffffff" fill="nobrush" forbidFlipping="false" hideMainPath="false" id="322" inLayout="true" locked="false" mx="-88.8675" my="-25.4249" name="Ujja" seamAllowance="false" united="false" version="2" width="1">
+                <data annotation="" foldPosition="Undefined" fontSize="0" height="2" letter="Ujj" mx="2520.19" my="380.086" onFold="false" orientation="Undefined" quantity="1" rotation="0" rotationWay="None" tilt="None" visible="true" width="3"/>
+                <patternInfo fontSize="0" height="2" mx="1915.46" my="380.086" rotation="0" visible="true" width="3"/>
+                <grainline arrowLength="1.27" arrows="0" length="2.667" mx="2274.52" my="468.281" rotation="90" visible="true"/>
+                <nodes>
+                    <node idObject="318" reverse="0" type="NodeSpline"/>
+                    <node idObject="319" reverse="1" type="NodeSpline"/>
+                    <node idObject="320" type="NodePoint"/>
+                    <node idObject="321" type="NodePoint"/>
+                </nodes>
+                <iPaths>
+                    <record path="326"/>
+                </iPaths>
+                <anchors>
+                    <record>323</record>
+                </anchors>
+            </piece>
+        </pieces>
         <groups/>
         <images/>
     </draftBlock>
