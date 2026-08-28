@@ -6,8 +6,8 @@
     <description/>
     <notes>Rugalmas (mindkét irányban nyúló) jersey pólóalap, a Blúz_mellvarrás_nélkül_alap_Betti.sm2d-ből átalakítva. Három fő változtatás a szövött blúzhoz képest: (1) az öltöztetési bőségek jelentősen csökkentve, helyenként negatívba fordítva, mert a rugalmas anyag maga adja a testhezállást - a mellvonal fél-szélessége most kb. 99 cm teljes körfogatra jön ki, szemben a tényleges 102 cm-es mellbőségeddel (kb. -3 cm negatív bőség); (2) a nyakkivágás szélesebb és mélyebb, kerekebb formára húzva; (3) az ujj rövidre véve (kb. 20 cm, könyök fölé érő rövidujj). FONTOS: ezek a konkrét számok (a negatív bőség mértéke, a nyak mélysége, az ujjhossz) nincsenek próbadarabbal ellenőrizve - ez az első nekifutás, amit rugalmas anyagon ki kell próbálni, és utána finomítani, pont úgy, ahogy a szövött blúznál is próbadarab alapján korrigáltunk.</notes>
     <patternName>Rugalmas póló</patternName>
-    <patternNumber></patternNumber>
-    <company></company>
+    <patternNumber/>
+    <company/>
     <customer>Dudás Beáta</customer>
     <patternLabel dateFormat="yyyy-MM-dd" timeFormat="hh:mm:ss">
         <line alignment="0" bold="false" italic="false" sfIncrement="0" text="%patternName%"/>
@@ -26,11 +26,11 @@
         <variable description="Csípőmélység (közvetlenül mérve)" formula="waist_to_hip_f" name="#cm"/>
         <variable description="Hátszélesség (közvetlenül mérve)" formula="armfold_to_armfold_b/2" name="#hsz"/>
         <variable description="Hátszélesség bősége (rugalmas anyagnál nem kell rá bőség, a nyúlás adja a mozgásteret)" formula="0" name="#hsz_öb"/>
-        <variable description="Hónaljszélesség (közvetlenül mérve)" formula="armscye_width" name="#hósz"/>
+        <variable description="Hónaljszélesség (közvetlenül mérve)" formula="12" name="#hósz"/>
         <variable description="Hónaljszélesség bősége (rugalmas anyagnál minimális)" formula="0.5" name="#hósz_öb"/>
         <variable description="Elejeszélesség (a próbán bevált Blúz_alap_Betti képlet)" formula="bust_arc_f/2-8.5" name="#esz"/>
         <variable description="Elejeszélesség bősége - NEGATÍV, mert rugalmas anyagnál a testhezálló, feszes hatáshoz a sík szélességnek kisebbnek kell lennie, mint a testméret, a nyúlás tölti ki a különbséget" formula="-1" name="#esz_öb"/>
-        <variable description="Nyakszélesség" formula="8.8" name="#nysz"/>
+        <variable description="Nyakszélesség" formula="neck_width/2" name="#nysz"/>
         <variable description="Háta-nyaktőmagasság - a próba alapján tovább növelve (a blúzban #mb/10*0.5+0.5, az első pólópróbán #mb/10*0.5+1.5 volt)" formula="4" name="#hnyt"/>
         <variable description="Mell mélysége a hónaljvonal alatt (saját mérés)" formula="4.5" name="#mellmelyseg"/>
         <variable description="Elejederékhossz (ugyanaz a logika, mint a blúznál: a könyv rövidítését a mellmélység felével kompenzálva)" formula="#tm/10*2+#mb/10*2.5-1-1+#mellmelyseg/2" name="#edh"/>
@@ -74,9 +74,9 @@
             <point angle="90" basePoint="12" id="25" length="Line_K1_E-1" lineColor="mediumseagreen" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="K3" showPointName="true" type="endLine"/>
             <point firstPoint="130" id="26" length="#vsz" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" mx="1.26686" my="-1.32381" name="K4" secondPoint="25" showPointName="true" type="alongLine"/>
             <spline angle1="297.855" angle2="176.592" color="darkGreen" id="27" length1="4" length2="2" lineWeight="0.7" penStyle="solidLine" point1="15" point4="1" type="simpleInteractive"/>
-            <spline angle1="270.084" angle2="1.17509" color="darkGreen" id="28" length1="4" length2="10" lineWeight="0.7" penStyle="solidLine" point1="130" point4="21" type="simpleInteractive"/>
-            <spline angle1="269.909" angle2="1.97315" color="darkGreen" id="29" length1="8.19303" length2="5.73549" lineWeight="0.7" penStyle="solidLine" point1="24" point4="14" type="simpleInteractive"/>
-            <spline angle1="180.1" angle2="262.097" color="darkGreen" id="30" length="Spl_K2_H" length1="8.82084" length2="5.90358" lengthMode="3" lineWeight="0.7" penStyle="solidLine" point1="14" point4="26" type="simpleInteractive"/>
+            <spline angle1="270.084" angle2="4.00757" color="darkGreen" id="28" length1="4" length2="7.80457" lineWeight="0.7" penStyle="solidLine" point1="130" point4="21" type="simpleInteractive"/>
+            <spline angle1="269.909" angle2="3.4238" color="darkGreen" id="29" length1="8.19303" length2="7.10625" lineWeight="0.7" penStyle="solidLine" point1="24" point4="14" type="simpleInteractive"/>
+            <spline angle1="180.1" angle2="269.439" color="darkGreen" id="30" length="Spl_K2_H" length1="8.82084" length2="7.04544" lengthMode="3" lineWeight="0.7" penStyle="solidLine" point1="14" point4="26" type="simpleInteractive"/>
             <line firstPoint="10" id="31" lineColor="black" lineType="dashLine" lineWeight="0.35" secondPoint="18"/>
             <line firstPoint="13" id="33" lineColor="mediumseagreen" lineType="dashLine" lineWeight="0.35" secondPoint="17"/>
             <line firstPoint="14" id="34" lineColor="black" lineType="dashLine" lineWeight="0.35" secondPoint="18"/>
@@ -109,14 +109,6 @@
             <point id="205" idObject="39" inUse="true" mx="0.132292" my="0.264583" showPointName="false" type="modeling"/>
             <point id="206" idObject="14" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
             <spline id="207" idObject="29" inUse="true" type="modelingSpline"/>
-            <point id="208" idObject="26" inUse="false" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
-            <point id="209" idObject="130" inUse="false" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
-            <spline id="210" idObject="28" inUse="false" type="modelingSpline"/>
-            <point id="211" idObject="17" inUse="false" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
-            <point id="212" idObject="46" inUse="false" mx="0.132292" my="0.264583" showPointName="false" type="modeling"/>
-            <point id="213" idObject="38" inUse="false" mx="0.132292" my="0.264583" showPointName="false" type="modeling"/>
-            <point id="214" idObject="14" inUse="false" mx="0.132292" my="0.264583" showPointName="false" type="modeling"/>
-            <spline id="215" idObject="30" inUse="false" type="modelingSpline"/>
             <point id="216" idObject="8" inUse="true" mx="0.132292" my="0.264583" showPointName="false" type="modeling"/>
             <point id="217" idObject="39" inUse="true" mx="0.132292" my="0.264583" showPointName="false" type="modeling"/>
             <path cut="false" extendEndPoint="false" extendStartPoint="false" id="220" inUse="true" lineColor="black" lineType="dashLine" lineWeight="0.35" name="Derékvonal" type="2">
@@ -125,17 +117,7 @@
                     <node idObject="217" type="NodePoint"/>
                 </nodes>
             </path>
-            <point id="218" idObject="16" inUse="false" mx="0.132292" my="0.264583" showPointName="false" type="modeling"/>
-            <point id="219" idObject="38" inUse="false" mx="0.132292" my="0.264583" showPointName="false" type="modeling"/>
-            <path cut="false" extendEndPoint="false" extendStartPoint="false" id="221" inUse="false" lineColor="black" lineType="dashLine" lineWeight="0.35" name="Derékvonal" type="2">
-                <nodes>
-                    <node idObject="218" type="NodePoint"/>
-                    <node idObject="219" type="NodePoint"/>
-                </nodes>
-            </path>
-            <point id="328" idObject="13" inUse="false" type="anchor"/>
             <point id="329" idObject="11" inUse="true" type="anchor"/>
-            <point id="330" idObject="12" inUse="false" type="anchor"/>
             <point id="331" idObject="17" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
             <point id="332" idObject="21" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
             <spline id="333" idObject="28" inUse="true" type="modelingSpline"/>
@@ -202,7 +184,7 @@
             <point id="100" mx="0.132292" my="0.264583" name="SA" showPointName="true" type="single" x="60.18" y="1.06"/>
             <point angle="270" basePoint="100" id="101" length="Line_K2_V1-6" lineColor="mediumseagreen" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="SB" showPointName="true" type="endLine"/>
             <point angle="270" basePoint="100" id="102" length="#uh" lineColor="mediumseagreen" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="SC" showPointName="true" type="endLine"/>
-            <point angle="180" basePoint="101" id="103" length="16" lineColor="mediumseagreen" lineType="dashLine" lineWeight="0.35" mx="0.317865" my="0.291041" name="SD" showPointName="true" type="endLine"/>
+            <point angle="180" basePoint="101" id="103" length="17.7" lineColor="mediumseagreen" lineType="dashLine" lineWeight="0.35" mx="0.291407" my="0.238124" name="SD" showPointName="true" type="endLine"/>
             <point angle="0" basePoint="101" id="104" length="Line_SB_SD" lineColor="mediumseagreen" lineType="dashLine" lineWeight="0.35" mx="0.7038" my="0.104736" name="SE" showPointName="true" type="endLine"/>
             <point firstPoint="103" id="105" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="SF" secondPoint="102" showPointName="true" type="intersectXY"/>
             <point firstPoint="104" id="106" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="SG" secondPoint="102" showPointName="true" type="intersectXY"/>
@@ -232,26 +214,6 @@
             </operation>
         </calculation>
         <modeling>
-            <point id="300" idObject="103" inUse="false" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
-            <spline id="301" idObject="114" inUse="false" type="modelingSpline"/>
-            <spline id="302" idObject="115" inUse="false" type="modelingSpline"/>
-            <point id="303" idObject="104" inUse="false" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
-            <point id="304" idObject="119" inUse="false" mx="0.132292" my="0.264583" showPointName="false" type="modeling"/>
-            <point id="305" idObject="118" inUse="false" mx="0.132292" my="0.264583" showPointName="false" type="modeling"/>
-            <point id="308" idObject="100" inUse="false" mx="0.132292" my="0.264583" showPointName="false" type="modeling"/>
-            <path cut="false" extendEndPoint="false" extendStartPoint="false" id="309" inUse="false" lineColor="black" lineType="dotLine" lineWeight="0.35" name="Illesztési pontok" type="2">
-                <nodes>
-                    <node idObject="300" type="NodePoint"/>
-                    <node idObject="308" type="NodePoint"/>
-                    <node idObject="303" type="NodePoint"/>
-                </nodes>
-            </path>
-            <spline id="311" idObject="114" inUse="false" type="modelingSpline"/>
-            <spline id="312" idObject="307" inUse="false" type="modelingSpline"/>
-            <point id="313" idObject="119" inUse="false" mx="0.132292" my="0.264583" showPointName="false" type="modeling"/>
-            <point id="314" idObject="118" inUse="false" mx="0.132292" my="0.264583" showPointName="false" type="modeling"/>
-            <point id="316" idObject="100" inUse="false" type="anchor"/>
-            <point id="317" idObject="100" inUse="false" type="anchor"/>
             <spline id="318" idObject="114" inUse="true" type="modelingSpline"/>
             <spline id="319" idObject="307" inUse="true" type="modelingSpline"/>
             <point id="320" idObject="119" inUse="true" mx="0.132292" my="0.264583" showPointName="false" type="modeling"/>
