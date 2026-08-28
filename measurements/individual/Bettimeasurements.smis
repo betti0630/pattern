@@ -15,6 +15,7 @@
     </personal>
     <body-measurements>
         <m name="height" value="170"/>
+        <m name="across_back_b" value="40"/>
         <m name="neck_width" value="15"/>
         <m name="bustpoint_to_neck_front" value="25"/>
         <m name="neck_side_to_bust_b" value="19"/>
