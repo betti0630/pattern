@@ -70,12 +70,13 @@
             <point angle="270" basePoint="19" id="21" length="#nysz+8" lineColor="mediumseagreen" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="J2" showPointName="true" type="endLine"/>
             <point firstPoint="11" id="22" lineColor="mediumseagreen" lineType="dashLine" lineWeight="0.35" mx="0.741383" my="-2.11641" name="K" secondPoint="1" showPointName="true" type="intersectXY"/>
             <point firstPoint="22" id="23" length="0.5" lineColor="black" lineType="none" lineWeight="0.35" mx="-2.30407" my="-1.3412" name="K1" secondPoint="11" showPointName="true" type="alongLine"/>
-            <point id="24" length="#vsz+0.5" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" mx="-2.69167" my="0.818302" name="K2" p1Line="15" p2Line="23" pShoulder="5" showPointName="true" type="shoulder"/>
+            <point angle="270" firstPoint="15" id="344" length="#vsz+0.5" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" mx="0.132292" my="0.264583" name="K2" secondPoint="22" showPointName="true" type="normal"/>
+            <point id="24" length="#vsz+0.5" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" mx="-2.69167" my="0.818302" name="K22" p1Line="15" p2Line="23" pShoulder="5" showPointName="true" type="shoulder"/>
             <point angle="90" basePoint="12" id="25" length="Line_K1_E-1" lineColor="mediumseagreen" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="K3" showPointName="true" type="endLine"/>
             <point firstPoint="130" id="26" length="#vsz" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" mx="1.26686" my="-1.32381" name="K4" secondPoint="25" showPointName="true" type="alongLine"/>
             <spline angle1="297.855" angle2="176.592" color="darkGreen" id="27" length1="4" length2="2" lineWeight="0.7" penStyle="solidLine" point1="15" point4="1" type="simpleInteractive"/>
             <spline angle1="270.084" angle2="4.00757" color="darkGreen" id="28" length1="4" length2="7.80457" lineWeight="0.7" penStyle="solidLine" point1="130" point4="21" type="simpleInteractive"/>
-            <spline angle1="271.082" angle2="0.14169" color="darkGreen" id="29" length1="8.30825" length2="11.0646" lineWeight="0.7" penStyle="solidLine" point1="24" point4="14" type="simpleInteractive"/>
+            <spline angle1="255.109" angle2="0.14169" color="darkGreen" id="29" length="24.4304" length1="12.6508" length2="11.0646" lengthMode="3" lineWeight="0.7" penStyle="solidLine" point1="344" point4="14" type="simpleInteractive"/>
             <spline angle1="179.926" angle2="269.429" color="darkGreen" id="30" length="Spl_K2_H" length1="7.99388" length2="6.27039" lengthMode="3" lineWeight="0.7" penStyle="solidLine" point1="14" point4="26" type="simpleInteractive"/>
             <line firstPoint="10" id="31" lineColor="black" lineType="dashLine" lineWeight="0.35" secondPoint="18"/>
             <line firstPoint="13" id="33" lineColor="mediumseagreen" lineType="dashLine" lineWeight="0.35" secondPoint="17"/>
@@ -101,23 +102,6 @@
             <line firstPoint="13" id="128" lineColor="black" lineType="solidLine" lineWeight="0.35" secondPoint="9"/>
         </calculation>
         <modeling>
-            <point id="200" idObject="24" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
-            <point id="201" idObject="15" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
-            <spline id="202" idObject="27" inUse="true" type="modelingSpline"/>
-            <point id="203" idObject="10" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
-            <point id="204" idObject="46" inUse="true" mx="0.132292" my="0.264583" showPointName="false" type="modeling"/>
-            <point id="205" idObject="39" inUse="true" mx="0.132292" my="0.264583" showPointName="false" type="modeling"/>
-            <point id="206" idObject="14" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
-            <spline id="207" idObject="29" inUse="true" type="modelingSpline"/>
-            <point id="216" idObject="8" inUse="true" mx="0.132292" my="0.264583" showPointName="false" type="modeling"/>
-            <point id="217" idObject="39" inUse="true" mx="0.132292" my="0.264583" showPointName="false" type="modeling"/>
-            <path cut="false" extendEndPoint="false" extendStartPoint="false" id="220" inUse="true" lineColor="black" lineType="dashLine" lineWeight="0.35" name="Derékvonal" type="2">
-                <nodes>
-                    <node idObject="216" type="NodePoint"/>
-                    <node idObject="217" type="NodePoint"/>
-                </nodes>
-            </path>
-            <point id="329" idObject="11" inUse="true" type="anchor"/>
             <point id="331" idObject="17" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
             <point id="332" idObject="21" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
             <spline id="333" idObject="28" inUse="true" type="modelingSpline"/>
@@ -136,27 +120,6 @@
             </path>
         </modeling>
         <pieces>
-            <piece color="#ffffff" fill="nobrush" forbidFlipping="false" hideMainPath="false" id="230" inLayout="true" locked="false" mx="-20.9758" my="-0.599409" name="Hátulja" seamAllowance="false" united="false" version="2" width="1">
-                <data annotation="Hajtott szél a hátközépnél" foldPosition="Left/Right" fontSize="0" height="2" letter="Hát" mx="-291.791" my="1078.67" onFold="false" orientation="Left" quantity="1" rotation="0" rotationWay="None" tilt="None" visible="true" width="3"/>
-                <patternInfo fontSize="0" height="2" mx="-821.988" my="1078.67" rotation="0" visible="true" width="3"/>
-                <grainline arrowLength="1.27" arrows="0" length="2.667" mx="-500.197" my="1166.86" rotation="90" visible="true"/>
-                <nodes>
-                    <node idObject="200" type="NodePoint"/>
-                    <node idObject="201" type="NodePoint"/>
-                    <node idObject="202" reverse="0" type="NodeSpline"/>
-                    <node idObject="203" type="NodePoint"/>
-                    <node idObject="204" type="NodePoint"/>
-                    <node idObject="205" type="NodePoint"/>
-                    <node idObject="206" type="NodePoint"/>
-                    <node idObject="207" reverse="1" type="NodeSpline"/>
-                </nodes>
-                <iPaths>
-                    <record path="220"/>
-                </iPaths>
-                <anchors>
-                    <record>329</record>
-                </anchors>
-            </piece>
             <piece color="#ffffff" fill="nobrush" forbidFlipping="false" hideMainPath="false" id="339" inLayout="true" locked="false" mx="27.5688" my="-0.449936" name="Eleje" seamAllowance="false" united="false" version="2" width="1">
                 <data annotation="" foldPosition="Left/Right" fontSize="0" height="2" letter="" mx="-1200.71" my="1062.83" onFold="true" orientation="Undefined" quantity="1" rotation="0" rotationWay="None" tilt="None" visible="true" width="3"/>
                 <patternInfo fontSize="0" height="2" mx="-1621.18" my="1062.83" rotation="0" visible="true" width="3"/>
@@ -182,7 +145,7 @@
     <draftBlock name="Ujja">
         <calculation>
             <point id="100" mx="0.132292" my="0.264583" name="SA" showPointName="true" type="single" x="60.18" y="1.06"/>
-            <point angle="270" basePoint="100" id="101" length="Line_K2_V1-6" lineColor="mediumseagreen" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="SB" showPointName="true" type="endLine"/>
+            <point angle="270" basePoint="100" id="101" length="Line_K22_V1-6" lineColor="mediumseagreen" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="SB" showPointName="true" type="endLine"/>
             <point angle="270" basePoint="100" id="102" length="#uh" lineColor="mediumseagreen" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="SC" showPointName="true" type="endLine"/>
             <point angle="180" basePoint="101" id="103" length="20" lineColor="mediumseagreen" lineType="dashLine" lineWeight="0.35" mx="0.291407" my="0.238124" name="SD" showPointName="true" type="endLine"/>
             <point angle="0" basePoint="101" id="104" length="Line_SB_SD" lineColor="mediumseagreen" lineType="dashLine" lineWeight="0.35" mx="0.7038" my="0.104736" name="SE" showPointName="true" type="endLine"/>
