@@ -54,12 +54,12 @@
             <point angle="270" basePoint="19" id="21" length="#nysz+1.5" lineColor="mediumseagreen" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="J2" showPointName="true" type="endLine"/>
             <point firstPoint="11" id="22" lineColor="mediumseagreen" lineType="dashLine" lineWeight="0.35" mx="0.741383" my="-2.11641" name="K" secondPoint="1" showPointName="true" type="intersectXY"/>
             <point firstPoint="22" id="23" length="0.5" lineColor="black" lineType="none" lineWeight="0.35" mx="-2.30407" my="-1.3412" name="K1" secondPoint="11" showPointName="true" type="alongLine"/>
-            <point id="24" length="#vsz+0.5" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" mx="-2.69167" my="0.818302" name="K2" p1Line="15" p2Line="23" pShoulder="5" showPointName="true" type="shoulder"/>
+            <point angle="270" firstPoint="15" id="200" length="#vsz+0.5" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" mx="-2.69167" my="0.818302" name="K2" secondPoint="22" showPointName="true" type="normal"/>
             <point angle="90" basePoint="12" id="25" length="Line_K1_E-1.5" lineColor="mediumseagreen" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="K3" showPointName="true" type="endLine"/>
             <point firstPoint="20" id="26" length="#vsz" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" mx="0.132292" my="0.264583" name="K4" secondPoint="25" showPointName="true" type="alongLine"/>
             <spline angle1="297.855" angle2="176.592" color="darkGreen" id="27" length1="2.8" length2="0.92" lineWeight="0.7" penStyle="solidLine" point1="15" point4="1" type="simpleInteractive"/>
             <spline angle1="270.084" angle2="1.17509" color="darkGreen" id="28" length1="2.23446" length2="6.63134" lineWeight="0.7" penStyle="solidLine" point1="20" point4="21" type="simpleInteractive"/>
-            <spline angle1="275.953" angle2="0.314094" color="darkGreen" id="29" length1="8.17971" length2="10.0944" lineWeight="0.7" penStyle="solidLine" point1="24" point4="14" type="simpleInteractive"/>
+            <spline angle1="275.953" angle2="0.314094" color="darkGreen" id="29" length1="8.17971" length2="10.0944" lineWeight="0.7" penStyle="solidLine" point1="200" point4="14" type="simpleInteractive"/>
             <spline angle1="180.41" angle2="239.034" color="darkGreen" id="30" length1="13.5823" length2="6.31918" lineWeight="0.7" penStyle="solidLine" point1="14" point4="26" type="simpleInteractive"/>
             <line firstPoint="10" id="31" lineColor="black" lineType="dashLine" lineWeight="0.35" secondPoint="18"/>
             <line firstPoint="13" id="33" lineColor="mediumseagreen" lineType="dashLine" lineWeight="0.35" secondPoint="17"/>
@@ -78,10 +78,10 @@
             <line firstPoint="39" id="48" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="46"/>
             <line firstPoint="46" id="49" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="10"/>
             <line firstPoint="17" id="50" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="46"/>
-            <point basePoint="24" id="51" lineColor="black" lineType="dotLine" lineWeight="0.35" mx="-1.30737" my="0.707556" name="V1" p1Line="11" p2Line="13" showPointName="true" type="height"/>
-            <line firstPoint="24" id="116" lineColor="mediumseagreen" lineType="dashLine" lineWeight="0.35" secondPoint="51"/>
+            <point basePoint="200" id="51" lineColor="black" lineType="dotLine" lineWeight="0.35" mx="-1.30737" my="0.707556" name="V1" p1Line="11" p2Line="13" showPointName="true" type="height"/>
+            <line firstPoint="200" id="116" lineColor="mediumseagreen" lineType="dashLine" lineWeight="0.35" secondPoint="51"/>
             <line firstPoint="26" id="126" lineColor="mediumseagreen" lineType="dotLine" lineWeight="0.35" secondPoint="14"/>
-            <line firstPoint="24" id="127" lineColor="mediumseagreen" lineType="dotLine" lineWeight="0.35" secondPoint="14"/>
+            <line firstPoint="200" id="127" lineColor="mediumseagreen" lineType="dotLine" lineWeight="0.35" secondPoint="14"/>
         </calculation>
         <modeling/>
         <pieces/>
