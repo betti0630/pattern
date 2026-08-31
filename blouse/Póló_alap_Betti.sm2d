@@ -16,7 +16,7 @@
     </patternLabel>
     <measurements>../measurements/individual/Bettimeasurements.smis</measurements>
     <variables>
-        <variable description="Testmagasság" formula="height" name="#vv_emeles_fes"/>
+        <variable description="Testmagasság" formula="height" name="#tm"/>
         <variable description="Vállvonaligazítás feszesség miatt (hátul lefelé, elöl felfelé)" formula="1" name="#vv_igazitas_feszesseg"/>
         <variable description="Mellbőség" formula="bust_circ/2" name="#mb"/>
         <variable description="Csípőbőség" formula="hip_circ/2" name="#csb"/>
@@ -34,7 +34,7 @@
         <variable description="Nyakszélesség" formula="neck_width/2" name="#nysz"/>
         <variable description="Háta-nyaktőmagasság" formula="3" name="#hnyt"/>
         <variable description="Mell mélysége a hónaljvonal alatt (saját mérés)" formula="4.5" name="#mellmelyseg"/>
-        <variable description="Elejederékhossz (ugyanaz a logika, mint a blúznál: a könyv rövidítését a mellmélység felével kompenzálva)" formula="#vv_emeles_fes/10*2+#mb/10*2.5-1-1+#mellmelyseg/2" name="#edh"/>
+        <variable description="Elejederékhossz (ugyanaz a logika, mint a blúznál: a könyv rövidítését a mellmélység felével kompenzálva)" formula="#tm/10*2+#mb/10*2.5-1-1+#mellmelyseg/2" name="#edh"/>
         <variable description="Vállszélesség (a másik pólódhoz képest még ennél is keskenyebbre véve - a meredekséget nem ezzel, hanem a J1v pont bevezetésével kezeljük)" formula="shoulder_length-2" name="#vsz"/>
         <variable description="Ujjhossz - rövidujjra rövidítve (a blúzban 66 volt, hosszú ujj)" formula="20" name="#uh"/>
         <variable description="Eleje karöltőhossz (kiinduló becslés a háromszög-szerkesztéshez)" formula="25" name="#köhe"/>
