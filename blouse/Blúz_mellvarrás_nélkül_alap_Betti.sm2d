@@ -33,12 +33,15 @@
         <variable description="Derék célszélesség (db/2 + öltöztetési bőség)" formula="#db+#derek_ob" name="#derek_cel"/>
         <variable description="Mellvonal teljes fél-szélessége (hát+hónalj+eleje, kivét nélkül)" formula="#hsz+#hsz_öb+#hósz+#hósz_öb+#esz+#esz_öb" name="#mellvonal_szelesseg"/>
         <variable description="Az oldalvarrásban szükséges derékkivét (nincs sem elejei, sem hátkivét ebben a mintában, tehát az egész ide kell hogy jusson - ezt kell az A1-A5 oldalvarrás-szerkesztésnek elérnie)" formula="#mellvonal_szelesseg-#derek_cel" name="#derek_kivet_szukseges"/>
+        <variable description="Vállvonal emelése (magas váll miatt) - a Póló_alap_Betti mintán bevált korrekció átvezetve" formula="2" name="#vv_emelés"/>
+        <variable description="Vállpont csúsztatása feszes tartás miatt - a Póló_alap_Betti mintán bevált korrekció átvezetve" formula="2" name="#vp_csusztatas"/>
+        <variable description="Hónaljkerület - a Póló_alap_Betti mintán bevált érték átvezetve, ellenőrizendő, hogy szövött anyaghoz is megfelelő-e" formula="34" name="#hk"/>
     </variables>
     <draftBlock name="Blúz">
         <calculation>
             <point id="1" mx="0.132292" my="0.331446" name="A" showPointName="true" type="single" x="0.79375" y="1.05833"/>
             <point angle="270" basePoint="1" id="2" length="#hdh" lineColor="mediumseagreen" lineType="solidLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="C" showPointName="true" type="endLine"/>
-            <point firstPoint="1" id="3" length="#hm+#hm_öb" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="B" secondPoint="2" showPointName="true" type="alongLine"/>
+            <point firstPoint="1" id="3" length="#hm+#hm_öb-#vv_emelés" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="B" secondPoint="2" showPointName="true" type="alongLine"/>
             <point angle="270" basePoint="2" id="4" length="#cm" lineColor="mediumseagreen" lineType="solidLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="D" showPointName="true" type="endLine"/>
             <point angle="180" firstPoint="1" id="5" length="#nysz" lineColor="mediumseagreen" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="I" secondPoint="4" showPointName="true" type="normal"/>
             <point angle="0" firstPoint="3" id="6" length="2" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="B0" secondPoint="1" showPointName="false" type="normal"/>
@@ -58,8 +61,8 @@
             <point angle="0" basePoint="19" id="20" length="#nysz" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="J1" showPointName="true" type="endLine"/>
             <point angle="270" basePoint="19" id="21" length="#nysz+1.5" lineColor="mediumseagreen" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="J2" showPointName="true" type="endLine"/>
             <point firstPoint="11" id="22" lineColor="mediumseagreen" lineType="dashLine" lineWeight="0.35" mx="0.741383" my="-2.11641" name="K" secondPoint="1" showPointName="true" type="intersectXY"/>
-            <point firstPoint="22" id="23" length="0.5" lineColor="black" lineType="none" lineWeight="0.35" mx="-2.30407" my="-1.3412" name="K1" secondPoint="11" showPointName="true" type="alongLine"/>
-            <point angle="270" firstPoint="15" id="200" length="#vsz+0.5" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" mx="-2.69167" my="0.818302" name="K2" secondPoint="22" showPointName="true" type="normal"/>
+            <point firstPoint="22" id="23" length="0.5-#vv_emelés" lineColor="black" lineType="none" lineWeight="0.35" mx="-2.30407" my="-1.3412" name="K1" secondPoint="11" showPointName="true" type="alongLine"/>
+            <point angle="270" firstPoint="15" id="200" length="#vsz+0.5" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" mx="-2.69167" my="0.818302" name="K2" secondPoint="23" showPointName="true" type="normal"/>
             <point angle="90" basePoint="12" id="25" length="Line_K1_E-1.5" lineColor="mediumseagreen" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="K3" showPointName="true" type="endLine"/>
             <point firstPoint="20" id="26" length="#vsz" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" mx="0.132292" my="0.264583" name="K4" secondPoint="25" showPointName="true" type="alongLine"/>
             <spline angle1="297.855" angle2="176.592" color="darkGreen" id="27" length1="2.8" length2="0.92" lineWeight="0.7" penStyle="solidLine" point1="15" point4="1" type="simpleInteractive"/>
@@ -99,8 +102,8 @@
             <point id="100" mx="0.132292" my="0.264583" name="SA" showPointName="true" type="single" x="60.18" y="1.06"/>
             <point angle="270" basePoint="100" id="101" length="Line_K2_V1-7" lineColor="mediumseagreen" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="SB" showPointName="true" type="endLine"/>
             <point angle="270" basePoint="100" id="102" length="#uh" lineColor="mediumseagreen" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="SC" showPointName="true" type="endLine"/>
-            <point angle="180" basePoint="101" id="103" length="sqrt(Line_K4_H*Line_K4_H-Line_SA_SB*Line_SA_SB)+4" lineColor="mediumseagreen" lineType="dashLine" lineWeight="0.35" mx="0.185574" my="0.264583" name="SD" showPointName="true" type="endLine"/>
-            <point angle="0" basePoint="101" id="104" length="sqrt(Line_K2_H*Line_K2_H-(Line_SA_SB)*(Line_SA_SB))+3" lineColor="mediumseagreen" lineType="dashLine" lineWeight="0.35" mx="0.7038" my="0.104736" name="SE" showPointName="true" type="endLine"/>
+            <point angle="180" basePoint="101" id="103" length="#hk/2+#vp_csusztatas/2" lineColor="mediumseagreen" lineType="dashLine" lineWeight="0.35" mx="0.185574" my="0.264583" name="SD" showPointName="true" type="endLine"/>
+            <point angle="0" basePoint="101" id="104" length="#hk/2-#vp_csusztatas/2" lineColor="mediumseagreen" lineType="dashLine" lineWeight="0.35" mx="0.7038" my="0.104736" name="SE" showPointName="true" type="endLine"/>
             <point firstPoint="103" id="105" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="SF" secondPoint="102" showPointName="true" type="intersectXY"/>
             <point firstPoint="104" id="106" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="SG" secondPoint="102" showPointName="true" type="intersectXY"/>
             <line firstPoint="100" id="109" lineColor="black" lineType="dashLine" lineWeight="0.35" secondPoint="103"/>
@@ -109,7 +112,7 @@
             <line firstPoint="104" id="112" lineColor="black" lineType="dashLine" lineWeight="0.35" secondPoint="106"/>
             <line firstPoint="105" id="113" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="106"/>
             <spline angle1="9.45772" angle2="177.812" color="darkGreen" id="114" length="Spl_H_K4" length1="14.0589" length2="1.50469" lengthMode="2" lineWeight="0.7" penStyle="solidLine" point1="103" point4="100" type="simpleInteractive"/>
-            <spline angle1="350" angle2="176" color="darkGreen" id="115" length="Spl_K2_H+0.5" length1="6" length2="6" lengthMode="3" lineWeight="0.7" penStyle="solidLine" point1="100" point4="104" type="simpleInteractive"/>
+            <spline angle1="350" angle2="176" color="darkGreen" id="115" length="Spl_K2_H" length1="6" length2="6" lengthMode="3" lineWeight="0.7" penStyle="solidLine" point1="100" point4="104" type="simpleInteractive"/>
             <line firstPoint="101" id="117" lineColor="mediumseagreen" lineType="dashLine" lineWeight="0.35" secondPoint="104"/>
             <point firstPoint="105" id="118" length="4" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="B2" secondPoint="102" showPointName="false" type="alongLine"/>
             <point firstPoint="106" id="119" length="4" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="B3" secondPoint="102" showPointName="false" type="alongLine"/>
