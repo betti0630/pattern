@@ -76,6 +76,7 @@
             <point firstPoint="14" id="26" lineColor="mediumseagreen" lineType="dashLine" lineWeight="0.35" mx="-1.67618" my="-1.04153" name="M" secondPoint="25" showPointName="true" type="intersectXY"/>
             <line firstPoint="1" id="27" lineColor="darkGreen" lineType="dashLine" lineWeight="0.7" secondPoint="11"/>
             <point firstPoint="19" id="28" length="0.5" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="N1" secondPoint="12" showPointName="true" type="alongLine"/>
+            <point angle="270" firstPoint="21" id="282" length="#vsz+0.5" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="N20" secondPoint="28" showPointName="true" type="normal"/>
             <point id="29" length="#vsz+0.5" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" mx="-2.26768" my="2.95026" name="N2" p1Line="21" p2Line="28" pShoulder="5" showPointName="true" type="shoulder"/>
             <point firstPoint="12" id="30" length="5" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="E1" secondPoint="19" showPointName="true" type="alongLine"/>
             <point angle="180" firstPoint="30" id="31" length="1.2" lineColor="mediumseagreen" lineType="dashLine" lineWeight="0.35" mx="-0.142432" my="1.555" name="E2" secondPoint="12" showPointName="true" type="normal"/>
@@ -131,129 +132,23 @@
             <point angle="asinD(Line_N3_A23/Line_L1_N3)-90-asinD(Line_A23_A24/Line_A24_MP)" basePoint="40" id="91" length="#vsz-Line_M1_L1" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" mx="0.132292" my="0.264583" name="N4" showPointName="true" type="endLine"/>
             <spline angle1="248.022" angle2="92.5374" color="darkGreen" id="92" length="16.2707" length1="3.41524" length2="6.20728" lineWeight="0.7" penStyle="solidLine" point1="91" point4="46" type="simpleInteractive"/>
             <point firstPoint="91" id="93" length="CurrentLength/2" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="A25" secondPoint="29" showPointName="false" type="alongLine"/>
-            <point angle="270" basePoint="93" id="94" lineColor="black" lineType="dotLine" lineWeight="0.35" mx="0.0751499" my="0.264583" name="V1" p1Line="91" p2Line="29" showPointName="true" type="lineIntersectAxis"/>
+            <point angle="270" basePoint="93" id="94" lineColor="black" lineType="dotLine" lineWeight="0.35" mx="0.0751499" my="0.264583" name="V1" p1Line="91" p2Line="282" showPointName="true" type="lineIntersectAxis"/>
             <point firstPoint="94" id="95" lineColor="mediumseagreen" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="V2" secondPoint="3" showPointName="true" type="intersectXY"/>
             <point angle="360" basePoint="48" curve="49" id="107" lineColor="black" lineType="dotLine" lineWeight="0.35" mx="1.01141" my="-2.15299" name="eip" showPointName="true" type="curveIntersectAxis"/>
             <spline angle1="283.573" angle2="182.237" color="darkGreen" duplicate="1" id="111" length1="1.58061" length2="1.58007" lineWeight="0.7" penStyle="solidLine" point1="107" point4="17" type="simpleInteractive"/>
             <spline angle1="359.8" angle2="264.063" color="darkGreen" id="113" length1="3.41867" length2="3.19199" lineWeight="0.7" penStyle="solidLine" point1="17" point4="31" type="simpleInteractive"/>
-            <spline angle1="81.6284" angle2="111.782" color="darkGreen" id="114" length1="7.71664" length2="0.652485" lineWeight="0.7" penStyle="solidLine" point1="31" point4="29" type="simpleInteractive"/>
+            <spline angle1="131.025" angle2="154.647" color="darkGreen" id="114" length1="8.00559" length2="1.01889" lineWeight="0.7" penStyle="solidLine" point1="31" point4="29" type="simpleInteractive"/>
             <line firstPoint="10" id="149" lineColor="mediumseagreen" lineType="dashLine" lineWeight="0.35" secondPoint="14"/>
             <line firstPoint="33" id="150" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="20"/>
             <line firstPoint="40" id="157" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="191"/>
             <line firstPoint="65" id="158" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="67"/>
             <line firstPoint="66" id="159" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="67"/>
             <line firstPoint="14" id="160" lineColor="black" lineType="solidLine" lineWeight="0.35" secondPoint="17"/>
-            <point angle="270" firstPoint="21" id="282" length="#vsz+0.5" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="N20" secondPoint="28" showPointName="true" type="normal"/>
             <spline angle1="75.9422" angle2="131.494" color="black" id="283" length1="13.6235" length2="1.45239" lineWeight="0.35" penStyle="solidLine" point1="31" point4="282" type="simpleInteractive"/>
+            <point firstPoint="91" id="284" length="CurrentLength/2" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="V10" secondPoint="282" showPointName="true" type="alongLine"/>
+            <point firstPoint="284" id="285" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="V20" secondPoint="3" showPointName="true" type="intersectXY"/>
         </calculation>
-        <modeling>
-            <point id="192" idObject="32" inUse="false" mx="-0.571002" my="-1.74483" showPointName="true" type="modeling"/>
-            <point id="193" idObject="37" inUse="false" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
-            <point id="194" idObject="191" inUse="false" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
-            <point id="195" idObject="40" inUse="false" mx="1.34586" my="-2.00074" showPointName="true" type="modeling"/>
-            <point id="196" idObject="91" inUse="false" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
-            <spline id="197" idObject="92" inUse="false" type="modelingSpline"/>
-            <spline id="198" idObject="49" inUse="false" type="modelingSpline"/>
-            <point id="199" idObject="54" inUse="false" mx="0.132292" my="0.264583" showPointName="false" type="modeling"/>
-            <point id="200" idObject="59" inUse="false" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
-            <point id="201" idObject="20" inUse="false" mx="0.132292" my="0.264583" showPointName="false" type="modeling"/>
-            <point id="202" idObject="23" inUse="false" mx="0.132292" my="0.264583" showPointName="false" type="modeling"/>
-            <point id="203" idObject="33" inUse="false" mx="-2.02783" my="-0.488946" showPointName="true" type="modeling"/>
-            <spline id="204" idObject="35" inUse="false" type="modelingSpline"/>
-            <point id="206" idObject="186" inUse="false" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
-            <point id="207" idObject="65" inUse="false" mx="0.132292" my="0.264583" showPointName="false" type="modeling"/>
-            <point id="208" idObject="67" inUse="false" mx="0.132292" my="0.264583" showPointName="false" type="modeling"/>
-            <point id="209" idObject="66" inUse="false" mx="0.132292" my="0.264583" showPointName="false" type="modeling"/>
-            <path cut="false" extendEndPoint="false" extendStartPoint="false" id="211" inUse="false" lineColor="black" lineType="solidLine" lineWeight="0.35" name="Szűkítő 1" type="2">
-                <nodes>
-                    <node idObject="206" type="NodePoint"/>
-                    <node idObject="207" type="NodePoint"/>
-                    <node idObject="208" type="NodePoint"/>
-                    <node idObject="209" type="NodePoint"/>
-                </nodes>
-            </path>
-            <point id="218" idObject="29" inUse="false" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
-            <point id="219" idObject="21" inUse="false" mx="0.68488" my="-1.34295" showPointName="true" type="modeling"/>
-            <spline id="220" idObject="84" inUse="false" type="modelingSpline"/>
-            <point id="221" idObject="11" inUse="false" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
-            <point id="222" idObject="59" inUse="false" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
-            <point id="223" idObject="55" inUse="false" mx="0.132292" my="0.264583" showPointName="false" type="modeling"/>
-            <point id="224" idObject="17" inUse="false" mx="-0.429716" my="-2.81076" showPointName="true" type="modeling"/>
-            <spline id="225" idObject="113" inUse="false" type="modelingSpline"/>
-            <spline id="226" idObject="114" inUse="false" type="modelingSpline"/>
-            <point id="228" idObject="74" inUse="false" mx="0.132292" my="0.264583" showPointName="false" type="modeling"/>
-            <point id="229" idObject="77" inUse="false" mx="0.132292" my="0.264583" showPointName="false" type="modeling"/>
-            <point id="230" idObject="75" inUse="false" mx="0.132292" my="0.264583" showPointName="false" type="modeling"/>
-            <point id="231" idObject="78" inUse="false" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
-            <point id="232" idObject="74" inUse="false" mx="0.132292" my="0.264583" showPointName="false" type="modeling"/>
-            <path cut="false" extendEndPoint="false" extendStartPoint="false" id="233" inUse="false" lineColor="black" lineType="solidLine" lineWeight="0.35" name="Szűkítő" type="2">
-                <nodes>
-                    <node idObject="228" type="NodePoint"/>
-                    <node idObject="229" type="NodePoint"/>
-                    <node idObject="230" type="NodePoint"/>
-                    <node idObject="231" type="NodePoint"/>
-                    <node idObject="232" type="NodePoint"/>
-                </nodes>
-            </path>
-            <point id="234" idObject="14" inUse="false" mx="-1.07335" my="0.314818" showPointName="true" type="modeling"/>
-            <point id="235" idObject="17" inUse="false" mx="-0.429716" my="-2.81076" showPointName="true" type="modeling"/>
-            <path cut="false" extendEndPoint="false" extendStartPoint="false" id="236" inUse="false" lineColor="black" lineType="solidLine" lineWeight="0.35" name="Hónaljvonal" type="2">
-                <nodes>
-                    <node idObject="234" type="NodePoint"/>
-                    <node idObject="235" type="NodePoint"/>
-                </nodes>
-            </path>
-            <point id="237" idObject="17" inUse="false" mx="-0.429716" my="-2.81076" showPointName="true" type="modeling"/>
-            <point id="238" idObject="10" inUse="false" mx="-1.92691" my="1.06832" showPointName="true" type="modeling"/>
-            <path cut="false" extendEndPoint="false" extendStartPoint="false" id="239" inUse="false" lineColor="black" lineType="solidLine" lineWeight="0.35" name="Hónaljvonal" type="2">
-                <nodes>
-                    <node idObject="237" type="NodePoint"/>
-                    <node idObject="238" type="NodePoint"/>
-                </nodes>
-            </path>
-            <point id="240" idObject="23" inUse="false" mx="0.132292" my="0.264583" showPointName="false" type="modeling"/>
-            <point id="241" idObject="54" inUse="false" mx="0.132292" my="0.264583" showPointName="false" type="modeling"/>
-            <path cut="false" extendEndPoint="false" extendStartPoint="false" id="242" inUse="false" lineColor="black" lineType="solidLine" lineWeight="0.35" name="Derékvonal" type="2">
-                <nodes>
-                    <node idObject="240" type="NodePoint"/>
-                    <node idObject="241" type="NodePoint"/>
-                </nodes>
-            </path>
-            <point id="243" idObject="55" inUse="false" mx="0.132292" my="0.264583" showPointName="false" type="modeling"/>
-            <point id="244" idObject="9" inUse="false" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
-            <path cut="false" extendEndPoint="false" extendStartPoint="false" id="245" inUse="false" lineColor="black" lineType="solidLine" lineWeight="0.35" name="Derékvonal" type="2">
-                <nodes>
-                    <node idObject="243" type="NodePoint"/>
-                    <node idObject="244" type="NodePoint"/>
-                </nodes>
-            </path>
-            <point id="246" idObject="107" inUse="false" mx="1.01141" my="-2.15299" showPointName="true" type="modeling"/>
-            <point id="247" idObject="48" inUse="false" mx="-2.41312" my="-0.686576" showPointName="true" type="modeling"/>
-            <point id="248" idObject="50" inUse="false" mx="0.132292" my="0.264583" showPointName="false" type="modeling"/>
-            <path cut="false" extendEndPoint="false" extendStartPoint="false" id="249" inUse="false" lineColor="black" lineType="solidLine" lineWeight="0.35" name="eip" type="2">
-                <nodes>
-                    <node idObject="246" type="NodePoint"/>
-                    <node idObject="247" type="NodePoint"/>
-                    <node idObject="248" type="NodePoint"/>
-                </nodes>
-            </path>
-            <point id="250" idObject="31" inUse="false" mx="-0.142432" my="1.555" showPointName="true" type="modeling"/>
-            <point id="251" idObject="30" inUse="false" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
-            <path cut="false" extendEndPoint="false" extendStartPoint="false" id="252" inUse="false" lineColor="black" lineType="solidLine" lineWeight="0.35" name="hip" type="2">
-                <nodes>
-                    <node idObject="250" type="NodePoint"/>
-                    <node idObject="251" type="NodePoint"/>
-                </nodes>
-            </path>
-            <point id="253" idObject="66" inUse="false" mx="0.132292" my="0.264583" showPointName="false" type="modeling"/>
-            <point id="254" idObject="186" inUse="false" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
-            <path cut="false" extendEndPoint="false" extendStartPoint="false" id="255" inUse="false" lineColor="black" lineType="solidLine" lineWeight="0.35" name="Eleje szűkírő" type="2">
-                <nodes>
-                    <node idObject="253" type="NodePoint"/>
-                    <node idObject="254" type="NodePoint"/>
-                </nodes>
-            </path>
-        </modeling>
+        <modeling/>
         <pieces/>
         <groups/>
         <images/>
@@ -261,7 +156,7 @@
     <draftBlock name="Ujja">
         <calculation>
             <point id="86" mx="0.132292" my="0.264583" name="UA" showPointName="true" type="single" x="60.18" y="1.06"/>
-            <point angle="270" basePoint="86" id="87" length="Line_V1_V2-4.5" lineColor="mediumseagreen" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="UB" showPointName="true" type="endLine"/>
+            <point angle="270" basePoint="86" id="87" length="Line_V10_V20-4.5" lineColor="mediumseagreen" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="UB" showPointName="true" type="endLine"/>
             <point angle="270" basePoint="86" id="96" length="#uh" lineColor="mediumseagreen" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="UC" showPointName="true" type="endLine"/>
             <point angle="0" firstPoint="86" id="97" length="Line_E_F+6" lineColor="mediumseagreen" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="UD" secondPoint="87" showPointName="true" type="normal"/>
             <point firstPoint="97" id="98" lineColor="mediumseagreen" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="UH" secondPoint="96" showPointName="true" type="intersectXY"/>
@@ -335,27 +230,7 @@
             <line firstPoint="139" id="147" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="143"/>
             <line firstPoint="143" id="148" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="105"/>
         </calculation>
-        <modeling>
-            <point id="267" idObject="131" inUse="false" mx="0.132292" my="0.264583" showPointName="false" type="modeling"/>
-            <point id="268" idObject="135" inUse="false" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
-            <spline id="269" idObject="134" inUse="false" type="modelingSpline"/>
-            <point id="270" idObject="121" inUse="false" mx="0.132292" my="0.264583" showPointName="false" type="modeling"/>
-            <spline id="271" idObject="122" inUse="false" type="modelingSpline"/>
-            <spline id="272" idObject="119" inUse="false" type="modelingSpline"/>
-            <point id="273" idObject="145" inUse="false" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
-            <spline id="274" idObject="140" inUse="false" type="modelingSpline"/>
-            <point id="275" idObject="143" inUse="false" mx="0.132292" my="0.264583" showPointName="false" type="modeling"/>
-            <point id="276" idObject="105" inUse="false" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
-            <point id="277" idObject="104" inUse="false" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
-            <point id="279" idObject="100" inUse="false" mx="-2.07778" my="-0.54398" showPointName="true" type="modeling"/>
-            <point id="280" idObject="145" inUse="false" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
-            <path cut="false" extendEndPoint="false" extendStartPoint="false" id="281" inUse="false" lineColor="black" lineType="dotLine" lineWeight="0.35" name="Illesztési pontok" type="2">
-                <nodes>
-                    <node idObject="279" type="NodePoint"/>
-                    <node idObject="280" type="NodePoint"/>
-                </nodes>
-            </path>
-        </modeling>
+        <modeling/>
         <pieces/>
         <groups/>
         <images/>
