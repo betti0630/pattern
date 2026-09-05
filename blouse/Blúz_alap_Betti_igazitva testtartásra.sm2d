@@ -131,9 +131,6 @@
             <point id="90" mx="0.132292" my="0.264583" name="A24" p1Line1="40" p1Line2="89" p2Line1="161" p2Line2="36" showPointName="true" type="lineIntersect"/>
             <point angle="asinD(Line_N3_A23/Line_L1_N3)-90-asinD(Line_A23_A24/Line_A24_MP)" basePoint="40" id="91" length="#vsz-Line_M1_L1" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" mx="0.132292" my="0.264583" name="N4" showPointName="true" type="endLine"/>
             <spline angle1="248.022" angle2="92.5374" color="darkGreen" id="92" length="16.2707" length1="3.41524" length2="6.20728" lineWeight="0.7" penStyle="solidLine" point1="91" point4="46" type="simpleInteractive"/>
-            <point firstPoint="91" id="93" length="CurrentLength/2" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="A25" secondPoint="29" showPointName="false" type="alongLine"/>
-            <point angle="270" basePoint="93" id="94" lineColor="black" lineType="dotLine" lineWeight="0.35" mx="0.0751499" my="0.264583" name="V1" p1Line="91" p2Line="282" showPointName="true" type="lineIntersectAxis"/>
-            <point firstPoint="94" id="95" lineColor="mediumseagreen" lineType="dashLine" lineWeight="0.35" mx="0.0751499" my="0.264583" name="V2" secondPoint="3" showPointName="true" type="intersectXY"/>
             <point angle="360" basePoint="48" curve="49" id="107" lineColor="black" lineType="dotLine" lineWeight="0.35" mx="1.01141" my="-2.15299" name="eip" showPointName="true" type="curveIntersectAxis"/>
             <spline angle1="283.573" angle2="182.237" color="darkGreen" duplicate="1" id="111" length1="1.58061" length2="1.58007" lineWeight="0.7" penStyle="solidLine" point1="107" point4="17" type="simpleInteractive"/>
             <spline angle1="359.8" angle2="264.063" color="darkGreen" id="113" length1="3.41867" length2="3.19199" lineWeight="0.7" penStyle="solidLine" point1="17" point4="31" type="simpleInteractive"/>
@@ -145,8 +142,8 @@
             <line firstPoint="66" id="159" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="67"/>
             <line firstPoint="14" id="160" lineColor="black" lineType="solidLine" lineWeight="0.35" secondPoint="17"/>
             <spline angle1="71.8721" angle2="266.922" color="black" id="283" length1="6.62609" length2="4.43676" lineWeight="0.35" penStyle="solidLine" point1="31" point4="282" type="simpleInteractive"/>
-            <point firstPoint="91" id="284" length="CurrentLength/2" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="V10" secondPoint="282" showPointName="true" type="alongLine"/>
-            <point firstPoint="284" id="285" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="V20" secondPoint="3" showPointName="true" type="intersectXY"/>
+            <point firstPoint="91" id="284" length="CurrentLength/2" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="V1" secondPoint="282" showPointName="true" type="alongLine"/>
+            <point firstPoint="284" id="285" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="V2" secondPoint="3" showPointName="true" type="intersectXY"/>
         </calculation>
         <modeling/>
         <pieces/>
@@ -156,7 +153,7 @@
     <draftBlock name="Ujja">
         <calculation>
             <point id="86" mx="0.132292" my="0.264583" name="UA" showPointName="true" type="single" x="60.18" y="1.06"/>
-            <point angle="270" basePoint="86" id="87" length="14.15" lineColor="mediumseagreen" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="UB" showPointName="true" type="endLine"/>
+            <point angle="270" basePoint="86" id="87" length="Line_V1_V2-4.5" lineColor="mediumseagreen" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="UB" showPointName="true" type="endLine"/>
             <point angle="270" basePoint="86" id="96" length="#uh" lineColor="mediumseagreen" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="UC" showPointName="true" type="endLine"/>
             <point angle="0" firstPoint="86" id="97" length="Line_E_F+6" lineColor="mediumseagreen" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="UD" secondPoint="87" showPointName="true" type="normal"/>
             <point firstPoint="97" id="98" lineColor="mediumseagreen" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="UH" secondPoint="96" showPointName="true" type="intersectXY"/>
