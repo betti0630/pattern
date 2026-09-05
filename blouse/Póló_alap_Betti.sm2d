@@ -35,7 +35,7 @@
         <variable description="Háta-nyaktőmagasság" formula="3" name="#hnyt"/>
         <variable description="Mell mélysége a hónaljvonal alatt (saját mérés)" formula="4.5" name="#mellmelyseg"/>
         <variable description="Elejederékhossz (ugyanaz a logika, mint a blúznál: a könyv rövidítését a mellmélység felével kompenzálva)" formula="#tm/10*2+#mb/10*2.5-1-1+#mellmelyseg/2" name="#edh"/>
-        <variable description="Vállszélesség (a másik pólódhoz képest még ennél is keskenyebbre véve - a meredekséget nem ezzel, hanem a J1v pont bevezetésével kezeljük)" formula="shoulder_length-1" name="#vsz"/>
+        <variable description="Vállszélesség (a másik pólódhoz képest még ennél is keskenyebbre véve - a meredekséget nem ezzel, hanem a J1v pont bevezetésével kezeljük)" formula="shoulder_length" name="#vsz"/>
         <variable description="Ujjhossz - rövidujjra rövidítve (a blúzban 66 volt, hosszú ujj)" formula="20" name="#uh"/>
         <variable description="Eleje karöltőhossz (kiinduló becslés a háromszög-szerkesztéshez)" formula="25" name="#köhe"/>
         <variable description="Háta karöltőhossz (kiinduló becslés a háromszög-szerkesztéshez)" formula="25.5" name="#köhh"/>
@@ -46,7 +46,7 @@
         <variable description="Vállvonal emelése (magas váll miatt)" formula="2" name="#vv_emelés"/>
         <variable description="Vállpont csúsztatása feszes tartás miatt" formula="3" name="#vp_csusztatas"/>
         <variable description="Hónaljkerület" formula="34" name="#hk"/>
-        <variable description="Nyak szélesítése" formula="2" name="#ny_szelesites"/>
+        <variable description="Nyak szélesítése" formula="3" name="#ny_szelesites"/>
     </variables>
     <draftBlock name="Póló">
         <calculation>
