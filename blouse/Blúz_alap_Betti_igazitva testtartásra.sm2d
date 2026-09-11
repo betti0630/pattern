@@ -65,8 +65,9 @@
             <point firstPoint="12" id="17" length="Line_E_F/2+1" lineColor="black" lineType="none" lineWeight="0.35" mx="-0.429716" my="-2.81076" name="H" secondPoint="13" showPointName="true" type="alongLine"/>
             <point firstPoint="17" id="18" lineColor="mediumseagreen" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="A2" secondPoint="4" showPointName="false" type="intersectXY"/>
             <point firstPoint="12" id="19" lineColor="mediumseagreen" lineType="dashLine" lineWeight="0.35" mx="-1.52547" my="-1.79506" name="N" secondPoint="1" showPointName="true" type="intersectXY"/>
+            <point firstPoint="19" id="286" length="#vv_igazitas_feszesseg" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="NVV" secondPoint="12" showPointName="true" type="alongLine"/>
             <point firstPoint="14" id="20" lineColor="mediumseagreen" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="A4" secondPoint="4" showPointName="false" type="intersectXY"/>
-            <point angle="0" firstPoint="5" id="21" length="#hnyt" lineColor="mediumseagreen" lineType="dashLine" lineWeight="0.35" mx="0.68488" my="-1.34295" name="I1" secondPoint="1" showPointName="true" type="normal"/>
+            <point angle="0" firstPoint="5" id="21" length="#hnyt-#vv_igazitas_feszesseg" lineColor="mediumseagreen" lineType="dashLine" lineWeight="0.35" mx="0.68488" my="-1.34295" name="I1" secondPoint="1" showPointName="true" type="normal"/>
             <point firstPoint="14" id="22" length="#mt" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="J" secondPoint="13" showPointName="true" type="alongLine"/>
             <point firstPoint="14" id="23" lineColor="mediumseagreen" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="A1" secondPoint="2" showPointName="false" type="intersectXY"/>
             <point firstPoint="22" id="24" lineColor="mediumseagreen" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="K" secondPoint="2" showPointName="true" type="intersectXY"/>
@@ -75,7 +76,7 @@
             <point angle="90" basePoint="24" id="25" length="#edh" lineColor="mediumseagreen" lineType="dotLine" lineWeight="0.35" mx="0.897935" my="-1.60386" name="L" showPointName="true" type="endLine"/>
             <point firstPoint="14" id="26" lineColor="mediumseagreen" lineType="dashLine" lineWeight="0.35" mx="-1.67618" my="-1.04153" name="M" secondPoint="25" showPointName="true" type="intersectXY"/>
             <line firstPoint="1" id="27" lineColor="darkGreen" lineType="dashLine" lineWeight="0.7" secondPoint="11"/>
-            <point firstPoint="19" id="28" length="0.5" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="N1" secondPoint="12" showPointName="true" type="alongLine"/>
+            <point firstPoint="286" id="28" length="0.5" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="N1" secondPoint="12" showPointName="true" type="alongLine"/>
             <point angle="270" firstPoint="21" id="282" length="#vsz+0.5" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="-1.3534" my="9.75018" name="N20" secondPoint="28" showPointName="true" type="normal"/>
             <point firstPoint="12" id="30" length="5" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="E1" secondPoint="19" showPointName="true" type="alongLine"/>
             <point angle="180" firstPoint="30" id="31" length="1.2" lineColor="mediumseagreen" lineType="dashLine" lineWeight="0.35" mx="-0.142432" my="1.555" name="E2" secondPoint="12" showPointName="true" type="normal"/>
