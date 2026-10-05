@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pattern>
+    <!--Pattern created with Seamly2D v2026.8.31.143 (https://seamly.io).-->
+    <version>0.7.4</version>
+    <unit>cm</unit>
+    <description/>
+    <notes/>
+    <measurements>../measurements/individual/Bettimeasurements.smis</measurements>
+    <variables/>
+    <draftBlock name="front">
+        <calculation>
+            <point id="1" mx="0.132292" my="0.264583" name="A0" showPointName="true" type="single" x="0.79" y="1.06"/>
+            <point angle="270" basePoint="1" id="2" length="neck_front_to_waist_f+0.5" lineColor="black" lineType="solidLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="A1" showPointName="true" type="endLine"/>
+        </calculation>
+        <modeling/>
+        <pieces/>
+        <groups/>
+        <images/>
+    </draftBlock>
+</pattern>

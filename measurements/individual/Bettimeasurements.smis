@@ -27,6 +27,7 @@
         <m name="armfold_to_armfold_b" value="37"/>
         <m name="armfold_to_armfold_f" value="44"/>
         <m name="neck_front_to_waist_f" value="37"/>
+        <m description="Ezt mértem elöl, mert ez nekem jóval nagyobb, mint hátul" full_name="Neck to waist front" name="@neck_to_waist_from_back_neck" value="49"/>
         <m name="shoulder_tip_to_shoulder_tip_b" value="37"/>
         <m name="shoulder_tip_to_shoulder_tip_f" value="35"/>
         <m name="armpit_to_waist_side" value="28"/>
