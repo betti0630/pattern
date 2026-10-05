@@ -32,6 +32,7 @@
         <m name="shoulder_tip_to_shoulder_tip_f" value="35"/>
         <m name="armpit_to_waist_side" value="28"/>
         <m name="armscye_width" value="10"/>
+        <m name="armscye_length" value="21"/>
         <m name="shoulder_tip_to_armfold_f" value="17"/>
         <m name="neck_back_to_waist_b" value="40"/>
         <m name="shoulder_tip_to_armfold_b" value="22"/>
