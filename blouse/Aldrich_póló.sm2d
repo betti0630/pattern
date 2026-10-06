@@ -8,6 +8,7 @@
     <measurements>../measurements/individual/Bettimeasurements.smis</measurements>
     <variables>
         <variable description="" formula="65" name="#length"/>
+        <variable description="" formula="60" name="#sleeve_length"/>
         <variable description="" formula="@neck_to_waist_from_back_neck-neck_back_to_waist_b" name="#front_plus_length"/>
     </variables>
     <draftBlock name="front">
@@ -46,6 +47,7 @@
             <line firstPoint="24" id="30" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="27"/>
             <line firstPoint="27" id="31" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="17"/>
             <spline angle1="276.497" angle2="93.4815" color="darkGreen" id="32" length1="4.17226" length2="7.04742" lineWeight="0.7" penStyle="solidLine" point1="17" point4="16" type="simpleInteractive"/>
+            <line firstPoint="12" id="57" lineColor="black" lineType="dotLine" lineWeight="0.35" secondPoint="14"/>
         </calculation>
         <modeling/>
         <pieces/>
@@ -79,6 +81,28 @@
             </spline>
             <line firstPoint="46" id="52" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="49"/>
             <spline angle1="308.883" angle2="89.902" color="black" id="53" length="Spl_A15_A14" length1="1.36925" length2="3.24338" lengthMode="3" lineWeight="0.35" penStyle="solidLine" point1="49" point4="48" type="simpleInteractive"/>
+            <line firstPoint="44" id="58" lineColor="black" lineType="dotLine" lineWeight="0.35" secondPoint="46"/>
+        </calculation>
+        <modeling/>
+        <pieces/>
+        <groups/>
+        <images/>
+    </draftBlock>
+    <draftBlock name="Sleeve">
+        <calculation>
+            <point id="54" mx="0.183859" my="-1.95279" name="C17" showPointName="true" type="single" x="89.4059" y="1.19189"/>
+            <point angle="270" basePoint="54" id="55" length="Line_A0_A3/2+0.5" lineColor="black" lineType="solidLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="C18" showPointName="true" type="endLine"/>
+            <point angle="270" basePoint="54" id="56" length="#sleeve_length" lineColor="black" lineType="solidLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="C19" showPointName="true" type="endLine"/>
+            <point angle="0" firstPoint="55" id="59" length="20" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="C1" secondPoint="54" showPointName="true" type="normal"/>
+            <point center="54" firstPoint="59" id="60" mx="-0.397876" my="1.21889" name="C20" radius="Line_A11_A12+0.5" secondPoint="55" showPointName="true" type="pointOfContact"/>
+            <point angle="180" firstPoint="55" id="61" length="20" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="C2" secondPoint="54" showPointName="true" type="normal"/>
+            <point center="54" firstPoint="55" id="62" mx="0.132292" my="0.264583" name="C30" radius="Line_B11_B12+0.5" secondPoint="61" showPointName="true" type="pointOfContact"/>
+            <point firstPoint="60" id="63" length="CurrentLength/3" lineColor="black" lineType="none" lineWeight="0.35" mx="-1.41471" my="0.419283" name="C21" secondPoint="54" showPointName="true" type="alongLine"/>
+            <point firstPoint="62" id="64" length="CurrentLength/3" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="C31" secondPoint="54" showPointName="true" type="alongLine"/>
+            <spline angle1="161.755" angle2="78.4177" color="black" id="65" length="17" length1="9.14772" length2="3.04794" lengthMode="3" lineWeight="0.35" penStyle="solidLine" point1="54" point4="63" type="simpleInteractive"/>
+            <spline angle1="266.408" angle2="358.897" color="black" id="66" length="SplPath_A11_A12-Spl_C17_C21" length1="2.12718" length2="3.02749" lengthMode="3" lineWeight="0.35" penStyle="solidLine" point1="63" point4="60" type="simpleInteractive"/>
+            <spline angle1="0" angle2="87.199" color="black" id="67" length="13" length1="0" length2="8.19089" lengthMode="3" lineWeight="0.35" penStyle="solidLine" point1="54" point4="64" type="simpleInteractive"/>
+            <spline angle1="298.18" angle2="172.911" color="black" id="68" length="SplPath_B11_B12-Spl_C17_C31" length1="3.94705" length2="1.40456" lengthMode="3" lineWeight="0.35" penStyle="solidLine" point1="64" point4="62" type="simpleInteractive"/>
         </calculation>
         <modeling/>
         <pieces/>
