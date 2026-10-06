@@ -15,6 +15,7 @@
     </personal>
     <body-measurements>
         <m name="height" value="170"/>
+        <m name="arm_wrist_circ" value="17"/>
         <m name="waist_circ" value="80"/>
         <m name="hip_circ" value="96"/>
         <m name="waist_to_hip_f" value="20"/>
