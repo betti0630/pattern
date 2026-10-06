@@ -3,8 +3,18 @@
     <!--Pattern created with Seamly2D v2026.8.31.143 (https://seamly.io).-->
     <version>0.7.4</version>
     <unit>cm</unit>
-    <description/>
-    <notes/>
+    <description>Aldrich close fitting body</description>
+    <notes>enyhén rugalmas anyagra mért
+Feszes tartás miatti korrekciót tartalmaz</notes>
+    <patternName>Póló (enyhén rugalmas)</patternName>
+    <patternNumber></patternNumber>
+    <company>Aldrich</company>
+    <customer>Dudás Beáta</customer>
+    <patternLabel dateFormat="yyyy-MM-dd" timeFormat="hh:mm:ss">
+        <line alignment="0" bold="false" italic="false" sfIncrement="0" text="%patternName%"/>
+        <line alignment="0" bold="false" italic="false" sfIncrement="0" text="%customer%"/>
+        <line alignment="0" bold="false" italic="false" sfIncrement="0" text="%date%"/>
+    </patternLabel>
     <measurements>../measurements/individual/Bettimeasurements.smis</measurements>
     <variables>
         <variable description="" formula="65" name="#length"/>
@@ -33,7 +43,7 @@
             <point firstPoint="14" id="16" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="A14" secondPoint="3" showPointName="true" type="intersectXY"/>
             <point angle="180" basePoint="15" id="17" length="2" lineColor="black" lineType="solidLine" lineWeight="0.35" mx="-1.40229" my="0.952499" name="A15" showPointName="true" type="endLine"/>
             <point angle="270" basePoint="1" id="18" length="neck_circ/6-1" lineColor="black" lineType="solidLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="A16" showPointName="true" type="endLine"/>
-            <spline angle1="263.501" angle2="0.299279" color="darkGreen" id="19" length1="2.9045" length2="4.86465" lineWeight="0.7" penStyle="solidLine" point1="8" point4="18" type="simpleInteractive"/>
+            <spline angle1="258.405" angle2="0.824009" color="darkGreen" id="19" length1="3.15361" length2="4.83396" lineWeight="0.7" penStyle="solidLine" point1="8" point4="18" type="simpleInteractive"/>
             <spline color="darkGreen" id="20" lineWeight="0.7" penStyle="solidLine" type="pathInteractive">
                 <pathPoint angle1="77.3346" angle2="257.335" length1="0" length2="1.17826" pSpline="12"/>
                 <pathPoint angle1="104" angle2="284" length1="2.01298" length2="7.28692" pSpline="10"/>
@@ -53,8 +63,55 @@
             <line firstPoint="18" id="81" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="3"/>
             <line firstPoint="3" id="82" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="16"/>
         </calculation>
-        <modeling/>
-        <pieces/>
+        <modeling>
+            <point id="83" idObject="26" inUse="false" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
+            <point id="84" idObject="24" inUse="false" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
+            <point id="85" idObject="27" inUse="false" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
+            <point id="86" idObject="17" inUse="false" mx="-1.40229" my="0.952499" showPointName="true" type="modeling"/>
+            <point id="87" idObject="16" inUse="false" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
+            <point id="88" idObject="3" inUse="false" mx="0.132292" my="0.134883" showPointName="true" type="modeling"/>
+            <point id="89" idObject="18" inUse="false" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
+            <spline id="90" idObject="19" inUse="false" type="modelingSpline"/>
+            <point id="91" idObject="12" inUse="false" mx="1.29646" my="-0.582084" showPointName="true" type="modeling"/>
+            <spline id="92" idObject="20" inUse="false" type="modelingPath"/>
+            <point id="93" idObject="18" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
+            <spline id="94" idObject="19" inUse="true" type="modelingSpline"/>
+            <point id="95" idObject="8" inUse="true" mx="0.714375" my="-0.79375" showPointName="true" type="modeling"/>
+            <point id="96" idObject="12" inUse="true" mx="1.29646" my="-0.582084" showPointName="true" type="modeling"/>
+            <spline id="97" idObject="20" inUse="true" type="modelingPath"/>
+            <point id="98" idObject="14" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
+            <point id="99" idObject="26" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
+            <point id="100" idObject="24" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
+            <point id="101" idObject="27" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
+            <point id="102" idObject="17" inUse="true" mx="-1.40229" my="0.952499" showPointName="true" type="modeling"/>
+            <point id="103" idObject="16" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
+            <point id="104" idObject="3" inUse="true" mx="0.132292" my="0.134883" showPointName="true" type="modeling"/>
+            <point id="105" idObject="2" inUse="true" mx="0.0674418" my="0.264583" showPointName="true" type="modeling"/>
+        </modeling>
+        <pieces>
+            <piece color="#ffffff" fill="nobrush" forbidFlipping="false" hideMainPath="false" id="106" inLayout="true" locked="false" mx="0" my="0" name="Front" seamAllowance="true" united="false" version="2" width="1">
+                <data annotation="" foldPosition="Left/Right" fontSize="0" height="2" letter="" mx="809.41" my="1376.13" onFold="false" orientation="Right" quantity="1" rotation="0" rotationWay="None" tilt="None" visible="true" width="3">
+                    <line alignment="0" bold="false" italic="false" sfIncrement="0" text="%pName%"/>
+                </data>
+                <patternInfo fontSize="0" height="2" mx="251.914" my="1376.13" rotation="0" visible="true" width="3"/>
+                <grainline arrowLength="1.27" arrows="0" length="20" mx="587.355" my="1464.32" rotation="90" visible="true"/>
+                <nodes>
+                    <node before="0" idObject="93" notch="true" notchAngle="0" notchCount="1" notchLength="1.25" notchSubtype="straightforward" notchType="vExternal" notchWidth="0.5" showNotch="false" showSecondNotch="false" type="NodePoint"/>
+                    <node idObject="94" reverse="1" type="NodeSpline"/>
+                    <node idObject="95" notch="true" notchAngle="0" notchCount="1" notchLength="1.25" notchSubtype="straightforward" notchType="vExternal" notchWidth="0.5" showNotch="false" showSecondNotch="false" type="NodePoint"/>
+                    <node idObject="96" notch="true" notchAngle="0" notchCount="1" notchLength="1.25" notchSubtype="straightforward" notchType="vExternal" notchWidth="0.5" showNotch="false" showSecondNotch="false" type="NodePoint"/>
+                    <node idObject="97" reverse="0" type="NodeSplinePath"/>
+                    <node after="2" idObject="98" notch="true" notchAngle="0" notchCount="1" notchLength="1.25" notchSubtype="straightforward" notchType="vExternal" notchWidth="0.5" showNotch="false" showSecondNotch="false" type="NodePoint"/>
+                    <node after="0" before="2" idObject="99" notch="true" notchAngle="0" notchCount="1" notchLength="1.25" notchSubtype="straightforward" notchType="vExternal" notchWidth="0.5" showNotch="false" showSecondNotch="false" type="NodePoint"/>
+                    <node after="0" before="0" idObject="100" notch="true" notchAngle="0" notchCount="1" notchLength="1.25" notchSubtype="straightforward" notchType="vExternal" notchWidth="0.5" showNotch="false" showSecondNotch="false" type="NodePoint"/>
+                    <node after="2" before="0" idObject="101" notch="true" notchAngle="0" notchCount="1" notchLength="1.25" notchSubtype="straightforward" notchType="vExternal" notchWidth="0.5" showNotch="false" showSecondNotch="false" type="NodePoint"/>
+                    <node after="2" before="2" idObject="102" notch="true" notchAngle="0" notchCount="1" notchLength="1.25" notchSubtype="straightforward" notchType="vExternal" notchWidth="0.5" showNotch="true" showSecondNotch="false" type="NodePoint"/>
+                    <node after="2" before="2" idObject="103" notch="true" notchAngle="0" notchCount="1" notchLength="1.25" notchSubtype="straightforward" notchType="vExternal" notchWidth="0.5" showNotch="false" showSecondNotch="false" type="NodePoint"/>
+                    <node after="0" before="2" idObject="104" notch="true" notchAngle="0" notchCount="1" notchLength="1.25" notchSubtype="straightforward" notchType="vExternal" notchWidth="0.5" showNotch="false" showSecondNotch="false" type="NodePoint"/>
+                    <node after="0" before="0" idObject="105" notch="true" notchAngle="0" notchCount="1" notchLength="1.25" notchSubtype="straightforward" notchType="vExternal" notchWidth="0.5" showNotch="false" showSecondNotch="false" type="NodePoint"/>
+                </nodes>
+            </piece>
+        </pieces>
         <groups/>
         <images/>
     </draftBlock>
@@ -77,7 +134,7 @@
             <point firstPoint="46" id="47" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="B13" secondPoint="34" showPointName="true" type="intersectXY"/>
             <point firstPoint="46" id="48" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="B14" secondPoint="35" showPointName="true" type="intersectXY"/>
             <point angle="180" basePoint="47" id="49" length="Line_A13_A15" lineColor="black" lineType="solidLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="B15" showPointName="true" type="endLine"/>
-            <spline angle1="349.749" angle2="233.65" color="darkGreen" id="50" length1="2.01052" length2="1.11739" lineWeight="0.7" penStyle="solidLine" point1="33" point4="40" type="simpleInteractive"/>
+            <spline angle1="0.844985" angle2="233.65" color="darkGreen" id="50" length1="2.71763" length2="1.11739" lineWeight="0.7" penStyle="solidLine" point1="33" point4="40" type="simpleInteractive"/>
             <spline color="darkGreen" id="51" lineWeight="0.7" penStyle="solidLine" type="pathInteractive">
                 <pathPoint angle1="71.0421" angle2="251.042" length1="0" length2="1.97316" pSpline="44"/>
                 <pathPoint angle1="98.3085" angle2="278.308" length1="2.08848" length2="0.915775" pSpline="42"/>
@@ -88,8 +145,39 @@
             <line firstPoint="44" id="58" lineColor="black" lineType="dotLine" lineWeight="0.35" secondPoint="46"/>
             <line firstPoint="35" id="80" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="48"/>
         </calculation>
-        <modeling/>
-        <pieces/>
+        <modeling>
+            <point id="107" idObject="33" inUse="true" mx="-2.10862" my="-0.906185" showPointName="true" type="modeling"/>
+            <spline id="108" idObject="50" inUse="true" type="modelingSpline"/>
+            <point id="109" idObject="40" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
+            <point id="110" idObject="44" inUse="true" mx="2.46268" my="-0.0196106" showPointName="true" type="modeling"/>
+            <spline id="111" idObject="51" inUse="true" type="modelingPath"/>
+            <point id="112" idObject="46" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
+            <point id="113" idObject="49" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
+            <point id="114" idObject="48" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
+            <point id="115" idObject="35" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
+            <point id="116" idObject="34" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
+        </modeling>
+        <pieces>
+            <piece color="#ffffff" fill="nobrush" forbidFlipping="false" hideMainPath="false" id="117" inLayout="true" locked="false" mx="0" my="0" name="Back" seamAllowance="true" united="false" version="2" width="1">
+                <data annotation="" foldPosition="Left/Right" fontSize="0" height="2" letter="" mx="2106.79" my="1246.98" onFold="false" orientation="Right" quantity="1" rotation="0" rotationWay="None" tilt="None" visible="true" width="3">
+                    <line alignment="0" bold="false" italic="false" sfIncrement="0" text="%pName%"/>
+                </data>
+                <patternInfo fontSize="0" height="2" mx="1728.84" my="1246.98" rotation="0" visible="true" width="3"/>
+                <grainline arrowLength="1.27" arrows="0" length="20" mx="1974.5" my="1335.18" rotation="90" visible="true"/>
+                <nodes>
+                    <node before="0" idObject="107" notch="true" notchAngle="0" notchCount="1" notchLength="1.25" notchSubtype="straightforward" notchType="vExternal" notchWidth="0.5" showNotch="false" showSecondNotch="false" type="NodePoint"/>
+                    <node idObject="108" reverse="0" type="NodeSpline"/>
+                    <node idObject="109" notch="true" notchAngle="0" notchCount="1" notchLength="1.25" notchSubtype="straightforward" notchType="vExternal" notchWidth="0.5" showNotch="false" showSecondNotch="false" type="NodePoint"/>
+                    <node idObject="110" notch="true" notchAngle="0" notchCount="1" notchLength="1.25" notchSubtype="straightforward" notchType="vExternal" notchWidth="0.5" showNotch="false" showSecondNotch="false" type="NodePoint"/>
+                    <node idObject="111" reverse="0" type="NodeSplinePath"/>
+                    <node after="2" idObject="112" notch="true" notchAngle="0" notchCount="1" notchLength="1.25" notchSubtype="straightforward" notchType="vExternal" notchWidth="0.5" showNotch="false" showSecondNotch="false" type="NodePoint"/>
+                    <node after="2" before="2" idObject="113" notch="true" notchAngle="0" notchCount="1" notchLength="1.25" notchSubtype="straightforward" notchType="vExternal" notchWidth="0.5" showNotch="true" showSecondNotch="false" type="NodePoint"/>
+                    <node after="2" before="2" idObject="114" notch="true" notchAngle="0" notchCount="1" notchLength="1.25" notchSubtype="straightforward" notchType="vExternal" notchWidth="0.5" showNotch="false" showSecondNotch="false" type="NodePoint"/>
+                    <node after="0" before="2" idObject="115" notch="true" notchAngle="0" notchCount="1" notchLength="1.25" notchSubtype="straightforward" notchType="vExternal" notchWidth="0.5" showNotch="false" showSecondNotch="false" type="NodePoint"/>
+                    <node after="0" before="0" idObject="116" notch="true" notchAngle="0" notchCount="1" notchLength="1.25" notchSubtype="straightforward" notchType="vExternal" notchWidth="0.5" showNotch="false" showSecondNotch="false" type="NodePoint"/>
+                </nodes>
+            </piece>
+        </pieces>
         <groups/>
         <images/>
     </draftBlock>
@@ -114,8 +202,43 @@
             <line firstPoint="60" id="78" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="69"/>
             <line firstPoint="62" id="79" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="70"/>
         </calculation>
-        <modeling/>
-        <pieces/>
+        <modeling>
+            <point id="118" idObject="60" inUse="true" mx="-0.897598" my="1.77414" showPointName="true" type="modeling"/>
+            <spline id="119" idObject="75" inUse="true" type="modelingSpline"/>
+            <spline id="120" idObject="74" inUse="true" type="modelingSpline"/>
+            <point id="121" idObject="71" inUse="true" mx="-1.48677" my="0.74859" showPointName="true" type="modeling"/>
+            <spline id="122" idObject="76" inUse="true" type="modelingSpline"/>
+            <spline id="123" idObject="77" inUse="true" type="modelingSpline"/>
+            <point id="124" idObject="62" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
+            <point id="125" idObject="70" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
+            <point id="126" idObject="69" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
+            <point id="128" idObject="72" inUse="true" type="anchor"/>
+            <point id="129" idObject="72" inUse="true" mx="1.57256" my="0.477957" showPointName="true" type="modeling"/>
+        </modeling>
+        <pieces>
+            <piece color="#ffffff" fill="nobrush" forbidFlipping="false" hideMainPath="false" id="127" inLayout="true" locked="false" mx="0" my="0" name="Sleeve" seamAllowance="true" united="false" version="2" width="1">
+                <data annotation="" foldPosition="Undefined" fontSize="0" height="2" letter="" mx="3562.82" my="1357.31" onFold="false" orientation="Undefined" quantity="1" rotation="0" rotationWay="None" tilt="None" visible="true" width="3">
+                    <line alignment="0" bold="false" italic="false" sfIncrement="0" text="%pName%"/>
+                </data>
+                <patternInfo fontSize="0" height="2" mx="2934.32" my="1357.31" rotation="0" visible="true" width="3"/>
+                <grainline arrowLength="1.27" arrows="0" length="20" mx="3305.26" my="1445.51" rotation="90" visible="true"/>
+                <nodes>
+                    <node idObject="118" notch="true" notchAngle="0" notchCount="1" notchLength="1.25" notchSubtype="straightforward" notchType="vInternal" notchWidth="0.5" showNotch="false" showSecondNotch="false" type="NodePoint"/>
+                    <node idObject="119" reverse="1" type="NodeSpline"/>
+                    <node idObject="129" notch="true" notchAngle="0" notchCount="1" notchLength="1.25" notchSubtype="straightforward" notchType="vExternal" notchWidth="0.5" showNotch="true" showSecondNotch="false" type="NodePoint"/>
+                    <node idObject="120" reverse="1" type="NodeSpline"/>
+                    <node idObject="121" notch="true" notchAngle="0" notchCount="1" notchLength="1.25" notchSubtype="straightforward" notchType="vExternal" notchWidth="0.5" showNotch="true" showSecondNotch="false" type="NodePoint"/>
+                    <node idObject="122" reverse="0" type="NodeSpline"/>
+                    <node idObject="123" reverse="0" type="NodeSpline"/>
+                    <node idObject="124" notch="true" notchAngle="0" notchCount="1" notchLength="1.25" notchSubtype="straightforward" notchType="vInternal" notchWidth="0.5" showNotch="false" showSecondNotch="false" type="NodePoint"/>
+                    <node after="2" idObject="125" notch="true" notchAngle="0" notchCount="1" notchLength="1.25" notchSubtype="straightforward" notchType="vInternal" notchWidth="0.5" showNotch="false" showSecondNotch="false" type="NodePoint"/>
+                    <node before="2" idObject="126" notch="true" notchAngle="0" notchCount="1" notchLength="1.25" notchSubtype="straightforward" notchType="vInternal" notchWidth="0.5" showNotch="false" showSecondNotch="false" type="NodePoint"/>
+                </nodes>
+                <anchors>
+                    <record>128</record>
+                </anchors>
+            </piece>
+        </pieces>
         <groups/>
         <images/>
     </draftBlock>
