@@ -19,8 +19,8 @@ Feszes tartás miatti korrekciót tartalmaz</notes>
     <variables>
         <variable description="" formula="65" name="#length"/>
         <variable description="" formula="(Line_F12_vj_F19_vj + Line_F19_vj_F15_l ) - (Line_F12_F15)" name="#hossz_kulonbseg"/>
+        <variable description="" formula="3" name="#honalj_atvitel"/>
         <variable description="" formula="#hossz_kulonbseg/2" name="#forma"/>
-        <variable description="" formula="3.5" name="#koz"/>
         <variable description="" formula="neck_circ/6+1" name="#nyak_szelesseg"/>
         <variable description="" formula="highbust_arc_f/2-1" name="#elje_honalszelesseg"/>
         <variable description="" formula="1" name="#feszes_korr_hat"/>
@@ -139,18 +139,18 @@ Feszes tartás miatti korrekciót tartalmaz</notes>
             <point angle="360" basePoint="33" id="39" length="#nyak_szelesseg" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="B6" showPointName="true" type="endLine"/>
             <point angle="90" basePoint="39" id="40" length="Line_A6_A7" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="B7" showPointName="true" type="endLine"/>
             <point angle="360" basePoint="36" id="41" length="#fel_hatszelesseg" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="B8" showPointName="true" type="endLine"/>
-            <point firstPoint="41" id="42" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="B9" secondPoint="37" showPointName="true" type="intersectXY"/>
+            <point firstPoint="41" id="42" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.473324" my="1.28768" name="B9" secondPoint="37" showPointName="true" type="intersectXY"/>
             <point firstPoint="41" id="43" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="-1.76324" my="0.599088" name="B10" secondPoint="38" showPointName="true" type="intersectXY"/>
             <point angle="358.467" basePoint="43" id="44" length="Line_A10_A11" lineColor="black" lineType="solidLine" lineWeight="0.35" mx="2.46268" my="-0.0196106" name="B11" showPointName="true" type="endLine"/>
             <line firstPoint="40" id="45" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="44"/>
-            <point angle="360" basePoint="36" id="46" length="bust_arc_b/2-1" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="B12" showPointName="true" type="endLine"/>
+            <point angle="360" basePoint="36" id="46" length="bust_arc_b/2-1+#honalj_atvitel" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="B12" showPointName="true" type="endLine"/>
             <point firstPoint="46" id="47" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="B13" secondPoint="34" showPointName="true" type="intersectXY"/>
             <point firstPoint="46" id="48" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="B14" secondPoint="35" showPointName="true" type="intersectXY"/>
             <point angle="180" basePoint="47" id="49" length="Line_A13_A15" lineColor="black" lineType="solidLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="B15" showPointName="true" type="endLine"/>
             <spline angle1="0.844985" angle2="233.65" color="darkGreen" id="50" length1="2.71763" length2="1.11739" lineWeight="0.7" penStyle="solidLine" point1="33" point4="40" type="simpleInteractive"/>
             <spline color="darkGreen" id="51" lineWeight="0.7" penStyle="solidLine" type="pathInteractive">
                 <pathPoint angle1="71.0421" angle2="251.042" length1="0" length2="1.97316" pSpline="44"/>
-                <pathPoint angle1="98.3085" angle2="278.308" length1="2.08848" length2="0.915775" pSpline="42"/>
+                <pathPoint angle1="90.8752" angle2="270.875" length1="2.08848" length2="4.94229" pSpline="42"/>
                 <pathPoint angle1="149.852" angle2="329.852" length1="3.21649" length2="1.50794" pSpline="46"/>
             </spline>
             <line firstPoint="46" id="52" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="49"/>
@@ -268,8 +268,8 @@ Feszes tartás miatti korrekciót tartalmaz</notes>
             <point angle="360" basePoint="164" id="169" length="#fel_hatszelesseg" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.243982" my="0.432118" name="F8" showPointName="true" type="endLine"/>
             <point firstPoint="169" id="170" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F9" secondPoint="165" showPointName="true" type="intersectXY"/>
             <point firstPoint="169" id="171" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.26295" my="0.329912" name="F10" secondPoint="166" showPointName="true" type="intersectXY"/>
-            <point angle="360" basePoint="171" id="172" length="1" lineColor="black" lineType="solidLine" lineWeight="0.35" mx="1.28265" my="0.602921" name="F11" showPointName="true" type="endLine"/>
-            <point angle="360" basePoint="164" id="173" length="#elje_honalszelesseg" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F12" showPointName="true" type="endLine"/>
+            <point angle="360" basePoint="171" id="172" length="1" lineColor="black" lineType="solidLine" lineWeight="0.35" mx="2.14869" my="-0.757991" name="F11" showPointName="true" type="endLine"/>
+            <point angle="360" basePoint="164" id="173" length="#elje_honalszelesseg-#honalj_atvitel" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F12" showPointName="true" type="endLine"/>
             <point firstPoint="173" id="174" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F13" secondPoint="162" showPointName="true" type="intersectXY"/>
             <point firstPoint="173" id="175" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F14" secondPoint="163" showPointName="true" type="intersectXY"/>
             <point angle="180" basePoint="174" id="176" length="2" lineColor="black" lineType="solidLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F15" showPointName="true" type="endLine"/>
@@ -332,10 +332,11 @@ Feszes tartás miatti korrekciót tartalmaz</notes>
                     <item idObject="222" mx="0.132292" my="0.264583" showPointName="true"/>
                 </destination>
             </operation>
+            <point firstPoint="220" id="264" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F12_m" secondPoint="173" showPointName="true" type="intersectXY"/>
             <line firstPoint="168" id="223" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="172"/>
             <line firstPoint="261" id="224" lineColor="darkviolet" lineType="solidLine" lineWeight="0.35" secondPoint="212"/>
             <line firstPoint="212" id="225" lineColor="darkviolet" lineType="solidLine" lineWeight="0.35" secondPoint="219"/>
-            <line firstPoint="220" id="226" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="219"/>
+            <line firstPoint="264" id="226" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="219"/>
             <line firstPoint="213" id="228" lineColor="darkviolet" lineType="solidLine" lineWeight="0.35" secondPoint="218"/>
             <line firstPoint="218" id="229" lineColor="darkviolet" lineType="solidLine" lineWeight="0.35" secondPoint="215"/>
             <line firstPoint="215" id="230" lineColor="darkviolet" lineType="solidLine" lineWeight="0.35" secondPoint="214"/>
@@ -353,9 +354,9 @@ Feszes tartás miatti korrekciót tartalmaz</notes>
             <line firstPoint="173" id="242" lineColor="black" lineType="dashLine" lineWeight="0.35" secondPoint="176"/>
             <line firstPoint="176" id="243" lineColor="black" lineType="dashLine" lineWeight="0.35" secondPoint="175"/>
             <point firstPoint="219" id="251" length="0.5" lineColor="black" lineType="none" lineWeight="0.35" mx="1.28265" my="0.179371" name="F1F" secondPoint="189" showPointName="true" type="alongLine"/>
-            <point firstPoint="219" id="244" length="((Line_F12_vj_F19_vj + Line_F19_vj_F15_l ) - (Line_F12_F15))/2" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="F1A" secondPoint="189" showPointName="true" type="alongLine"/>
+            <point firstPoint="219" id="244" length="((Line_F12_m_F19_vj + Line_F19_vj_F15_l ) - (Line_F12_F15))/2" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="F1A" secondPoint="189" showPointName="true" type="alongLine"/>
             <point firstPoint="244" id="245" length="3.5" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="F2F" secondPoint="189" showPointName="true" type="alongLine"/>
-            <point firstPoint="245" id="246" length="((Line_F12_vj_F19_vj + Line_F19_vj_F15_l ) - (Line_F12_F15))/2" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="F2A" secondPoint="189" showPointName="true" type="alongLine"/>
+            <point firstPoint="245" id="246" length="((Line_F12_m_F19_vj + Line_F19_vj_F15_l ) - (Line_F12_F15))/2" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="F2A" secondPoint="189" showPointName="true" type="alongLine"/>
             <point firstPoint="219" id="247" length="CurrentLength/2" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="K1" secondPoint="244" showPointName="true" type="alongLine"/>
             <point firstPoint="245" id="248" length="CurrentLength/2" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="K2" secondPoint="246" showPointName="true" type="alongLine"/>
             <point firstPoint="260" id="249" length="9" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="CS1" secondPoint="247" showPointName="true" type="alongLine"/>
@@ -369,12 +370,11 @@ Feszes tartás miatti korrekciót tartalmaz</notes>
             <line firstPoint="246" id="258" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="189"/>
             <line firstPoint="189" id="259" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="193"/>
             <line firstPoint="260" id="262" lineColor="black" lineType="solidLine" lineWeight="0.35" secondPoint="212"/>
-            <spline color="black" id="263" lineWeight="0.35" penStyle="solidLine" type="pathInteractive">
-                <pathPoint angle1="67.3718" angle2="247.372" length1="0" length2="3.30683" pSpline="172"/>
-                <pathPoint angle1="96.1148" angle2="276.115" length1="0" length2="4.03419" pSpline="170"/>
-                <pathPoint angle1="172.589" angle2="352.589" length1="6.58062" length2="0.502741" pSpline="220"/>
+            <spline color="black" id="265" lineWeight="0.35" penStyle="solidLine" type="pathInteractive">
+                <pathPoint angle1="63.3937" angle2="243.394" length1="0" length2="2.24342" pSpline="172"/>
+                <pathPoint angle1="101.75" angle2="281.75" length1="0" length2="6.82839" pSpline="170"/>
+                <pathPoint angle1="175.755" angle2="355.755" length1="4.10493" length2="1.06657" pSpline="264"/>
             </spline>
-            <point firstPoint="220" id="264" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F12_m" secondPoint="173" showPointName="true" type="intersectXY"/>
         </calculation>
         <modeling/>
         <pieces/>
