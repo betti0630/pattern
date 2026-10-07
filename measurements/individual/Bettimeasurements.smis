@@ -34,6 +34,7 @@
         <m name="armpit_to_waist_side" value="28"/>
         <m name="armscye_width" value="10"/>
         <m name="armscye_length" value="21"/>
+        <m name="highbust_arc_f" value="50"/>
         <m name="shoulder_tip_to_armfold_f" value="17"/>
         <m name="neck_back_to_waist_b" value="40"/>
         <m name="shoulder_tip_to_armfold_b" value="22"/>
@@ -44,10 +45,10 @@
         <m name="bust_circ" value="98"/>
         <m name="highbust_circ" value="90"/>
         <m name="lowbust_circ" value="81"/>
-        <m name="bust_arc_f" value="56"/>
+        <m name="bust_arc_f" value="60"/>
         <m name="bust_arc_b" value="(bust_circ - bust_arc_f)"/>
         <m name="bustpoint_to_bustpoint" value="20"/>
-        <m name="bustpoint_to_neck_side" value="35"/>
+        <m name="bustpoint_to_neck_side" value="31"/>
         <m name="bustpoint_to_lowbust" value="11"/>
         <m name="bustpoint_to_waist" value="16"/>
         <m name="bustpoint_to_shoulder_center" value="33"/>
