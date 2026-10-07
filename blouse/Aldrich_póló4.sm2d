@@ -268,7 +268,7 @@ Feszes tartás miatti korrekciót tartalmaz</notes>
             <point angle="360" basePoint="164" id="169" length="#fel_hatszelesseg" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.243982" my="0.432118" name="F8" showPointName="true" type="endLine"/>
             <point firstPoint="169" id="170" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F9" secondPoint="165" showPointName="true" type="intersectXY"/>
             <point firstPoint="169" id="171" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.26295" my="0.329912" name="F10" secondPoint="166" showPointName="true" type="intersectXY"/>
-            <point angle="360" basePoint="171" id="172" length="1" lineColor="black" lineType="solidLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F11" showPointName="true" type="endLine"/>
+            <point angle="360" basePoint="171" id="172" length="1" lineColor="black" lineType="solidLine" lineWeight="0.35" mx="1.28265" my="0.602921" name="F11" showPointName="true" type="endLine"/>
             <point angle="360" basePoint="164" id="173" length="#elje_honalszelesseg" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F12" showPointName="true" type="endLine"/>
             <point firstPoint="173" id="174" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F13" secondPoint="162" showPointName="true" type="intersectXY"/>
             <point firstPoint="173" id="175" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F14" secondPoint="163" showPointName="true" type="intersectXY"/>
@@ -280,7 +280,7 @@ Feszes tartás miatti korrekciót tartalmaz</notes>
             <point angle="90" basePoint="260" id="261" lineColor="black" lineType="dotLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F77" p1Line="168" p2Line="172" showPointName="true" type="lineIntersectAxis"/>
             <point firstPoint="174" id="182" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F19" secondPoint="180" showPointName="true" type="intersectXY"/>
             <point firstPoint="260" id="183" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F20" secondPoint="163" showPointName="true" type="intersectXY"/>
-            <operation angle="270" center="0" id="184" length="#front_plus_length" rotationAngle="360" suffix="_l" type="moving">
+            <operation angle="270" center="0" id="184" length="#front_plus_length-3" rotationAngle="360" suffix="_l" type="moving">
                 <source>
                     <item alias="" color="black" idObject="181" lineType="solidLine"/>
                     <item alias="" color="black" idObject="260" lineType="solidLine"/>
@@ -304,9 +304,9 @@ Feszes tartás miatti korrekciót tartalmaz</notes>
                     <item idObject="193" mx="0.132292" my="0.264583" showPointName="true"/>
                 </destination>
             </operation>
-            <operation angle="6" center="168" id="211" suffix="_vj" type="rotation">
+            <operation angle="13" center="170" id="211" suffix="_vj" type="rotation">
                 <source>
-                    <item alias="" color="black" idObject="180" lineType="solidLine"/>
+                    <item alias="" color="black" idObject="260" lineType="solidLine"/>
                     <item alias="" color="black" idObject="186" lineType="solidLine"/>
                     <item alias="" color="black" idObject="192" lineType="solidLine"/>
                     <item alias="" color="black" idObject="193" lineType="solidLine"/>
@@ -332,25 +332,20 @@ Feszes tartás miatti korrekciót tartalmaz</notes>
                     <item idObject="222" mx="0.132292" my="0.264583" showPointName="true"/>
                 </destination>
             </operation>
-            <line firstPoint="168" id="223" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="222"/>
-            <line firstPoint="168" id="224" lineColor="darkviolet" lineType="solidLine" lineWeight="0.7" secondPoint="212"/>
-            <line firstPoint="212" id="225" lineColor="darkviolet" lineType="solidLine" lineWeight="0.7" secondPoint="219"/>
+            <line firstPoint="168" id="223" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="172"/>
+            <line firstPoint="261" id="224" lineColor="darkviolet" lineType="solidLine" lineWeight="0.35" secondPoint="212"/>
+            <line firstPoint="212" id="225" lineColor="darkviolet" lineType="solidLine" lineWeight="0.35" secondPoint="219"/>
             <line firstPoint="220" id="226" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="219"/>
-            <spline color="darkGreen" id="227" lineWeight="0.7" penStyle="solidLine" type="pathInteractive">
-                <pathPoint angle1="62.7572" angle2="242.757" length1="0" length2="2.61767" pSpline="222"/>
-                <pathPoint angle1="120.485" angle2="300.485" length1="2.40004" length2="1.54084" pSpline="221"/>
-                <pathPoint angle1="164.627" angle2="344.627" length1="5.20143" length2="1.37592" pSpline="220"/>
-            </spline>
-            <line firstPoint="213" id="228" lineColor="darkviolet" lineType="solidLine" lineWeight="0.7" secondPoint="218"/>
-            <line firstPoint="218" id="229" lineColor="darkviolet" lineType="solidLine" lineWeight="0.7" secondPoint="215"/>
-            <line firstPoint="215" id="230" lineColor="darkviolet" lineType="solidLine" lineWeight="0.7" secondPoint="214"/>
-            <line firstPoint="214" id="231" lineColor="darkviolet" lineType="solidLine" lineWeight="0.7" secondPoint="213"/>
-            <line firstPoint="186" id="232" lineColor="darkviolet" lineType="solidLine" lineWeight="0.7" secondPoint="192"/>
+            <line firstPoint="213" id="228" lineColor="darkviolet" lineType="solidLine" lineWeight="0.35" secondPoint="218"/>
+            <line firstPoint="218" id="229" lineColor="darkviolet" lineType="solidLine" lineWeight="0.35" secondPoint="215"/>
+            <line firstPoint="215" id="230" lineColor="darkviolet" lineType="solidLine" lineWeight="0.35" secondPoint="214"/>
+            <line firstPoint="214" id="231" lineColor="darkviolet" lineType="solidLine" lineWeight="0.35" secondPoint="213"/>
+            <line firstPoint="186" id="232" lineColor="darkviolet" lineType="solidLine" lineWeight="0.35" secondPoint="192"/>
             <line firstPoint="192" id="233" lineColor="darkviolet" lineType="solidLine" lineWeight="0.7" secondPoint="191"/>
             <line firstPoint="191" id="234" lineColor="darkviolet" lineType="solidLine" lineWeight="0.7" secondPoint="185"/>
-            <line firstPoint="185" id="235" lineColor="darkviolet" lineType="solidLine" lineWeight="0.7" secondPoint="186"/>
+            <line firstPoint="185" id="235" lineColor="darkviolet" lineType="solidLine" lineWeight="0.35" secondPoint="186"/>
             <line firstPoint="181" id="236" lineColor="darkviolet" lineType="solidLine" lineWeight="0.7" secondPoint="180"/>
-            <line firstPoint="180" id="237" lineColor="darkviolet" lineType="solidLine" lineWeight="0.7" secondPoint="168"/>
+            <line firstPoint="260" id="237" lineColor="darkviolet" lineType="solidLine" lineWeight="0.35" secondPoint="261"/>
             <spline angle1="2.69827" angle2="269.985" color="darkGreen" id="238" length1="2.62685" length2="3.88435" lineWeight="0.7" penStyle="solidLine" point1="177" point4="168" type="simpleInteractive"/>
             <line firstPoint="219" id="239" lineColor="orange" lineType="solidLine" lineWeight="0.7" secondPoint="189"/>
             <line firstPoint="189" id="240" lineColor="orange" lineType="solidLine" lineWeight="0.7" secondPoint="193"/>
@@ -363,8 +358,8 @@ Feszes tartás miatti korrekciót tartalmaz</notes>
             <point firstPoint="245" id="246" length="((Line_F12_vj_F19_vj + Line_F19_vj_F15_l ) - (Line_F12_F15))/2" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="F2A" secondPoint="189" showPointName="true" type="alongLine"/>
             <point firstPoint="219" id="247" length="CurrentLength/2" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="K1" secondPoint="244" showPointName="true" type="alongLine"/>
             <point firstPoint="245" id="248" length="CurrentLength/2" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="K2" secondPoint="246" showPointName="true" type="alongLine"/>
-            <point firstPoint="180" id="249" length="9" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="CS1" secondPoint="247" showPointName="true" type="alongLine"/>
-            <point firstPoint="180" id="250" length="9" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="CS2" secondPoint="248" showPointName="true" type="alongLine"/>
+            <point firstPoint="260" id="249" length="9" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="CS1" secondPoint="247" showPointName="true" type="alongLine"/>
+            <point firstPoint="260" id="250" length="9" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="CS2" secondPoint="248" showPointName="true" type="alongLine"/>
             <line firstPoint="219" id="252" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="249"/>
             <line firstPoint="219" id="253" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="251"/>
             <line firstPoint="249" id="254" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="244"/>
@@ -373,6 +368,13 @@ Feszes tartás miatti korrekciót tartalmaz</notes>
             <line firstPoint="244" id="257" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="245"/>
             <line firstPoint="246" id="258" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="189"/>
             <line firstPoint="189" id="259" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="193"/>
+            <line firstPoint="260" id="262" lineColor="black" lineType="solidLine" lineWeight="0.35" secondPoint="212"/>
+            <spline color="black" id="263" lineWeight="0.35" penStyle="solidLine" type="pathInteractive">
+                <pathPoint angle1="67.3718" angle2="247.372" length1="0" length2="3.30683" pSpline="172"/>
+                <pathPoint angle1="96.1148" angle2="276.115" length1="0" length2="4.03419" pSpline="170"/>
+                <pathPoint angle1="172.589" angle2="352.589" length1="6.58062" length2="0.502741" pSpline="220"/>
+            </spline>
+            <point firstPoint="220" id="264" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F12_m" secondPoint="173" showPointName="true" type="intersectXY"/>
         </calculation>
         <modeling/>
         <pieces/>

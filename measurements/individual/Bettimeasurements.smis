@@ -45,7 +45,7 @@
         <m name="bust_circ" value="98"/>
         <m name="highbust_circ" value="90"/>
         <m name="lowbust_circ" value="81"/>
-        <m name="bust_arc_f" value="60"/>
+        <m name="bust_arc_f" value="58"/>
         <m name="bust_arc_b" value="(bust_circ - bust_arc_f)"/>
         <m name="bustpoint_to_bustpoint" value="20"/>
         <m name="bustpoint_to_neck_side" value="31"/>
