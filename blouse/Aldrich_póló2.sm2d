@@ -251,4 +251,16 @@ Feszes tartás miatti korrekciót tartalmaz</notes>
         <groups/>
         <images/>
     </draftBlock>
+    <draftBlock name="Front2">
+        <calculation>
+            <point id="161" mx="0.132292" my="0.264583" name="F0" showPointName="true" type="single" x="-22.9658" y="1.0844"/>
+            <point angle="270" basePoint="161" id="162" length="#hata_derekig" lineColor="black" lineType="solidLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F1" showPointName="true" type="endLine"/>
+            <point angle="270" basePoint="161" id="163" length="#length" lineColor="black" lineType="solidLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F2" showPointName="true" type="endLine"/>
+            <point angle="270" basePoint="161" id="164" length="#hata_honaljmagassag" lineColor="black" lineType="solidLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F3" showPointName="true" type="endLine"/>
+        </calculation>
+        <modeling/>
+        <pieces/>
+        <groups/>
+        <images/>
+    </draftBlock>
 </pattern>
