@@ -372,6 +372,7 @@ Feszes tartás miatti korrekciót tartalmaz</notes>
             <line firstPoint="246" id="258" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="189"/>
             <line firstPoint="189" id="259" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="193"/>
             <point angle="0" basePoint="181" id="260" length="bustpoint_to_bustpoint/2" lineColor="black" lineType="solidLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F177" showPointName="true" type="endLine"/>
+            <point angle="90" basePoint="260" id="261" lineColor="black" lineType="dotLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F77" p1Line="168" p2Line="222" showPointName="true" type="lineIntersectAxis"/>
         </calculation>
         <modeling/>
         <pieces/>
