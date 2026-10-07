@@ -277,6 +277,7 @@ Feszes tartás miatti korrekciót tartalmaz</notes>
             <point angle="270" basePoint="168" id="180" length="bustpoint_to_neck_side" lineColor="black" lineType="dotLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F17" showPointName="true" type="endLine"/>
             <point firstPoint="162" id="181" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F18" secondPoint="180" showPointName="true" type="intersectXY"/>
             <point angle="0" basePoint="181" id="260" length="bustpoint_to_bustpoint/2" lineColor="black" lineType="solidLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F177" showPointName="true" type="endLine"/>
+            <point angle="90" basePoint="260" id="261" lineColor="black" lineType="dotLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F77" p1Line="168" p2Line="172" showPointName="true" type="lineIntersectAxis"/>
             <point firstPoint="174" id="182" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F19" secondPoint="180" showPointName="true" type="intersectXY"/>
             <point firstPoint="260" id="183" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F20" secondPoint="163" showPointName="true" type="intersectXY"/>
             <operation angle="270" center="0" id="184" length="#front_plus_length" rotationAngle="360" suffix="_l" type="moving">
@@ -372,7 +373,6 @@ Feszes tartás miatti korrekciót tartalmaz</notes>
             <line firstPoint="244" id="257" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="245"/>
             <line firstPoint="246" id="258" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="189"/>
             <line firstPoint="189" id="259" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="193"/>
-            <point angle="90" basePoint="260" id="261" lineColor="black" lineType="dotLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F77" p1Line="168" p2Line="222" showPointName="true" type="lineIntersectAxis"/>
         </calculation>
         <modeling/>
         <pieces/>
