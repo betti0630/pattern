@@ -23,7 +23,7 @@ Feszes tartás miatti korrekciót tartalmaz</notes>
         <variable description="" formula="#hossz_kulonbseg/2" name="#forma"/>
         <variable description="" formula="neck_circ/6+1" name="#nyak_szelesseg"/>
         <variable description="" formula="highbust_arc_f/2-1" name="#elje_honalszelesseg"/>
-        <variable description="" formula="0" name="#feszes_korr_hat"/>
+        <variable description="" formula="1" name="#feszes_korr_hat"/>
         <variable description="" formula="0.8" name="#feszes_korr_ujja"/>
         <variable description="" formula="60" name="#sleeve_length"/>
         <variable description="" formula="@neck_to_waist_from_back_neck-neck_back_to_waist_b" name="#front_plus_length"/>
@@ -54,7 +54,7 @@ Feszes tartás miatti korrekciót tartalmaz</notes>
             <point angle="360" basePoint="36" id="46" length="bust_arc_b/2-1+#honalj_atvitel" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="B12" showPointName="true" type="endLine"/>
             <point firstPoint="46" id="47" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="B13" secondPoint="34" showPointName="true" type="intersectXY"/>
             <point firstPoint="46" id="48" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="B14" secondPoint="35" showPointName="true" type="intersectXY"/>
-            <point angle="180" basePoint="47" id="49" length="2" lineColor="black" lineType="solidLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="B15" showPointName="true" type="endLine"/>
+            <point angle="180" basePoint="47" id="49" length="3" lineColor="black" lineType="solidLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="B15" showPointName="true" type="endLine"/>
             <spline angle1="0.844985" angle2="233.65" color="darkGreen" id="50" length1="2.71763" length2="1.11739" lineWeight="0.7" penStyle="solidLine" point1="33" point4="40" type="simpleInteractive"/>
             <spline color="darkGreen" id="51" lineWeight="0.7" penStyle="solidLine" type="pathInteractive">
                 <pathPoint angle1="71.0421" angle2="251.042" length1="0" length2="1.97316" pSpline="44"/>
@@ -119,7 +119,7 @@ Feszes tartás miatti korrekciót tartalmaz</notes>
             <point angle="360" basePoint="164" id="173" length="#elje_honalszelesseg-#honalj_atvitel" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F12" showPointName="true" type="endLine"/>
             <point firstPoint="173" id="174" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F13" secondPoint="162" showPointName="true" type="intersectXY"/>
             <point firstPoint="173" id="175" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F14" secondPoint="163" showPointName="true" type="intersectXY"/>
-            <point angle="180" basePoint="174" id="176" length="2" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F15" showPointName="true" type="endLine"/>
+            <point angle="180" basePoint="174" id="176" length="0.5" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="-1.874" my="0.515369" name="F15" showPointName="true" type="endLine"/>
             <point angle="270" basePoint="161" id="177" length="neck_circ/6-1" lineColor="black" lineType="solidLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F16" showPointName="true" type="endLine"/>
             <point angle="270" basePoint="168" id="180" length="bustpoint_to_neck_side" lineColor="black" lineType="dotLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F17" showPointName="true" type="endLine"/>
             <point firstPoint="162" id="181" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F18" secondPoint="180" showPointName="true" type="intersectXY"/>
@@ -144,7 +144,7 @@ Feszes tartás miatti korrekciót tartalmaz</notes>
                     <item idObject="186" mx="0.132292" my="0.264583" showPointName="true"/>
                     <item idObject="187" mx="0.132292" my="0.264583" showPointName="true"/>
                     <item idObject="188" mx="0.132292" my="0.264583" showPointName="true"/>
-                    <item idObject="189" mx="0.132292" my="0.264583" showPointName="true"/>
+                    <item idObject="189" mx="2.38937" my="7.0985" showPointName="true"/>
                     <item idObject="190" mx="0.132292" my="0.264583" showPointName="true"/>
                     <item idObject="191" mx="0.132292" my="0.264583" showPointName="true"/>
                     <item idObject="192" mx="0.132292" my="0.264583" showPointName="true"/>
@@ -200,22 +200,14 @@ Feszes tartás miatti korrekciót tartalmaz</notes>
             <line firstPoint="191" id="241" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="193"/>
             <line firstPoint="173" id="242" lineColor="black" lineType="dashLine" lineWeight="0.35" secondPoint="176"/>
             <line firstPoint="176" id="243" lineColor="black" lineType="dashLine" lineWeight="0.35" secondPoint="175"/>
-            <point firstPoint="219" id="251" length="0.5" lineColor="black" lineType="none" lineWeight="0.35" mx="1.28265" my="0.179371" name="F1F" secondPoint="189" showPointName="true" type="alongLine"/>
-            <point firstPoint="219" id="244" length="((Line_F12_m_F19_vj + Line_F19_vj_F15_l ) - (Line_F12_F15))/2" lineColor="black" lineType="none" lineWeight="0.35" mx="2.4211" my="0.635741" name="F1A" secondPoint="189" showPointName="true" type="alongLine"/>
+            <point firstPoint="219" id="251" length="1" lineColor="black" lineType="none" lineWeight="0.35" mx="-2.22835" my="0.931728" name="F1F" secondPoint="189" showPointName="true" type="alongLine"/>
+            <point firstPoint="251" id="244" length="((Line_F12_m_F19_vj + Line_F19_vj_F15_l ) - (Line_B12_B15))/2" lineColor="black" lineType="none" lineWeight="0.35" mx="-2.34383" my="-0.304706" name="F1A" secondPoint="189" showPointName="true" type="alongLine"/>
             <point firstPoint="244" id="245" length="3.5" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="F2F" secondPoint="189" showPointName="true" type="alongLine"/>
-            <point firstPoint="245" id="246" length="((Line_F12_m_F19_vj + Line_F19_vj_F15_l ) - (Line_F12_F15))/2" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="F2A" secondPoint="189" showPointName="true" type="alongLine"/>
+            <point firstPoint="245" id="246" length="((Line_F12_m_F19_vj + Line_F19_vj_F15_l ) - (Line_B12_B15))/2" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="F2A" secondPoint="189" showPointName="true" type="alongLine"/>
             <point firstPoint="219" id="247" length="CurrentLength/2" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="K1" secondPoint="244" showPointName="true" type="alongLine"/>
             <point firstPoint="245" id="248" length="CurrentLength/2" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="K2" secondPoint="246" showPointName="true" type="alongLine"/>
-            <point firstPoint="260" id="249" length="6" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="CS1" secondPoint="247" showPointName="true" type="alongLine"/>
-            <point firstPoint="260" id="250" length="6" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="CS2" secondPoint="248" showPointName="true" type="alongLine"/>
-            <line firstPoint="219" id="252" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="249"/>
-            <line firstPoint="219" id="253" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="251"/>
-            <line firstPoint="249" id="254" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="244"/>
-            <line firstPoint="245" id="255" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="250"/>
-            <line firstPoint="250" id="256" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="246"/>
-            <line firstPoint="244" id="257" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="245"/>
-            <line firstPoint="246" id="258" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="189"/>
-            <line firstPoint="189" id="259" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="193"/>
+            <point firstPoint="260" id="249" length="9" lineColor="black" lineType="none" lineWeight="0.35" mx="-2.81444" my="-1.99249" name="CS1" secondPoint="247" showPointName="true" type="alongLine"/>
+            <point firstPoint="260" id="250" length="9" lineColor="black" lineType="none" lineWeight="0.35" mx="-1.874" my="0.389976" name="CS2" secondPoint="248" showPointName="true" type="alongLine"/>
             <line firstPoint="260" id="262" lineColor="black" lineType="solidLine" lineWeight="0.35" secondPoint="212"/>
             <spline color="black" id="265" lineWeight="0.35" penStyle="solidLine" type="pathInteractive">
                 <pathPoint angle1="63.3937" angle2="243.394" length1="0" length2="2.24342" pSpline="172"/>
@@ -224,6 +216,17 @@ Feszes tartás miatti korrekciót tartalmaz</notes>
             </spline>
             <line firstPoint="172" id="266" lineColor="black" lineType="dotLine" lineWeight="0.35" secondPoint="264"/>
             <line firstPoint="181" id="283" lineColor="black" lineType="dotLine" lineWeight="0.35" secondPoint="219"/>
+            <point baseLineP1="219" baseLineP2="189" dartP1="251" dartP2="249" dartP3="244" id="284" mx1="0.132292" mx2="0.633864" my1="0.264583" my2="-1.61631" name1="SZ1" name2="SZ2" point1="285" point2="286" showPointName1="true" showPointName2="true" type="trueDarts"/>
+            <line firstPoint="249" id="287" lineColor="black" lineType="solidLine" lineWeight="0.35" secondPoint="285"/>
+            <line firstPoint="285" id="288" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="249"/>
+            <line firstPoint="219" id="289" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="285"/>
+            <line firstPoint="286" id="290" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="249"/>
+            <point baseLineP1="219" baseLineP2="189" dartP1="245" dartP2="250" dartP3="246" id="291" mx1="0.132292" mx2="0.132292" my1="0.264583" my2="0.264583" name1="SZ3" name2="SZ4" point1="292" point2="293" showPointName1="true" showPointName2="true" type="trueDarts"/>
+            <line firstPoint="292" id="294" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="250"/>
+            <line firstPoint="286" id="295" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="292"/>
+            <line firstPoint="250" id="296" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="293"/>
+            <line firstPoint="293" id="297" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="189"/>
+            <spline angle1="84.6441" angle2="21.8014" color="darkGreen" id="314" length="Spl_B15_B14" length1="3.24356" length2="0.337631" lengthMode="3" lineWeight="0.7" penStyle="solidLine" point1="193" point4="189" type="simpleInteractive"/>
         </calculation>
         <modeling>
             <point id="267" idObject="177" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
@@ -231,16 +234,41 @@ Feszes tartás miatti korrekciót tartalmaz</notes>
             <point id="269" idObject="168" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
             <point id="270" idObject="172" inUse="true" mx="2.14869" my="-0.757991" showPointName="true" type="modeling"/>
             <spline id="271" idObject="265" inUse="true" type="modelingPath"/>
-            <point id="272" idObject="264" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
-            <point id="273" idObject="219" inUse="true" mx="2.90076" my="-0.447727" showPointName="true" type="modeling"/>
-            <point id="274" idObject="249" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
-            <point id="275" idObject="244" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
-            <point id="276" idObject="245" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
-            <point id="277" idObject="250" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
-            <point id="278" idObject="246" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
+            <point id="272" idObject="264" inUse="true" mx="-2.77812" my="0.9525" showPointName="true" type="modeling"/>
+            <point id="273" idObject="219" inUse="true" mx="-4.50757" my="-1.02981" showPointName="true" type="modeling"/>
+            <point id="274" idObject="249" inUse="false" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
+            <point id="275" idObject="244" inUse="false" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
+            <point id="276" idObject="245" inUse="false" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
+            <point id="277" idObject="250" inUse="false" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
+            <point id="278" idObject="246" inUse="false" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
             <point id="279" idObject="189" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
             <point id="280" idObject="193" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
             <point id="281" idObject="191" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
+            <point id="298" idObject="285" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
+            <point id="299" idObject="286" inUse="true" mx="0.633864" my="-1.61631" showPointName="true" type="modeling"/>
+            <point id="300" idObject="292" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
+            <point id="301" idObject="293" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
+            <point id="302" idObject="285" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
+            <point id="303" idObject="249" inUse="true" mx="-2.81444" my="-1.99249" showPointName="true" type="modeling"/>
+            <point id="304" idObject="286" inUse="true" mx="0.633864" my="-1.61631" showPointName="true" type="modeling"/>
+            <path cut="false" extendEndPoint="false" extendStartPoint="false" id="305" inUse="true" lineColor="black" lineType="solidLine" lineWeight="0.35" name="Dart1" type="2">
+                <nodes>
+                    <node idObject="302" type="NodePoint"/>
+                    <node idObject="303" type="NodePoint"/>
+                    <node idObject="304" type="NodePoint"/>
+                </nodes>
+            </path>
+            <point id="310" idObject="292" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
+            <point id="311" idObject="250" inUse="true" mx="-1.874" my="0.389976" showPointName="true" type="modeling"/>
+            <point id="312" idObject="293" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
+            <path cut="false" extendEndPoint="false" extendStartPoint="false" id="313" inUse="true" lineColor="black" lineType="solidLine" lineWeight="0.35" name="Dar2" type="2">
+                <nodes>
+                    <node idObject="310" type="NodePoint"/>
+                    <node idObject="311" type="NodePoint"/>
+                    <node idObject="312" type="NodePoint"/>
+                </nodes>
+            </path>
+            <spline id="315" idObject="314" inUse="true" type="modelingSpline"/>
         </modeling>
         <pieces>
             <piece color="#ffffff" fill="nobrush" forbidFlipping="false" hideMainPath="false" id="282" inLayout="true" locked="false" mx="0" my="0" name="Front" seamAllowance="true" united="false" version="2" width="1">
@@ -256,16 +284,20 @@ Feszes tartás miatti korrekciót tartalmaz</notes>
                     <node idObject="270" notch="true" notchAngle="0" notchCount="1" notchLength="1.25" notchSubtype="straightforward" notchType="vExternal" notchWidth="0.5" showNotch="false" showSecondNotch="false" type="NodePoint"/>
                     <node idObject="271" reverse="0" type="NodeSplinePath"/>
                     <node after="2" idObject="272" notch="true" notchAngle="0" notchCount="1" notchLength="1.25" notchSubtype="straightforward" notchType="vExternal" notchWidth="0.5" showNotch="false" showSecondNotch="false" type="NodePoint"/>
-                    <node after="0" before="2" idObject="273" notch="true" notchAngle="0" notchCount="1" notchLength="1.25" notchSubtype="straightforward" notchType="vExternal" notchWidth="0.5" showNotch="false" showSecondNotch="false" type="NodePoint"/>
-                    <node after="0" before="0" idObject="274" notch="true" notchAngle="0" notchCount="1" notchLength="1.25" notchSubtype="straightforward" notchType="vExternal" notchWidth="0.5" showNotch="false" showSecondNotch="false" type="NodePoint"/>
-                    <node after="2" before="0" idObject="275" notch="true" notchAngle="0" notchCount="1" notchLength="1.25" notchSubtype="straightforward" notchType="vExternal" notchWidth="0.5" showNotch="false" showSecondNotch="false" type="NodePoint"/>
-                    <node after="0" before="2" idObject="276" notch="true" notchAngle="0" notchCount="1" notchLength="1.25" notchSubtype="straightforward" notchType="vExternal" notchWidth="0.5" showNotch="false" showSecondNotch="false" type="NodePoint"/>
-                    <node after="0" before="0" idObject="277" notch="true" notchAngle="0" notchCount="1" notchLength="1.25" notchSubtype="straightforward" notchType="vExternal" notchWidth="0.5" showNotch="false" showSecondNotch="false" type="NodePoint"/>
-                    <node after="2" before="0" idObject="278" notch="true" notchAngle="0" notchCount="1" notchLength="1.25" notchSubtype="straightforward" notchType="vExternal" notchWidth="0.5" showNotch="false" showSecondNotch="false" type="NodePoint"/>
+                    <node after="2" before="2" idObject="273" notch="true" notchAngle="0" notchCount="1" notchLength="1.25" notchSubtype="straightforward" notchType="vExternal" notchWidth="0.5" showNotch="false" showSecondNotch="false" type="NodePoint"/>
+                    <node after="2" before="2" idObject="298" notch="true" notchAngle="0" notchCount="1" notchLength="1.25" notchSubtype="straightforward" notchType="vExternal" notchWidth="0.5" showNotch="true" showSecondNotch="false" type="NodePoint"/>
+                    <node after="2" before="2" idObject="299" notch="true" notchAngle="0" notchCount="1" notchLength="1.25" notchSubtype="straightforward" notchType="vExternal" notchWidth="0.5" showNotch="true" showSecondNotch="false" type="NodePoint"/>
+                    <node after="2" before="2" idObject="300" notch="true" notchAngle="0" notchCount="1" notchLength="1.25" notchSubtype="straightforward" notchType="vExternal" notchWidth="0.5" showNotch="true" showSecondNotch="false" type="NodePoint"/>
+                    <node after="2" before="2" idObject="301" notch="true" notchAngle="0" notchCount="1" notchLength="1.25" notchSubtype="straightforward" notchType="vExternal" notchWidth="0.5" showNotch="true" showSecondNotch="false" type="NodePoint"/>
                     <node after="2" before="2" idObject="279" notch="true" notchAngle="0" notchCount="1" notchLength="1.25" notchSubtype="straightforward" notchType="vExternal" notchWidth="0.5" showNotch="true" showSecondNotch="false" type="NodePoint"/>
+                    <node idObject="315" reverse="0" type="NodeSpline"/>
                     <node after="2" before="2" idObject="280" notch="true" notchAngle="0" notchCount="1" notchLength="1.25" notchSubtype="straightforward" notchType="vExternal" notchWidth="0.5" showNotch="false" showSecondNotch="false" type="NodePoint"/>
                     <node after="0" before="2" idObject="281" notch="true" notchAngle="0" notchCount="1" notchLength="1.25" notchSubtype="straightforward" notchType="vExternal" notchWidth="0.5" showNotch="false" showSecondNotch="false" type="NodePoint"/>
                 </nodes>
+                <iPaths>
+                    <record path="305"/>
+                    <record path="313"/>
+                </iPaths>
             </piece>
         </pieces>
         <groups/>
@@ -287,7 +319,7 @@ Feszes tartás miatti korrekciót tartalmaz</notes>
             <point firstPoint="62" id="73" length="CurrentLength/3" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="C31" secondPoint="71" showPointName="true" type="alongLine"/>
             <spline angle1="181.599" angle2="67.5209" color="darkGreen" id="74" length="17.6" length1="7.83102" length2="4.28697" lineWeight="0.7" penStyle="solidLine" point1="71" point4="72" type="simpleInteractive"/>
             <spline angle1="251.244" angle2="1.64518" color="darkGreen" id="75" length="SplPath_F11_F12_m-Spl_C47_C21" length1="2.42138" length2="2.6431" lengthMode="3" lineWeight="0.7" penStyle="solidLine" point1="72" point4="60" type="simpleInteractive"/>
-            <spline angle1="357.319" angle2="104.959" color="darkGreen" id="76" length="13" length1="4.67773" length2="6.26763" lineWeight="0.7" penStyle="solidLine" point1="71" point4="73" type="simpleInteractive"/>
+            <spline angle1="353.52" angle2="104.959" color="darkGreen" id="76" length="13" length1="3.87702" length2="6.26763" lineWeight="0.7" penStyle="solidLine" point1="71" point4="73" type="simpleInteractive"/>
             <spline angle1="305.186" angle2="177.962" color="darkGreen" id="77" length="SplPath_B11_B12-Spl_C47_C31" length1="0.914494" length2="2.60078" lengthMode="3" lineWeight="0.7" penStyle="solidLine" point1="73" point4="62" type="simpleInteractive"/>
             <line firstPoint="60" id="78" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="69"/>
             <line firstPoint="62" id="79" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="70"/>
