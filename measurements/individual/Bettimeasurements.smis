@@ -15,6 +15,7 @@
     </personal>
     <body-measurements>
         <m name="height" value="170"/>
+        <m name="highhip_circ" value="94"/>
         <m name="rise_length_side_sitting" value="29"/>
         <m name="height_waist_side" value="109"/>
         <m name="arm_wrist_circ" value="17"/>
