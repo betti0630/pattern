@@ -21,7 +21,7 @@
         <variable description="" formula="waist_to_hip_b" name="#waist_to_hip"/>
         <variable description="" formula="rise_length_side_sitting" name="#body_rise"/>
         <variable description="" formula="height_waist_side" name="#waist_to_floor"/>
-        <variable description="" formula="18" name="#trouser_bottom_width"/>
+        <variable description="" formula="17" name="#trouser_bottom_width"/>
         <variable description="" formula="7" name="#ease_degree"/>
         <variable description="" formula="4.5" name="#casing"/>
         <variable description="" formula="5" name="#waistline_lowering"/>
