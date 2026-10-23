@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pattern>
+    <!--Pattern created with Seamly2D v2026.8.31.143 (https://seamly.io).-->
+    <version>0.7.4</version>
+    <unit>cm</unit>
+    <description/>
+    <notes/>
+    <measurements>../measurements/individual/Dorkameasurements.smis</measurements>
+    <variables>
+        <variable description="" formula="bust_circ" name="#bust"/>
+        <variable description="" formula="neck_back_to_waist_b" name="#nape_to_waist"/>
+        <variable description="" formula="armscye_length" name="#armscye_depth"/>
+        <variable description="" formula="across_back_b" name="#back_width"/>
+        <variable description="" formula="neck_circ" name="#nack_size"/>
+        <variable description="" formula="arm_shoulder_tip_to_wrist_bent" name="#sleeve_length"/>
+        <variable description="" formula="17" name="#cuff_size"/>
+        <variable description="" formula="neck_back_to_waist_b+waist_to_hip_f" name="#shirt_length"/>
+    </variables>
+    <draftBlock name="Body">
+        <calculation>
+            <point id="1" mx="0.132292" my="0.264583" name="A0" showPointName="true" type="single" x="0.79375" y="1.05833"/>
+            <point angle="270" basePoint="1" id="2" length="#armscye_depth+2.5" lineColor="black" lineType="solidLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="A1" showPointName="true" type="endLine"/>
+            <point angle="270" basePoint="1" id="3" length="#nape_to_waist" lineColor="black" lineType="solidLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="A2" showPointName="true" type="endLine"/>
+            <point angle="270" basePoint="1" id="4" length="#shirt_length" lineColor="black" lineType="solidLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="A3" showPointName="true" type="endLine"/>
+            <point angle="0" basePoint="2" id="5" length="#bust/2+9.5" lineColor="black" lineType="solidLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="A4" showPointName="true" type="endLine"/>
+            <point firstPoint="5" id="6" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="A5" secondPoint="4" showPointName="true" type="intersectXY"/>
+            <point angle="90" basePoint="1" id="7" length="3.5" lineColor="black" lineType="solidLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="A6" showPointName="true" type="endLine"/>
+            <point firstPoint="5" id="8" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="A7" secondPoint="7" showPointName="true" type="intersectXY"/>
+        </calculation>
+        <modeling/>
+        <pieces/>
+        <groups/>
+        <images/>
+    </draftBlock>
+</pattern>
