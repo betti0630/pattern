@@ -4,10 +4,10 @@
     <version>0.7.4</version>
     <unit>cm</unit>
     <description>Aldrich easy fitting trouser block</description>
-    <notes></notes>
+    <notes/>
     <patternName>Aldrich Easy fitting trouser</patternName>
-    <patternNumber></patternNumber>
-    <company></company>
+    <patternNumber/>
+    <company/>
     <customer>Dudás Beáta</customer>
     <patternLabel dateFormat="yyyy-MM-dd" timeFormat="hh:mm:ss">
         <line alignment="0" bold="false" italic="false" sfIncrement="0" text="%patternName%"/>
@@ -16,13 +16,13 @@
     </patternLabel>
     <measurements>../measurements/individual/Bettimeasurements.smis</measurements>
     <variables>
-        <variable description="" formula="highhip_circ" name="#waist"/>
+        <variable description="Low waist measurement 5cm below the natural waistline" formula="88" name="#waist"/>
         <variable description="" formula="hip_circ" name="#hips"/>
         <variable description="" formula="waist_to_hip_b" name="#waist_to_hip"/>
-        <variable description="" formula="rise_length_side_sitting" name="#body_rise"/>
+        <variable description="" formula="rise_length_side" name="#body_rise"/>
         <variable description="" formula="height_waist_side" name="#waist_to_floor"/>
         <variable description="" formula="17" name="#trouser_bottom_width"/>
-        <variable description="" formula="7" name="#ease_degree"/>
+        <variable description="" formula="2" name="#ease_degree"/>
         <variable description="" formula="4.5" name="#casing"/>
         <variable description="" formula="5" name="#waistline_lowering"/>
     </variables>
@@ -87,7 +87,7 @@
                     <item idObject="42" mx="0.132292" my="0.264583" showPointName="true"/>
                 </destination>
             </operation>
-            <point firstPoint="35" id="43" length="CurrentLength/4" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="A16" secondPoint="28" showPointName="true" type="alongLine"/>
+            <point firstPoint="35" id="43" length="CurrentLength/4" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="1.28221" name="A16" secondPoint="28" showPointName="true" type="alongLine"/>
             <point firstPoint="43" id="44" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="A17" secondPoint="29" showPointName="true" type="intersectXY"/>
             <point firstPoint="43" id="45" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="A18" secondPoint="27" showPointName="true" type="intersectXY"/>
             <point firstPoint="43" id="46" length="CurrentLength/2" lineColor="black" lineType="none" lineWeight="0.35" mx="3.19759" my="-0.0580796" name="A19" secondPoint="45" showPointName="true" type="alongLine"/>
@@ -191,8 +191,6 @@
             <spline id="95" idObject="57" inUse="true" type="modelingPath"/>
             <point id="96" idObject="7" inUse="true" mx="1.74561" my="0.183917" showPointName="true" type="modeling"/>
             <point id="98" idObject="10" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
-            <point id="99" idObject="48" inUse="false" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
-            <point id="100" idObject="49" inUse="false" mx="1.66494" my="-0.380742" showPointName="true" type="modeling"/>
             <point id="101" idObject="61" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
             <point id="102" idObject="63" inUse="true" mx="1.58428" my="1.15191" showPointName="true" type="modeling"/>
             <point id="103" idObject="62" inUse="true" mx="1.26161" my="0.425914" showPointName="true" type="modeling"/>
@@ -201,7 +199,6 @@
             <point id="106" idObject="68" inUse="true" mx="0.616286" my="2.11989" showPointName="true" type="modeling"/>
             <spline id="107" idObject="72" inUse="true" type="modelingPath"/>
             <point id="108" idObject="52" inUse="true" mx="-4.06232" my="1.15191" showPointName="true" type="modeling"/>
-            <spline id="109" idObject="55" inUse="false" type="modelingPath"/>
             <point id="111" idObject="78" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
             <point id="112" idObject="76" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
             <point id="113" idObject="14" inUse="true" mx="2.9606" my="0.53829" showPointName="true" type="modeling"/>
@@ -213,16 +210,16 @@
             <point id="120" idObject="77" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
             <point id="121" idObject="79" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
             <spline id="122" idObject="80" inUse="true" type="modelingSpline"/>
-            <spline id="130" idObject="127" inUse="true" type="modelingSpline"/>
-            <point id="131" idObject="126" inUse="true" mx="1.66494" my="-0.380742" showPointName="true" type="modeling"/>
-            <point id="132" idObject="125" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
-            <spline id="133" idObject="129" inUse="true" type="modelingPath"/>
+            <spline id="130" idObject="127" inUse="false" type="modelingSpline"/>
+            <point id="131" idObject="126" inUse="false" mx="1.66494" my="-0.380742" showPointName="true" type="modeling"/>
+            <point id="132" idObject="125" inUse="false" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
+            <spline id="133" idObject="129" inUse="false" type="modelingPath"/>
             <spline id="134" idObject="129" inUse="true" type="modelingPath"/>
             <point id="135" idObject="125" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
             <point id="136" idObject="126" inUse="true" mx="1.66494" my="-0.380742" showPointName="true" type="modeling"/>
             <spline id="137" idObject="127" inUse="true" type="modelingSpline"/>
             <point id="151" idObject="138" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
-            <point id="152" idObject="142" inUse="true" mx="0.208983" my="0.341274" showPointName="true" type="modeling"/>
+            <point id="152" idObject="142" inUse="false" mx="0.208983" my="0.341274" showPointName="true" type="modeling"/>
             <point id="155" idObject="153" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
             <point id="156" idObject="154" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
             <point id="157" idObject="145" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
