@@ -46,7 +46,7 @@
             <point angle="180" basePoint="5" id="20" length="Line_A4_A13" lineColor="black" lineType="solidLine" lineWeight="0.35" mx="1.31836" my="1.63312" name="A15" showPointName="true" type="endLine"/>
             <line firstPoint="15" id="21" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="17"/>
             <line firstPoint="17" id="22" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="9"/>
-            <spline angle1="85.4319" angle2="0" color="darkGreen" id="23" length1="3.09114" length2="0" lineWeight="0.7" penStyle="solidLine" point1="9" point4="14" type="simpleInteractive"/>
+            <spline angle1="89.5137" angle2="277.692" color="darkGreen" id="23" length1="3.08143" length2="5.94219" lineWeight="0.7" penStyle="solidLine" point1="9" point4="14" type="simpleInteractive"/>
             <line firstPoint="19" id="24" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="20"/>
             <operation angle="360" center="0" id="26" length="50" rotationAngle="0" suffix="_f" type="moving">
                 <source>
@@ -149,18 +149,14 @@
             <line firstPoint="125" id="128" lineColor="blue" lineType="solidLine" lineWeight="0.7" secondPoint="126"/>
             <spline color="blue" id="129" lineWeight="0.7" penStyle="solidLine" type="pathInteractive">
                 <pathPoint angle1="84.0315" angle2="264.031" length1="0" length2="4.13444" pSpline="125"/>
-                <pathPoint angle1="25.7706" angle2="205.771" length1="4.22673" length2="0" pSpline="53"/>
+                <pathPoint angle1="36.2522" angle2="216.252" length1="4.72004" length2="0" pSpline="53"/>
                 <pathPoint angle1="6.35401" angle2="186.354" length1="8.84154" length2="3.46387" pSpline="52"/>
             </spline>
         </calculation>
         <modeling>
             <point id="82" idObject="11" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
             <point id="83" idObject="1" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
-            <point id="84" idObject="78" inUse="false" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
-            <point id="85" idObject="76" inUse="false" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
-            <point id="86" idObject="77" inUse="false" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
             <point id="87" idObject="9" inUse="true" mx="1.77453" my="0.264583" showPointName="true" type="modeling"/>
-            <point id="88" idObject="79" inUse="false" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
             <point id="89" idObject="17" inUse="true" mx="3.50801" my="1.99806" showPointName="true" type="modeling"/>
             <point id="90" idObject="15" inUse="true" mx="0.0410564" my="0.264583" showPointName="true" type="modeling"/>
             <point id="91" idObject="4" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
@@ -178,21 +174,6 @@
             <point id="106" idObject="68" inUse="true" mx="0.616286" my="2.11989" showPointName="true" type="modeling"/>
             <spline id="107" idObject="72" inUse="true" type="modelingPath"/>
             <point id="108" idObject="52" inUse="true" mx="-4.06232" my="1.15191" showPointName="true" type="modeling"/>
-            <point id="111" idObject="78" inUse="false" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
-            <point id="112" idObject="76" inUse="false" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
-            <point id="113" idObject="14" inUse="false" mx="2.9606" my="0.53829" showPointName="true" type="modeling"/>
-            <point id="114" idObject="77" inUse="false" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
-            <point id="115" idObject="79" inUse="false" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
-            <spline id="116" idObject="80" inUse="false" type="modelingSpline"/>
-            <point id="118" idObject="78" inUse="false" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
-            <point id="119" idObject="76" inUse="false" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
-            <point id="120" idObject="77" inUse="false" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
-            <point id="121" idObject="79" inUse="false" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
-            <spline id="122" idObject="80" inUse="false" type="modelingSpline"/>
-            <spline id="130" idObject="127" inUse="false" type="modelingSpline"/>
-            <point id="131" idObject="126" inUse="false" mx="1.66494" my="-0.380742" showPointName="true" type="modeling"/>
-            <point id="132" idObject="125" inUse="false" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
-            <spline id="133" idObject="129" inUse="false" type="modelingPath"/>
             <spline id="134" idObject="129" inUse="true" type="modelingPath"/>
             <point id="135" idObject="125" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
             <point id="136" idObject="126" inUse="true" mx="1.66494" my="-0.380742" showPointName="true" type="modeling"/>
@@ -230,6 +211,23 @@
                     <node idObject="149" type="NodePoint"/>
                 </nodes>
             </path>
+            <point id="151" idObject="27" inUse="false" type="anchor"/>
+            <point id="152" idObject="27" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
+            <point id="153" idObject="40" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
+            <path cut="false" extendEndPoint="false" extendStartPoint="false" id="154" inUse="true" lineColor="black" lineType="solidLine" lineWeight="0.35" name="grainline" type="2">
+                <nodes>
+                    <node idObject="152" type="NodePoint"/>
+                    <node idObject="153" type="NodePoint"/>
+                </nodes>
+            </path>
+            <point id="155" idObject="1" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
+            <point id="156" idObject="4" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
+            <path cut="false" extendEndPoint="false" extendStartPoint="false" id="157" inUse="true" lineColor="black" lineType="solidLine" lineWeight="0.35" name="grainline" type="2">
+                <nodes>
+                    <node idObject="155" type="NodePoint"/>
+                    <node idObject="156" type="NodePoint"/>
+                </nodes>
+            </path>
         </modeling>
         <pieces>
             <piece color="#ffffff" fill="nobrush" forbidFlipping="false" hideMainPath="false" id="97" inLayout="true" locked="false" mx="0" my="0" name="Front" seamAllowance="false" united="false" version="2" width="1">
@@ -256,6 +254,7 @@
                 <iPaths>
                     <record path="141"/>
                     <record path="144"/>
+                    <record path="157"/>
                 </iPaths>
             </piece>
             <piece color="#ffffff" fill="nobrush" forbidFlipping="false" hideMainPath="false" id="110" inLayout="true" locked="false" mx="0" my="0" name="Back" seamAllowance="false" united="false" version="2" width="1">
@@ -281,6 +280,7 @@
                 <iPaths>
                     <record path="147"/>
                     <record path="150"/>
+                    <record path="154"/>
                 </iPaths>
             </piece>
         </pieces>
