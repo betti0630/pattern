@@ -30,7 +30,7 @@
             <point id="1" mx="0.132292" my="0.264583" name="A0" showPointName="true" type="single" x="0.79375" y="1.05833"/>
             <point angle="270" basePoint="1" id="2" length="#body_rise+1-#waistline_lowering" lineColor="black" lineType="solidLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="A1" showPointName="true" type="endLine"/>
             <point angle="270" basePoint="1" id="3" length="#waist_to_hip-#waistline_lowering" lineColor="black" lineType="solidLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="A2" showPointName="true" type="endLine"/>
-            <point angle="270" basePoint="1" id="4" length="#waist_to_floor" lineColor="black" lineType="solidLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="A3" showPointName="true" type="endLine"/>
+            <point angle="270" basePoint="1" id="4" length="#waist_to_floor-#waistline_lowering" lineColor="black" lineType="solidLine" lineWeight="0.35" mx="0.278985" my="0.264583" name="A3" showPointName="true" type="endLine"/>
             <point firstPoint="2" id="5" length="CurrentLength/2-5" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="A4" secondPoint="4" showPointName="true" type="alongLine"/>
             <point angle="180" basePoint="2" id="6" length="#hips/12+1.8" lineColor="black" lineType="solidLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="A5" showPointName="true" type="endLine"/>
             <point firstPoint="6" id="7" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="1.74561" my="0.183917" name="A6" secondPoint="3" showPointName="true" type="intersectXY"/>
