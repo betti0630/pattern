@@ -26,9 +26,10 @@
         <variable description="" formula="hip_circ" name="#hip"/>
         <variable description="" formula="waist_arc_f" name="#waist_arc_f"/>
         <variable description="" formula="waist_arc_b" name="#waist_arc_b"/>
-        <variable description="" formula="2" name="#honalj_atvitel"/>
-        <variable description="" formula="highbust_arc_f/2-1" name="#elje_honalszelesseg"/>
-        <variable description="" formula="@neck_to_waist_from_back_neck-neck_back_to_waist_b" name="#front_plus_length"/>
+        <variable description="" formula="highbust_arc_f" name="#highbust_arc_f"/>
+        <variable description="" formula="2" name="#armpit_transfer"/>
+        <variable description="" formula="@neck_to_waist_from_back_neck-neck_back_to_waist_b" name="#fba_front_plus_length"/>
+        <variable description="" formula="17" name="#fba_angle"/>
     </variables>
     <draftBlock name="back">
         <calculation>
@@ -45,7 +46,7 @@
             <point firstPoint="41" id="43" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="-1.76324" my="0.599088" name="B10" secondPoint="38" showPointName="true" type="intersectXY"/>
             <point angle="358.467" basePoint="43" id="44" length="1" lineColor="black" lineType="solidLine" lineWeight="0.35" mx="2.46268" my="-0.0196106" name="B11" showPointName="true" type="endLine"/>
             <line firstPoint="40" id="45" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="44"/>
-            <point angle="360" basePoint="36" id="46" length="bust_arc_b/2-1+#honalj_atvitel" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="B12" showPointName="true" type="endLine"/>
+            <point angle="360" basePoint="36" id="46" length="bust_arc_b/2-1+#armpit_transfer" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="B12" showPointName="true" type="endLine"/>
             <point firstPoint="46" id="47" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="-4.02505" my="1.68683" name="B13" secondPoint="34" showPointName="true" type="intersectXY"/>
             <point firstPoint="46" id="48" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="B14" secondPoint="35" showPointName="true" type="intersectXY"/>
             <point angle="0" basePoint="35" id="316" length="#hip/4-1" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" mx="0.132292" my="0.264583" name="B144" showPointName="true" type="endLine"/>
@@ -111,7 +112,7 @@
             <point firstPoint="169" id="170" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F9" secondPoint="165" showPointName="true" type="intersectXY"/>
             <point firstPoint="169" id="171" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.26295" my="0.329912" name="F10" secondPoint="166" showPointName="true" type="intersectXY"/>
             <point angle="360" basePoint="171" id="172" length="1" lineColor="black" lineType="solidLine" lineWeight="0.35" mx="2.14869" my="-0.757991" name="F11" showPointName="true" type="endLine"/>
-            <point angle="360" basePoint="164" id="173" length="#elje_honalszelesseg-#honalj_atvitel" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F12" showPointName="true" type="endLine"/>
+            <point angle="360" basePoint="164" id="173" length="(#highbust_arc_f/2-1)-#armpit_transfer" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F12" showPointName="true" type="endLine"/>
             <point firstPoint="173" id="174" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="-2.18248" my="0.677935" name="F13" secondPoint="162" showPointName="true" type="intersectXY"/>
             <point firstPoint="173" id="175" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="-2.50096" my="0.515369" name="F14" secondPoint="163" showPointName="true" type="intersectXY"/>
             <point angle="360" basePoint="163" id="317" length="#hip/4+1" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" mx="1.38622" my="0.389976" name="F144" showPointName="true" type="endLine"/>
@@ -123,7 +124,7 @@
             <point angle="90" basePoint="260" id="261" lineColor="black" lineType="dotLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F77" p1Line="168" p2Line="172" showPointName="true" type="lineIntersectAxis"/>
             <point firstPoint="174" id="182" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F19" secondPoint="180" showPointName="true" type="intersectXY"/>
             <point firstPoint="260" id="183" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F20" secondPoint="163" showPointName="true" type="intersectXY"/>
-            <operation angle="270" center="0" id="184" length="#front_plus_length-2" rotationAngle="360" suffix="_l" type="moving">
+            <operation angle="270" center="0" id="184" length="#fba_front_plus_length-2" rotationAngle="360" suffix="_l" type="moving">
                 <source>
                     <item alias="" color="black" idObject="181" lineType="solidLine"/>
                     <item alias="" color="black" idObject="260" lineType="solidLine"/>
@@ -147,7 +148,7 @@
                     <item idObject="193" mx="0.132292" my="0.264583" showPointName="true"/>
                 </destination>
             </operation>
-            <operation angle="17" center="170" id="211" suffix="_vj" type="rotation">
+            <operation angle="#fba_angle" center="170" id="211" suffix="_vj" type="rotation">
                 <source>
                     <item alias="" color="black" idObject="260" lineType="solidLine"/>
                     <item alias="" color="black" idObject="186" lineType="solidLine"/>
