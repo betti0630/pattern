@@ -317,13 +317,27 @@ Feszes tartás miatti korrekciót tartalmaz</notes>
             <point firstPoint="60" id="1013425713" length="CurrentLength/2" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="X3" secondPoint="72" showPointName="false" type="alongLine"/>
             <point angle="0" firstPoint="1013425713" id="1013425714" length="1" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="-0.13954" my="0.264583" name="X4" secondPoint="60" showPointName="false" type="normal"/>
             <line firstPoint="54" id="4278190083" lineColor="black" lineType="dotLine" lineWeight="0.35" secondPoint="60"/>
-            <spline color="black" id="4278190084" lineWeight="0.35" penStyle="solidLine" type="pathInteractive">
-                <pathPoint angle1="4.38432" angle2="184.384" length1="0" length2="3.00331" pSpline="54"/>
+            <spline color="darkGreen" id="4278190084" lineWeight="0.7" penStyle="solidLine" type="pathInteractive">
+                <pathPoint angle1="0.433795" angle2="180.434" length1="0" length2="1.23248" pSpline="54"/>
                 <pathPoint angle1="31.13" angle2="211.13" length1="2.91053" length2="3.24613" pSpline="1013425712"/>
                 <pathPoint angle1="66.4349" angle2="246.435" length1="1.58299" length2="1.50369" pSpline="72"/>
                 <pathPoint angle1="27.2441" angle2="207.244" length1="0.842063" length2="1.08698" pSpline="1013425714"/>
                 <pathPoint angle1="355.94" angle2="175.94" length1="1.32295" length2="0" pSpline="60"/>
             </spline>
+            <operation id="4278190086" p1Line="54" p2Line="56" suffix="_c1" type="flippingByLine">
+                <source>
+                    <item alias="" color="black" idObject="4278190084" lineType="solidLine"/>
+                    <item alias="" color="black" idObject="60" lineType="solidLine"/>
+                    <item alias="" color="black" idObject="69" lineType="solidLine"/>
+                </source>
+                <destination>
+                    <item idObject="4278190087"/>
+                    <item idObject="4278190088" mx="1.26337" my="0.639452" showPointName="true"/>
+                    <item idObject="4278190089" mx="0.132292" my="0.264583" showPointName="true"/>
+                </destination>
+            </operation>
+            <line firstPoint="56" id="4278190090" lineColor="darkGreen" lineType="solidLine" lineWeight="1" secondPoint="4278190089"/>
+            <line firstPoint="4278190088" id="4278190091" lineColor="black" lineType="solidLine" lineWeight="0.35" secondPoint="4278190089"/>
         </calculation>
         <modeling>
             <point id="4278190082" idObject="54" inUse="false" mx="-1.44713" my="-2.76829" showPointName="true" type="modeling"/>
