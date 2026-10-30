@@ -22,16 +22,16 @@
         <variable description="" formula="across_back_b" name="#back_width"/>
         <variable description="" formula="62" name="#sleeve_length"/>
         <variable description="" formula="armscye_length" name="#armscye_depth"/>
+        <variable description="" formula="arm_wrist_circ" name="#wrist"/>
+        <variable description="" formula="hip_circ" name="#hip"/>
+        <variable description="" formula="waist_arc_f" name="#waist_arc_f"/>
+        <variable description="" formula="waist_arc_b" name="#waist_arc_b"/>
         <variable description="" formula="2" name="#honalj_atvitel"/>
         <variable description="" formula="highbust_arc_f/2-1" name="#elje_honalszelesseg"/>
         <variable description="" formula="@neck_to_waist_from_back_neck-neck_back_to_waist_b" name="#front_plus_length"/>
         <variable description="" formula="3" name="#fba_fugg_honalj"/>
         <variable description="" formula="1" name="#fba_vsz_karolto"/>
         <variable description="" formula="bust_arc_f/2-highbust_arc_f/2" name="#fba_vsz_mellcsúcs"/>
-        <variable description="" formula="waist_arc_f/2+1" name="#db_elol"/>
-        <variable description="" formula="waist_arc_b/2+1" name="#db_hatul"/>
-        <variable description="" formula="hip_circ/4+1" name="#csipo_elol"/>
-        <variable description="" formula="hip_circ/4-1" name="#csipo_hatul"/>
     </variables>
     <draftBlock name="back">
         <calculation>
@@ -49,10 +49,10 @@
             <point angle="358.467" basePoint="43" id="44" length="1" lineColor="black" lineType="solidLine" lineWeight="0.35" mx="2.46268" my="-0.0196106" name="B11" showPointName="true" type="endLine"/>
             <line firstPoint="40" id="45" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="44"/>
             <point angle="360" basePoint="36" id="46" length="bust_arc_b/2-1+#honalj_atvitel" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="B12" showPointName="true" type="endLine"/>
-            <point firstPoint="46" id="47" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="B13" secondPoint="34" showPointName="true" type="intersectXY"/>
+            <point firstPoint="46" id="47" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="-4.02505" my="1.68683" name="B13" secondPoint="34" showPointName="true" type="intersectXY"/>
             <point firstPoint="46" id="48" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="B14" secondPoint="35" showPointName="true" type="intersectXY"/>
-            <point angle="0" basePoint="35" id="316" length="#csipo_hatul" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" mx="0.132292" my="0.264583" name="B144" showPointName="true" type="endLine"/>
-            <point angle="180" basePoint="47" id="49" length="Line_B1_B13-#db_hatul" lineColor="black" lineType="solidLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="B15" showPointName="true" type="endLine"/>
+            <point angle="0" basePoint="35" id="316" length="#hip/4-1" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" mx="0.132292" my="0.264583" name="B144" showPointName="true" type="endLine"/>
+            <point angle="0" basePoint="47" id="49" length="#waist_arc_b/2+1-Line_B1_B13" lineColor="black" lineType="solidLine" lineWeight="0.35" mx="2.21096" my="0.0457758" name="B15" showPointName="true" type="endLine"/>
             <spline angle1="0.844985" angle2="233.65" color="darkGreen" id="50" length1="2.71763" length2="1.11739" lineWeight="0.7" penStyle="solidLine" point1="33" point4="40" type="simpleInteractive"/>
             <spline color="darkGreen" id="51" lineWeight="0.7" penStyle="solidLine" type="pathInteractive">
                 <pathPoint angle1="71.0421" angle2="251.042" length1="0" length2="1.97316" pSpline="44"/>
@@ -115,10 +115,10 @@
             <point firstPoint="169" id="171" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.26295" my="0.329912" name="F10" secondPoint="166" showPointName="true" type="intersectXY"/>
             <point angle="360" basePoint="171" id="172" length="1" lineColor="black" lineType="solidLine" lineWeight="0.35" mx="2.14869" my="-0.757991" name="F11" showPointName="true" type="endLine"/>
             <point angle="360" basePoint="164" id="173" length="#elje_honalszelesseg-#honalj_atvitel" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F12" showPointName="true" type="endLine"/>
-            <point firstPoint="173" id="174" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F13" secondPoint="162" showPointName="true" type="intersectXY"/>
+            <point firstPoint="173" id="174" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="-2.18248" my="0.677935" name="F13" secondPoint="162" showPointName="true" type="intersectXY"/>
             <point firstPoint="173" id="175" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="-2.50096" my="0.515369" name="F14" secondPoint="163" showPointName="true" type="intersectXY"/>
-            <point angle="360" basePoint="163" id="317" length="#csipo_elol" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" mx="1.38622" my="0.389976" name="F144" showPointName="true" type="endLine"/>
-            <point angle="180" basePoint="174" id="176" length="Line_F1_F13-#db_elol" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.571163" my="1.7693" name="F15" showPointName="true" type="endLine"/>
+            <point angle="360" basePoint="163" id="317" length="#hip/4+1" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" mx="1.38622" my="0.389976" name="F144" showPointName="true" type="endLine"/>
+            <point angle="0" basePoint="174" id="176" length="#waist_arc_f/2+1-Line_F1_F13" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.571163" my="1.7693" name="F15" showPointName="true" type="endLine"/>
             <point angle="270" basePoint="161" id="177" length="neck_circ/6-1" lineColor="black" lineType="solidLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F16" showPointName="true" type="endLine"/>
             <point angle="270" basePoint="168" id="180" length="bustpoint_to_neck_side" lineColor="black" lineType="dotLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F17" showPointName="true" type="endLine"/>
             <point firstPoint="162" id="181" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F18" secondPoint="180" showPointName="true" type="intersectXY"/>
@@ -304,7 +304,7 @@
             <point angle="270" basePoint="54" id="56" length="#sleeve_length+2" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="C19" showPointName="true" type="endLine"/>
             <point angle="0" firstPoint="55" id="59" length="20" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="C1" secondPoint="54" showPointName="true" type="normal"/>
             <point center="54" firstPoint="59" id="60" mx="1.26337" my="0.639452" name="C20" radius="(Line_F11_F12+Line_B11_B12)/2+0.5" secondPoint="55" showPointName="true" type="pointOfContact"/>
-            <point angle="180" basePoint="56" id="69" length="arm_wrist_circ/2+1.5" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" mx="0.132292" my="0.264583" name="C22" showPointName="true" type="endLine"/>
+            <point angle="180" basePoint="56" id="69" length="#wrist/2+1.5" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" mx="0.132292" my="0.264583" name="C22" showPointName="true" type="endLine"/>
             <point firstPoint="60" id="72" length="CurrentLength/3" lineColor="black" lineType="none" lineWeight="0.35" mx="1.57256" my="0.477957" name="C21" secondPoint="54" showPointName="true" type="alongLine"/>
             <line firstPoint="60" id="78" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="69"/>
             <point firstPoint="72" id="1013425711" length="CurrentLength/2" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="X1" secondPoint="54" showPointName="false" type="alongLine"/>
