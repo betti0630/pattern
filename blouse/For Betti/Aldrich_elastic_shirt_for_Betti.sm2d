@@ -310,30 +310,23 @@ Feszes tartás miatti korrekciót tartalmaz</notes>
             <point angle="0" firstPoint="55" id="59" length="20" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="C1" secondPoint="54" showPointName="true" type="normal"/>
             <point center="54" firstPoint="59" id="60" mx="1.26337" my="0.639452" name="C20" radius="(Line_F11_F12+Line_B11_B12)/2+0.5" secondPoint="55" showPointName="true" type="pointOfContact"/>
             <point angle="180" basePoint="56" id="69" length="arm_wrist_circ/2+1.5" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" mx="0.132292" my="0.264583" name="C22" showPointName="true" type="endLine"/>
-            <point angle="360" basePoint="54" id="71" length="#feszes_korr_ujja" lineColor="black" lineType="solidLine" lineWeight="0.35" mx="1.99524" my="-1.8646" name="C47" showPointName="true" type="endLine"/>
-            <point firstPoint="60" id="72" length="CurrentLength/3" lineColor="black" lineType="none" lineWeight="0.35" mx="1.57256" my="0.477957" name="C21" secondPoint="71" showPointName="true" type="alongLine"/>
+            <point firstPoint="60" id="72" length="CurrentLength/3" lineColor="black" lineType="none" lineWeight="0.35" mx="1.57256" my="0.477957" name="C21" secondPoint="54" showPointName="true" type="alongLine"/>
             <line firstPoint="60" id="78" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="69"/>
             <point firstPoint="72" id="1013425711" length="CurrentLength/2" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="X1" secondPoint="54" showPointName="false" type="alongLine"/>
-            <point angle="0" firstPoint="1013425711" id="1013425712" length="2.5" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="-0.839931" my="0.645018" name="X2" secondPoint="54" showPointName="false" type="normal"/>
+            <point angle="0" firstPoint="1013425711" id="1013425712" length="2.6" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="-0.839931" my="0.645018" name="X2" secondPoint="54" showPointName="false" type="normal"/>
             <point firstPoint="60" id="1013425713" length="CurrentLength/2" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="X3" secondPoint="72" showPointName="false" type="alongLine"/>
-            <point angle="0" firstPoint="1013425713" id="1013425714" length="1.1" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="-0.13954" my="0.264583" name="X4" secondPoint="60" showPointName="false" type="normal"/>
-            <line firstPoint="71" id="1013425716" lineColor="black" lineType="dotLine" lineWeight="0.35" secondPoint="60"/>
+            <point angle="0" firstPoint="1013425713" id="1013425714" length="1" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="-0.13954" my="0.264583" name="X4" secondPoint="60" showPointName="false" type="normal"/>
+            <line firstPoint="54" id="4278190083" lineColor="black" lineType="dotLine" lineWeight="0.35" secondPoint="60"/>
+            <spline color="black" id="4278190084" lineWeight="0.35" penStyle="solidLine" type="pathInteractive">
+                <pathPoint angle1="4.38432" angle2="184.384" length1="0" length2="3.00331" pSpline="54"/>
+                <pathPoint angle1="31.13" angle2="211.13" length1="2.91053" length2="3.24613" pSpline="1013425712"/>
+                <pathPoint angle1="66.4349" angle2="246.435" length1="1.58299" length2="1.50369" pSpline="72"/>
+                <pathPoint angle1="27.2441" angle2="207.244" length1="0.842063" length2="1.08698" pSpline="1013425714"/>
+                <pathPoint angle1="355.94" angle2="175.94" length1="1.32295" length2="0" pSpline="60"/>
+            </spline>
         </calculation>
         <modeling>
-            <point id="118" idObject="60" inUse="false" mx="-0.897598" my="1.77414" showPointName="true" type="modeling"/>
-            <spline id="119" idObject="75" inUse="false" type="modelingSpline"/>
-            <spline id="120" idObject="74" inUse="false" type="modelingSpline"/>
-            <point id="121" idObject="71" inUse="false" mx="-1.48677" my="0.74859" showPointName="true" type="modeling"/>
-            <spline id="122" idObject="76" inUse="false" type="modelingSpline"/>
-            <spline id="123" idObject="77" inUse="false" type="modelingSpline"/>
-            <point id="124" idObject="62" inUse="false" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
-            <point id="125" idObject="70" inUse="false" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
-            <point id="126" idObject="69" inUse="false" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
-            <point id="128" idObject="72" inUse="false" type="anchor"/>
-            <point id="129" idObject="72" inUse="false" mx="1.57256" my="0.477957" showPointName="true" type="modeling"/>
-            <spline id="4278190081" idObject="1421179608" inUse="false" type="modelingPath"/>
-            <point id="4278190082" idObject="54" inUse="true" mx="-1.44713" my="-2.76829" showPointName="true" type="modeling"/>
-            <point id="4278190083" idObject="72" inUse="false" type="anchor"/>
+            <point id="4278190082" idObject="54" inUse="false" mx="-1.44713" my="-2.76829" showPointName="true" type="modeling"/>
         </modeling>
         <pieces/>
         <groups/>
@@ -342,7 +335,7 @@ Feszes tartás miatti korrekciót tartalmaz</notes>
     <draftBlock name="Check">
         <calculation>
             <point id="1421179606" mx="-1.67647" my="-1.02106" name="D" showPointName="true" type="single" x="71.1157" y="1.56925"/>
-            <point angle="0" basePoint="1421179606" id="1421179607" length="(SplPath_F11_F12+SplPath_B11_B12)/2" lineColor="black" lineType="solidLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="D1" showPointName="true" type="endLine"/>
+            <point angle="360" basePoint="1421179606" id="4278190085" length="(SplPath_F11_F12+SplPath_B11_B12)/2-SplPath_C17_C20" lineColor="black" lineType="solidLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="D1" showPointName="true" type="endLine"/>
         </calculation>
         <modeling/>
         <pieces/>
