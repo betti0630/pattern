@@ -4,8 +4,7 @@
     <version>0.7.4</version>
     <unit>cm</unit>
     <description>Aldrich close fitting body</description>
-    <notes>enyhén rugalmas anyagra mért
-Feszes tartás miatti korrekciót tartalmaz</notes>
+    <notes>enyhén rugalmas anyagra mért</notes>
     <patternName>Póló (enyhén rugalmas)</patternName>
     <patternNumber/>
     <company>Aldrich</company>
@@ -21,18 +20,16 @@ Feszes tartás miatti korrekciót tartalmaz</notes>
         <variable description="" formula="2" name="#honalj_atvitel"/>
         <variable description="" formula="neck_circ/6+1" name="#nyak_szelesseg"/>
         <variable description="" formula="highbust_arc_f/2-1" name="#elje_honalszelesseg"/>
-        <variable description="" formula="0" name="#feszes_korr_hat"/>
-        <variable description="" formula="0" name="#feszes_korr_ujja"/>
         <variable description="" formula="62" name="#sleeve_length"/>
         <variable description="" formula="@neck_to_waist_from_back_neck-neck_back_to_waist_b" name="#front_plus_length"/>
         <variable description="" formula="neck_back_to_waist_b+0.5" name="#hata_derekig"/>
         <variable description="" formula="#hata_derekig+#front_plus_length" name="#eleje_derekig"/>
         <variable description="" formula="across_back_b/2-1" name="#fel_hatszelesseg"/>
-        <variable description="" formula="armscye_length-1-#feszes_korr_hat" name="#hata_honaljmagassag"/>
+        <variable description="" formula="armscye_length-1" name="#hata_honaljmagassag"/>
         <variable description="" formula="3" name="#fba_fugg_honalj"/>
         <variable description="" formula="1" name="#fba_vsz_karolto"/>
         <variable description="" formula="bust_arc_f/2-highbust_arc_f/2" name="#fba_vsz_mellcsúcs"/>
-        <variable description="" formula="armscye_length-1+#feszes_korr_hat" name="#eleje_honaljmagassag"/>
+        <variable description="" formula="armscye_length-1" name="#eleje_honaljmagassag"/>
         <variable description="" formula="waist_arc_f/2+1" name="#db_elol"/>
         <variable description="" formula="waist_arc_b/2+1" name="#db_hatul"/>
         <variable description="" formula="hip_circ/4+1" name="#csipo_elol"/>
