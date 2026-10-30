@@ -5,7 +5,7 @@
     <unit>cm</unit>
     <description/>
     <notes/>
-    <patternName>Aldrich base trouser block</patternName>
+    <patternName>Aldrich basic trouser block</patternName>
     <patternNumber></patternNumber>
     <company></company>
     <customer>Dudás Beáta</customer>
@@ -230,12 +230,54 @@
                     <node idObject="143" type="NodePoint"/>
                 </nodes>
             </path>
+            <point id="145" idObject="56" inUse="true" mx="-3.41313" my="0.485069" showPointName="true" type="modeling"/>
+            <spline id="146" idObject="111" inUse="true" type="modelingPath"/>
+            <point id="147" idObject="102" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
+            <point id="148" idObject="103" inUse="true" mx="-0.529166" my="-2.38125" showPointName="true" type="modeling"/>
+            <point id="149" idObject="104" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
+            <point id="150" idObject="105" inUse="true" mx="0.970139" my="-2.02847" showPointName="true" type="modeling"/>
+            <point id="151" idObject="106" inUse="true" mx="0.617361" my="-1.76389" showPointName="true" type="modeling"/>
+            <point id="152" idObject="107" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
+            <point id="153" idObject="108" inUse="true" mx="1.14653" my="-1.6316" showPointName="true" type="modeling"/>
+            <point id="154" idObject="109" inUse="true" mx="2.11667" my="-1.01424" showPointName="true" type="modeling"/>
+            <spline id="155" idObject="119" inUse="true" type="modelingPath"/>
+            <point id="156" idObject="60" inUse="true" mx="1.27882" my="-1.5434" showPointName="true" type="modeling"/>
+            <spline id="157" idObject="73" inUse="true" type="modelingPath"/>
+            <point id="158" idObject="65" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
+            <point id="159" idObject="61" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
+            <spline id="160" idObject="99" inUse="true" type="modelingPath"/>
+            <point id="161" idObject="66" inUse="true" mx="-1.80799" my="0.529166" showPointName="true" type="modeling"/>
+            <spline id="162" idObject="71" inUse="true" type="modelingPath"/>
+            <point id="164" idObject="66" inUse="true" mx="-1.80799" my="0.529166" showPointName="true" type="modeling"/>
+            <point id="165" idObject="65" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
+            <path cut="false" extendEndPoint="false" extendStartPoint="false" id="166" inUse="true" lineColor="black" lineType="solidLine" lineWeight="0.35" name="Kneeline" type="2">
+                <nodes>
+                    <node idObject="164" type="NodePoint"/>
+                    <node idObject="165" type="NodePoint"/>
+                </nodes>
+            </path>
+            <point id="167" idObject="49" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
+            <point id="168" idObject="60" inUse="true" mx="1.27882" my="-1.5434" showPointName="true" type="modeling"/>
+            <path cut="false" extendEndPoint="false" extendStartPoint="false" id="169" inUse="true" lineColor="black" lineType="solidLine" lineWeight="0.35" name="Hipline" type="2">
+                <nodes>
+                    <node idObject="167" type="NodePoint"/>
+                    <node idObject="168" type="NodePoint"/>
+                </nodes>
+            </path>
+            <point id="170" idObject="47" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
+            <point id="171" idObject="98" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
+            <path cut="false" extendEndPoint="false" extendStartPoint="false" id="172" inUse="true" lineColor="black" lineType="solidLine" lineWeight="0.35" name="Grainline" type="2">
+                <nodes>
+                    <node idObject="170" type="NodePoint"/>
+                    <node idObject="171" type="NodePoint"/>
+                </nodes>
+            </path>
         </modeling>
         <pieces>
             <piece color="#ffffff" fill="nobrush" forbidFlipping="false" hideMainPath="false" id="135" inLayout="true" locked="false" mx="0.0529167" my="0" name="Front" seamAllowance="false" united="false" version="2" width="1">
                 <data annotation="" foldPosition="Undefined" fontSize="0" height="2" letter="" mx="225.788" my="2043.86" onFold="false" orientation="Undefined" quantity="1" rotation="0" rotationWay="None" tilt="None" visible="true" width="3"/>
                 <patternInfo fontSize="0" height="6" mx="-370.973" my="2043.86" rotation="0" visible="true" width="10"/>
-                <grainline arrowLength="1.27" arrows="0" length="2.667" mx="-15.8996" my="2132.05" rotation="90" visible="true"/>
+                <grainline arrowLength="1.27" arrows="0" length="2.667" mx="-15.8996" my="2132.05" rotation="90" visible="false"/>
                 <nodes>
                     <node idObject="120" type="NodePoint"/>
                     <node idObject="121" reverse="1" type="NodeSplinePath"/>
@@ -257,6 +299,36 @@
                     <record path="138"/>
                     <record path="141"/>
                     <record path="144"/>
+                </iPaths>
+            </piece>
+            <piece color="#ffffff" fill="nobrush" forbidFlipping="false" hideMainPath="false" id="163" inLayout="true" locked="false" mx="0" my="0" name="Back" seamAllowance="false" united="false" version="2" width="1">
+                <data annotation="" foldPosition="Undefined" fontSize="0" height="2" letter="" mx="1870.1" my="2006.2" onFold="false" orientation="Undefined" quantity="1" rotation="0" rotationWay="None" tilt="None" visible="true" width="3"/>
+                <patternInfo fontSize="0" height="6" mx="1076.66" my="2006.2" rotation="0" visible="true" width="10"/>
+                <grainline arrowLength="1.27" arrows="0" length="2.667" mx="1530.07" my="2094.39" rotation="90" visible="false"/>
+                <nodes>
+                    <node idObject="145" type="NodePoint"/>
+                    <node idObject="146" reverse="1" type="NodeSplinePath"/>
+                    <node idObject="147" type="NodePoint"/>
+                    <node idObject="148" type="NodePoint"/>
+                    <node idObject="149" type="NodePoint"/>
+                    <node idObject="150" type="NodePoint"/>
+                    <node idObject="151" type="NodePoint"/>
+                    <node idObject="152" type="NodePoint"/>
+                    <node idObject="153" type="NodePoint"/>
+                    <node idObject="154" type="NodePoint"/>
+                    <node idObject="155" reverse="0" type="NodeSplinePath"/>
+                    <node idObject="156" type="NodePoint"/>
+                    <node idObject="157" reverse="0" type="NodeSplinePath"/>
+                    <node idObject="158" type="NodePoint"/>
+                    <node idObject="159" type="NodePoint"/>
+                    <node idObject="160" reverse="1" type="NodeSplinePath"/>
+                    <node idObject="161" type="NodePoint"/>
+                    <node idObject="162" reverse="1" type="NodeSplinePath"/>
+                </nodes>
+                <iPaths>
+                    <record path="166"/>
+                    <record path="169"/>
+                    <record path="172"/>
                 </iPaths>
             </piece>
         </pieces>
