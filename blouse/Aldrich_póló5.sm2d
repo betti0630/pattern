@@ -318,7 +318,7 @@ Feszes tartás miatti korrekciót tartalmaz</notes>
             <point center="54" firstPoint="55" id="62" mx="0.132292" my="0.264583" name="C30" radius="Line_B11_B12+1.5" secondPoint="61" showPointName="true" type="pointOfContact"/>
             <point angle="180" basePoint="56" id="69" length="arm_wrist_circ/2+1.5" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" mx="0.132292" my="0.264583" name="C22" showPointName="true" type="endLine"/>
             <point angle="360" basePoint="56" id="70" length="arm_wrist_circ/2+1.5" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" mx="0.132292" my="0.264583" name="C32" showPointName="true" type="endLine"/>
-            <point angle="360" basePoint="54" id="71" length="#feszes_korr_ujja" lineColor="black" lineType="solidLine" lineWeight="0.35" mx="-1.48677" my="0.74859" name="C47" showPointName="true" type="endLine"/>
+            <point angle="360" basePoint="54" id="71" length="#feszes_korr_ujja" lineColor="black" lineType="solidLine" lineWeight="0.35" mx="1.99524" my="-2.08054" name="C47" showPointName="true" type="endLine"/>
             <point firstPoint="60" id="72" length="CurrentLength/3" lineColor="black" lineType="none" lineWeight="0.35" mx="1.57256" my="0.477957" name="C21" secondPoint="71" showPointName="true" type="alongLine"/>
             <point firstPoint="62" id="73" length="CurrentLength/3" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="C31" secondPoint="71" showPointName="true" type="alongLine"/>
             <spline angle1="180" angle2="61.8057" color="darkGreen" id="74" length="17.6" length1="9.8666" length2="6.36431" lineWeight="0.7" penStyle="solidLine" point1="71" point4="72" type="simpleInteractive"/>
