@@ -185,13 +185,12 @@ Feszes tartás miatti korrekciót tartalmaz</notes>
                 </destination>
             </operation>
             <point firstPoint="220" id="264" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F12_m" secondPoint="173" showPointName="true" type="intersectXY"/>
-            <line firstPoint="173" id="318" lineColor="black" lineType="dashLine" lineWeight="0.35" secondPoint="264"/>
             <spline angle1="82.0101" angle2="284.419" color="darkGreen" id="314" length="Spl_B15_B144" length1="3.38838" length2="0.421486" lengthMode="3" lineWeight="0.7" penStyle="solidLine" point1="193" point4="189" type="simpleInteractive"/>
             <point id="3489615362" mx="1.32071" my="1.70319" name="F9_m" p1Line1="171" p1Line2="165" p2Line1="221" p2Line2="170" showPointName="true" type="lineIntersect"/>
             <line firstPoint="168" id="223" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="172"/>
             <line firstPoint="261" id="224" lineColor="darkviolet" lineType="solidLine" lineWeight="0.35" secondPoint="212"/>
             <line firstPoint="212" id="225" lineColor="darkviolet" lineType="solidLine" lineWeight="0.35" secondPoint="219"/>
-            <line firstPoint="264" id="226" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="219"/>
+            <line firstPoint="173" id="226" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="219"/>
             <line firstPoint="213" id="228" lineColor="darkviolet" lineType="solidLine" lineWeight="0.35" secondPoint="218"/>
             <line firstPoint="218" id="229" lineColor="darkviolet" lineType="solidLine" lineWeight="0.35" secondPoint="215"/>
             <line firstPoint="215" id="230" lineColor="darkviolet" lineType="solidLine" lineWeight="0.35" secondPoint="214"/>
@@ -209,9 +208,9 @@ Feszes tartás miatti korrekciót tartalmaz</notes>
             <line firstPoint="173" id="242" lineColor="black" lineType="dashLine" lineWeight="0.35" secondPoint="176"/>
             <line firstPoint="176" id="243" lineColor="black" lineType="dashLine" lineWeight="0.35" secondPoint="317"/>
             <point firstPoint="219" id="251" length="1" lineColor="black" lineType="none" lineWeight="0.35" mx="-2.22835" my="0.931728" name="F1F" secondPoint="189" showPointName="true" type="alongLine"/>
-            <point firstPoint="251" id="244" length="((Line_F12_m_F19_vj + Line_F19_vj_F15_l ) - (Line_B12_B15))/2" lineColor="black" lineType="none" lineWeight="0.35" mx="-2.34383" my="-0.304706" name="F1A" secondPoint="189" showPointName="true" type="alongLine"/>
+            <point firstPoint="251" id="244" length="((Line_F12_F19_vj + Line_F19_vj_F15_l ) - (Line_B12_B15))/2" lineColor="black" lineType="none" lineWeight="0.35" mx="-2.34383" my="-0.304706" name="F1A" secondPoint="189" showPointName="true" type="alongLine"/>
             <point firstPoint="244" id="245" length="3.5" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="F2F" secondPoint="189" showPointName="true" type="alongLine"/>
-            <point firstPoint="245" id="246" length="((Line_F12_m_F19_vj + Line_F19_vj_F15_l ) - (Line_B12_B15))/2" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="F2A" secondPoint="189" showPointName="true" type="alongLine"/>
+            <point firstPoint="245" id="246" length="((Line_F12_F19_vj + Line_F19_vj_F15_l ) - (Line_B12_B15))/2" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="F2A" secondPoint="189" showPointName="true" type="alongLine"/>
             <point firstPoint="219" id="247" length="CurrentLength/2" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="K1" secondPoint="244" showPointName="true" type="alongLine"/>
             <point firstPoint="245" id="248" length="CurrentLength/2" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="K2" secondPoint="246" showPointName="true" type="alongLine"/>
             <point firstPoint="260" id="249" length="9" lineColor="black" lineType="none" lineWeight="0.35" mx="-2.81444" my="-1.99249" name="CS1" secondPoint="247" showPointName="true" type="alongLine"/>
@@ -220,9 +219,9 @@ Feszes tartás miatti korrekciót tartalmaz</notes>
             <spline color="black" id="265" lineWeight="0.35" penStyle="solidLine" type="pathInteractive">
                 <pathPoint angle1="76.5332" angle2="256.533" length1="0" length2="4.05851" pSpline="172"/>
                 <pathPoint angle1="96.2298" angle2="276.23" length1="0" length2="4.89254" pSpline="170"/>
-                <pathPoint angle1="202.505" angle2="22.5052" length1="6.59645" length2="1.06657" pSpline="264"/>
+                <pathPoint angle1="202.505" angle2="22.5052" length1="6.59645" length2="1.06657" pSpline="173"/>
             </spline>
-            <line firstPoint="172" id="266" lineColor="black" lineType="dotLine" lineWeight="0.35" secondPoint="264"/>
+            <line firstPoint="172" id="266" lineColor="black" lineType="dotLine" lineWeight="0.35" secondPoint="173"/>
             <line firstPoint="181" id="283" lineColor="black" lineType="dotLine" lineWeight="0.35" secondPoint="219"/>
             <point baseLineP1="219" baseLineP2="189" dartP1="251" dartP2="249" dartP3="244" id="284" mx1="0.132292" mx2="0.633864" my1="0.264583" my2="-1.61631" name1="SZ1" name2="SZ2" point1="285" point2="286" showPointName1="true" showPointName2="true" type="trueDarts"/>
             <line firstPoint="249" id="287" lineColor="black" lineType="solidLine" lineWeight="0.35" secondPoint="285"/>
@@ -311,7 +310,7 @@ Feszes tartás miatti korrekciót tartalmaz</notes>
             <point angle="270" basePoint="54" id="55" length="(armscye_length-1)/2+0.5+2" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="C18" showPointName="true" type="endLine"/>
             <point angle="270" basePoint="54" id="56" length="#sleeve_length+2" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="C19" showPointName="true" type="endLine"/>
             <point angle="0" firstPoint="55" id="59" length="20" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="C1" secondPoint="54" showPointName="true" type="normal"/>
-            <point center="54" firstPoint="59" id="60" mx="-2.46951" my="-3.39642" name="C20" radius="Line_F11_F12_m+1.5" secondPoint="55" showPointName="true" type="pointOfContact"/>
+            <point center="54" firstPoint="59" id="60" mx="-2.46951" my="-3.39642" name="C20" radius="Line_F11_F12+1.5" secondPoint="55" showPointName="true" type="pointOfContact"/>
             <point angle="180" firstPoint="55" id="61" length="20" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="C2" secondPoint="54" showPointName="true" type="normal"/>
             <point center="54" firstPoint="55" id="62" mx="0.132292" my="0.264583" name="C30" radius="Line_B11_B12+1.5" secondPoint="61" showPointName="true" type="pointOfContact"/>
             <point angle="180" basePoint="56" id="69" length="arm_wrist_circ/2+1.5" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" mx="0.132292" my="0.264583" name="C22" showPointName="true" type="endLine"/>
@@ -320,7 +319,7 @@ Feszes tartás miatti korrekciót tartalmaz</notes>
             <point firstPoint="60" id="72" length="CurrentLength/3" lineColor="black" lineType="none" lineWeight="0.35" mx="1.57256" my="0.477957" name="C21" secondPoint="71" showPointName="true" type="alongLine"/>
             <point firstPoint="62" id="73" length="CurrentLength/3" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="C31" secondPoint="71" showPointName="true" type="alongLine"/>
             <spline angle1="180.859" angle2="77.7985" color="darkGreen" id="74" length="17.6" length1="7.25591" length2="9.07865" lineWeight="0.7" penStyle="solidLine" point1="71" point4="72" type="simpleInteractive"/>
-            <spline angle1="Angle2Spl_C47_C21 + 180" angle2="10.5764" autoSmooth="true" color="darkGreen" id="75" length="SplPath_F11_F12_m-Spl_C47_C21" length1="2.42138" length2="2.95864" lengthMode="3" lineWeight="0.7" penStyle="solidLine" point1="72" point4="60" type="simpleInteractive"/>
+            <spline angle1="Angle2Spl_C47_C21 + 180" angle2="10.5764" autoSmooth="true" color="darkGreen" id="75" length="SplPath_F11_F12-Spl_C47_C21" length1="2.42138" length2="2.95864" lengthMode="3" lineWeight="0.7" penStyle="solidLine" point1="72" point4="60" type="simpleInteractive"/>
             <spline angle1="Angle1Spl_C47_C21 + 180" angle2="108.749" color="darkGreen" id="76" length="13" length1="4.5265" length2="5.39617" lineWeight="0.7" penStyle="solidLine" point1="71" point4="73" type="simpleInteractive"/>
             <spline angle1="Angle2Spl_C47_C31 + 180" angle2="173.86" color="darkGreen" id="77" length="SplPath_B11_B12-Spl_C47_C31" length1="0.914494" length2="4.0677" lengthMode="3" lineWeight="0.7" penStyle="solidLine" point1="73" point4="62" type="simpleInteractive"/>
             <line firstPoint="60" id="78" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="69"/>
