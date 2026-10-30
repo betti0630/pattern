@@ -19,6 +19,7 @@
         <variable description="" formula="65" name="#length"/>
         <variable description="" formula="neck_circ" name="#neck_size"/>
         <variable description="" formula="neck_back_to_waist_b" name="#neck_to_waist"/>
+        <variable description="" formula="across_back_b" name="#back_width"/>
         <variable description="" formula="62" name="#sleeve_length"/>
         <variable description="" formula="2" name="#honalj_atvitel"/>
         <variable description="" formula="highbust_arc_f/2-1" name="#elje_honalszelesseg"/>
@@ -44,7 +45,7 @@
             <point firstPoint="33" id="38" length="CurrentLength/8" lineColor="black" lineType="none" lineWeight="0.35" mx="0.473324" my="0.207744" name="B5" secondPoint="37" showPointName="true" type="alongLine"/>
             <point angle="360" basePoint="33" id="39" length="#neck_size/6+1" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="B6" showPointName="true" type="endLine"/>
             <point angle="90" basePoint="39" id="40" length="1.3" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="B7" showPointName="true" type="endLine"/>
-            <point angle="360" basePoint="36" id="41" length="#fel_hatszelesseg" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="B8" showPointName="true" type="endLine"/>
+            <point angle="360" basePoint="36" id="41" length="#back_width/2-1" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="B8" showPointName="true" type="endLine"/>
             <point firstPoint="41" id="42" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.473324" my="1.28768" name="B9" secondPoint="37" showPointName="true" type="intersectXY"/>
             <point firstPoint="41" id="43" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="-1.76324" my="0.599088" name="B10" secondPoint="38" showPointName="true" type="intersectXY"/>
             <point angle="358.467" basePoint="43" id="44" length="1" lineColor="black" lineType="solidLine" lineWeight="0.35" mx="2.46268" my="-0.0196106" name="B11" showPointName="true" type="endLine"/>
@@ -111,7 +112,7 @@
             <point firstPoint="161" id="166" length="CurrentLength/8" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="F5" secondPoint="165" showPointName="true" type="alongLine"/>
             <point angle="360" basePoint="161" id="167" length="Line_B0_B6" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F6" showPointName="true" type="endLine"/>
             <point angle="90" basePoint="167" id="168" length="1.3" lineColor="black" lineType="solidLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F7" showPointName="true" type="endLine"/>
-            <point angle="360" basePoint="164" id="169" length="#fel_hatszelesseg" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.243982" my="0.432118" name="F8" showPointName="true" type="endLine"/>
+            <point angle="360" basePoint="164" id="169" length="Line_B3_B8" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.243982" my="0.432118" name="F8" showPointName="true" type="endLine"/>
             <point firstPoint="169" id="170" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F9" secondPoint="165" showPointName="true" type="intersectXY"/>
             <point firstPoint="169" id="171" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.26295" my="0.329912" name="F10" secondPoint="166" showPointName="true" type="intersectXY"/>
             <point angle="360" basePoint="171" id="172" length="1" lineColor="black" lineType="solidLine" lineWeight="0.35" mx="2.14869" my="-0.757991" name="F11" showPointName="true" type="endLine"/>
