@@ -29,9 +29,6 @@
         <variable description="" formula="2" name="#honalj_atvitel"/>
         <variable description="" formula="highbust_arc_f/2-1" name="#elje_honalszelesseg"/>
         <variable description="" formula="@neck_to_waist_from_back_neck-neck_back_to_waist_b" name="#front_plus_length"/>
-        <variable description="" formula="3" name="#fba_fugg_honalj"/>
-        <variable description="" formula="1" name="#fba_vsz_karolto"/>
-        <variable description="" formula="bust_arc_f/2-highbust_arc_f/2" name="#fba_vsz_mellcsúcs"/>
     </variables>
     <draftBlock name="back">
         <calculation>
