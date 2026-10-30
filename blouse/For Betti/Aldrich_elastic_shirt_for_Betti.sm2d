@@ -105,7 +105,7 @@ Feszes tartás miatti korrekciót tartalmaz</notes>
         <groups/>
         <images/>
     </draftBlock>
-    <draftBlock name="Front2">
+    <draftBlock name="front">
         <calculation>
             <point id="161" mx="0.132292" my="0.264583" name="F0" showPointName="false" type="single" x="0.70684" y="1.19868"/>
             <point angle="270" basePoint="161" id="162" length="#hata_derekig" lineColor="black" lineType="solidLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F1" showPointName="true" type="endLine"/>
@@ -184,7 +184,6 @@ Feszes tartás miatti korrekciót tartalmaz</notes>
                     <item idObject="222" mx="0.132292" my="0.264583" showPointName="false"/>
                 </destination>
             </operation>
-            <point firstPoint="220" id="264" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F12_m" secondPoint="173" showPointName="true" type="intersectXY"/>
             <spline angle1="82.0101" angle2="284.419" color="darkGreen" id="314" length="Spl_B15_B144" length1="3.38838" length2="0.421486" lengthMode="3" lineWeight="0.7" penStyle="solidLine" point1="193" point4="189" type="simpleInteractive"/>
             <point id="3489615362" mx="1.32071" my="1.70319" name="F9_m" p1Line1="171" p1Line2="165" p2Line1="221" p2Line2="170" showPointName="true" type="lineIntersect"/>
             <line firstPoint="168" id="223" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="172"/>
@@ -240,7 +239,7 @@ Feszes tartás miatti korrekciót tartalmaz</notes>
             <point id="269" idObject="168" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
             <point id="270" idObject="172" inUse="true" mx="2.14869" my="-0.757991" showPointName="true" type="modeling"/>
             <spline id="271" idObject="265" inUse="true" type="modelingPath"/>
-            <point id="272" idObject="264" inUse="true" mx="-2.77812" my="0.9525" showPointName="true" type="modeling"/>
+            <point id="272" idObject="173" inUse="true" mx="-2.77812" my="0.9525" showPointName="true" type="modeling"/>
             <point id="273" idObject="219" inUse="true" mx="-4.50757" my="-1.02981" showPointName="true" type="modeling"/>
             <point id="279" idObject="189" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
             <point id="280" idObject="193" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
