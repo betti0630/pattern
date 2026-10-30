@@ -26,6 +26,8 @@
         <variable description="" formula="hip_circ" name="#hip"/>
         <variable description="" formula="waist_arc_f" name="#waist_arc_f"/>
         <variable description="" formula="waist_arc_b" name="#waist_arc_b"/>
+        <variable description="" formula="bustpoint_to_neck_side" name="#bustpoint_to_neck_side"/>
+        <variable description="" formula="bustpoint_to_bustpoint" name="#bustpoint_to_bustpoint"/>
         <variable description="" formula="highbust_arc_f" name="#highbust_arc_f"/>
         <variable description="" formula="2" name="#armpit_transfer"/>
         <variable description="" formula="@neck_to_waist_from_back_neck-neck_back_to_waist_b" name="#fba_front_plus_length"/>
@@ -115,12 +117,12 @@
             <point angle="360" basePoint="164" id="173" length="(#highbust_arc_f/2-1)-#armpit_transfer" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F12" showPointName="true" type="endLine"/>
             <point firstPoint="173" id="174" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="-2.18248" my="0.677935" name="F13" secondPoint="162" showPointName="true" type="intersectXY"/>
             <point firstPoint="173" id="175" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="-2.50096" my="0.515369" name="F14" secondPoint="163" showPointName="true" type="intersectXY"/>
-            <point angle="360" basePoint="163" id="317" length="#hip/4+1" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" mx="1.38622" my="0.389976" name="F144" showPointName="true" type="endLine"/>
+            <point angle="360" basePoint="163" id="317" length="#hip/4+1" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" mx="1.38622" my="0.389976" name="FHip" showPointName="true" type="endLine"/>
             <point angle="0" basePoint="174" id="176" length="#waist_arc_f/2+1-Line_F1_F13" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.571163" my="1.7693" name="F15" showPointName="true" type="endLine"/>
             <point angle="270" basePoint="161" id="177" length="neck_circ/6-1" lineColor="black" lineType="solidLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F16" showPointName="true" type="endLine"/>
-            <point angle="270" basePoint="168" id="180" length="bustpoint_to_neck_side" lineColor="black" lineType="dotLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F17" showPointName="true" type="endLine"/>
+            <point angle="270" basePoint="168" id="180" length="#bustpoint_to_neck_side" lineColor="black" lineType="dotLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F17" showPointName="true" type="endLine"/>
             <point firstPoint="162" id="181" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F18" secondPoint="180" showPointName="true" type="intersectXY"/>
-            <point angle="0" basePoint="181" id="260" length="bustpoint_to_bustpoint/2" lineColor="black" lineType="solidLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F177" showPointName="true" type="endLine"/>
+            <point angle="0" basePoint="181" id="260" length="#bustpoint_to_bustpoint/2" lineColor="black" lineType="solidLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="BustP" showPointName="true" type="endLine"/>
             <point angle="90" basePoint="260" id="261" lineColor="black" lineType="dotLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F77" p1Line="168" p2Line="172" showPointName="true" type="lineIntersectAxis"/>
             <point firstPoint="174" id="182" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F19" secondPoint="180" showPointName="true" type="intersectXY"/>
             <point firstPoint="260" id="183" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F20" secondPoint="163" showPointName="true" type="intersectXY"/>
@@ -140,8 +142,8 @@
                     <item idObject="185" mx="0.132292" my="0.264583" showPointName="true"/>
                     <item idObject="186" mx="0.132292" my="0.264583" showPointName="true"/>
                     <item idObject="187" mx="0.132292" my="0.264583" showPointName="true"/>
-                    <item idObject="188" mx="1.32353" my="0.640762" showPointName="true"/>
-                    <item idObject="189" mx="2.38937" my="7.0985" showPointName="true"/>
+                    <item idObject="188" mx="-3.15486" my="1.12491" showPointName="true"/>
+                    <item idObject="189" mx="1.66314" my="2.25699" showPointName="true"/>
                     <item idObject="190" mx="0.132292" my="0.264583" showPointName="true"/>
                     <item idObject="191" mx="0.132292" my="0.264583" showPointName="true"/>
                     <item idObject="192" mx="0.132292" my="0.264583" showPointName="true"/>
@@ -168,8 +170,8 @@
                     <item idObject="213" mx="0.132292" my="0.264583" showPointName="true"/>
                     <item idObject="214" mx="0.132292" my="0.264583" showPointName="true"/>
                     <item idObject="215" mx="0.132292" my="0.264583" showPointName="true"/>
-                    <item idObject="216" mx="0.132292" my="0.264583" showPointName="true"/>
-                    <item idObject="217" mx="0.132292" my="0.264583" showPointName="true"/>
+                    <item idObject="216" mx="-2.53054" my="1.596" showPointName="true"/>
+                    <item idObject="217" mx="1.94786" my="-1.79306" showPointName="true"/>
                     <item idObject="218" mx="0.132292" my="0.264583" showPointName="true"/>
                     <item idObject="219" mx="2.90076" my="-0.447727" showPointName="true"/>
                     <item idObject="220" mx="0.132292" my="0.264583" showPointName="true"/>
@@ -292,7 +294,35 @@
                 </iPaths>
             </piece>
         </pieces>
-        <groups/>
+        <groups>
+            <group groupColor="darkviolet" id="4278190092" lineType="solidLine" lineWeight="0" locked="false" name="FBA Rotate" visible="false">
+                <item object="214" tool="211"/>
+                <item object="215" tool="211"/>
+                <item object="230" tool="230"/>
+                <item object="229" tool="229"/>
+                <item object="231" tool="231"/>
+                <item object="218" tool="211"/>
+                <item object="217" tool="211"/>
+                <item object="216" tool="211"/>
+                <item object="228" tool="228"/>
+                <item object="213" tool="211"/>
+                <item object="212" tool="211"/>
+                <item object="224" tool="224"/>
+                <item object="262" tool="262"/>
+                <item object="225" tool="225"/>
+            </group>
+            <group groupColor="deeppink" id="4278190093" lineType="solidLine" lineWeight="0" locked="false" name="FBA Length" visible="false">
+                <item object="185" tool="184"/>
+                <item object="186" tool="184"/>
+                <item object="192" tool="184"/>
+                <item object="191" tool="184"/>
+                <item object="233" tool="233"/>
+                <item object="235" tool="235"/>
+                <item object="232" tool="232"/>
+                <item object="237" tool="237"/>
+                <item object="187" tool="184"/>
+            </group>
+        </groups>
         <images/>
     </draftBlock>
     <draftBlock name="Sleeve">
