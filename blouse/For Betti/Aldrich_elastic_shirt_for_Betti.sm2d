@@ -18,9 +18,7 @@ Feszes tartás miatti korrekciót tartalmaz</notes>
     <measurements>../../measurements/individual/Bettimeasurements.smis</measurements>
     <variables>
         <variable description="" formula="65" name="#length"/>
-        <variable description="" formula="(Line_F12_vj_F19_vj + Line_F19_vj_F15_l ) - (Line_F12_F15)" name="#hossz_kulonbseg"/>
         <variable description="" formula="2" name="#honalj_atvitel"/>
-        <variable description="" formula="#hossz_kulonbseg/2" name="#forma"/>
         <variable description="" formula="neck_circ/6+1" name="#nyak_szelesseg"/>
         <variable description="" formula="highbust_arc_f/2-1" name="#elje_honalszelesseg"/>
         <variable description="" formula="0" name="#feszes_korr_hat"/>
