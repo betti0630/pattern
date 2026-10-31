@@ -75,6 +75,7 @@
             <point id="114" idObject="316" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
             <point id="115" idObject="35" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
             <point id="116" idObject="34" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
+            <spline id="4278190109" idObject="53" inUse="true" type="modelingSpline"/>
         </modeling>
         <pieces>
             <piece color="#ffffff" fill="nobrush" forbidFlipping="false" hideMainPath="false" id="117" inLayout="true" locked="false" mx="0" my="0" name="Back" seamAllowance="true" united="false" version="2" width="1">
@@ -91,6 +92,7 @@
                     <node idObject="111" reverse="0" type="NodeSplinePath"/>
                     <node idObject="112" notch="true" notchAngle="0" notchCount="1" notchLength="1.25" notchSubtype="straightforward" notchType="vExternal" notchWidth="0.5" showNotch="false" showSecondNotch="false" type="NodePoint"/>
                     <node idObject="113" notch="true" notchAngle="0" notchCount="1" notchLength="1.25" notchSubtype="straightforward" notchType="vExternal" notchWidth="0.5" showNotch="true" showSecondNotch="false" type="NodePoint"/>
+                    <node idObject="4278190109" reverse="0" type="NodeSpline"/>
                     <node after="2" idObject="114" notch="true" notchAngle="0" notchCount="1" notchLength="1.25" notchSubtype="straightforward" notchType="vExternal" notchWidth="0.5" showNotch="false" showSecondNotch="false" type="NodePoint"/>
                     <node after="0" before="2" idObject="115" notch="true" notchAngle="0" notchCount="1" notchLength="1.25" notchSubtype="straightforward" notchType="vExternal" notchWidth="0.5" showNotch="false" showSecondNotch="false" type="NodePoint"/>
                     <node after="0" before="0" idObject="116" notch="true" notchAngle="0" notchCount="1" notchLength="1.25" notchSubtype="straightforward" notchType="vExternal" notchWidth="0.5" showNotch="false" showSecondNotch="false" type="NodePoint"/>
