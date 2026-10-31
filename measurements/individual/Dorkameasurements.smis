@@ -19,7 +19,7 @@
         <m name="rise_length_side_sitting" value="0"/>
         <m name="rise_length_side" value="0"/>
         <m name="height_waist_side" value="0"/>
-        <m name="arm_wrist_circ" value="0"/>
+        <m name="arm_wrist_circ" value="16"/>
         <m name="arm_shoulder_tip_to_wrist_bent" value="60"/>
         <m name="waist_circ" value="67"/>
         <m name="hip_circ" value="92"/>

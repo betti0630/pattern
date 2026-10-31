@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<smis>
+    <!--Measurements created with SeamlyMe v2026.8.31.143 (https://seamly.io/).-->
+    <version>0.3.4</version>
+    <read-only>false</read-only>
+    <notes/>
+    <unit>cm</unit>
+    <pm_system>998</pm_system>
+    <personal>
+        <family-name/>
+        <given-name/>
+        <birth-date>1800-01-01</birth-date>
+        <gender>unknown</gender>
+        <email/>
+    </personal>
+    <body-measurements>
+        <m name="bust_circ" value="88"/>
+        <m name="neck_circ" value="37"/>
+        <m name="neck_back_to_waist_b" value="41"/>
+        <m name="across_back_b" value="34.4"/>
+        <m name="armscye_length" value="21"/>
+        <m name="arm_wrist_circ" value="16"/>
+    </body-measurements>
+</smis>

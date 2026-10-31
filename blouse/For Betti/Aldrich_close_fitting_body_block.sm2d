@@ -14,7 +14,7 @@
         <line alignment="0" bold="false" italic="false" sfIncrement="0" text="%customer%"/>
         <line alignment="0" bold="false" italic="false" sfIncrement="0" text="%date%"/>
     </patternLabel>
-    <measurements>../../measurements/individual/Bettimeasurements.smis</measurements>
+    <measurements>../../measurements/individual/Aldrich12_measurements.smis</measurements>
     <variables>
         <variable description="" formula="65" name="#length"/>
         <variable description="" formula="bust_circ" name="#bust"/>
@@ -41,9 +41,9 @@
             <point angle="358.467" basePoint="43" id="44" length="1" lineColor="black" lineType="solidLine" lineWeight="0.35" mx="2.46268" my="-0.0196106" name="B11" showPointName="true" type="endLine"/>
             <line firstPoint="40" id="45" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="44"/>
             <point angle="360" basePoint="36" id="46" length="#bust/4-1" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.245969" my="0.264583" name="B12" showPointName="true" type="endLine"/>
-            <point firstPoint="46" id="47" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="-4.02505" my="1.68683" name="B13" secondPoint="34" showPointName="true" type="intersectXY"/>
+            <point firstPoint="46" id="47" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.635725" my="1.28896" name="B13" secondPoint="34" showPointName="true" type="intersectXY"/>
             <point firstPoint="46" id="48" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="B14" secondPoint="35" showPointName="true" type="intersectXY"/>
-            <point angle="180" basePoint="47" id="49" length="2" lineColor="black" lineType="solidLine" lineWeight="0.35" mx="2.21096" my="0.0457758" name="B15" showPointName="true" type="endLine"/>
+            <point angle="180" basePoint="47" id="49" length="2" lineColor="black" lineType="solidLine" lineWeight="0.35" mx="-2.33614" my="1.18255" name="B15" showPointName="true" type="endLine"/>
             <spline angle1="0.844985" angle2="233.65" color="darkGreen" id="50" length1="2.71763" length2="1.11739" lineWeight="0.7" penStyle="solidLine" point1="33" point4="40" type="simpleInteractive"/>
             <spline color="darkGreen" id="51" lineWeight="0.7" penStyle="solidLine" type="pathInteractive">
                 <pathPoint angle1="71.0421" angle2="251.042" length1="0" length2="1.97316" pSpline="44"/>
@@ -51,7 +51,7 @@
                 <pathPoint angle1="179.464" angle2="359.464" length1="3.51351" length2="1.50794" pSpline="46"/>
             </spline>
             <line firstPoint="46" id="52" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="49"/>
-            <spline angle1="289.42" angle2="93.0374" color="darkGreen" id="53" length="25" length1="4.50042" length2="5.94556" lineWeight="0.7" penStyle="solidLine" point1="49" point4="48" type="simpleInteractive"/>
+            <spline angle1="288.95" angle2="93.0374" color="darkGreen" id="53" length="25" length1="4.60778" length2="5.94556" lineWeight="0.7" penStyle="solidLine" point1="49" point4="48" type="simpleInteractive"/>
             <line firstPoint="44" id="58" lineColor="black" lineType="dotLine" lineWeight="0.35" secondPoint="46"/>
         </calculation>
         <modeling>
@@ -62,7 +62,6 @@
             <spline id="111" idObject="51" inUse="true" type="modelingPath"/>
             <point id="112" idObject="46" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
             <point id="113" idObject="49" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
-            <point id="114" idObject="316" inUse="false" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
             <point id="115" idObject="35" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
             <point id="116" idObject="34" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
             <point id="4278190114" idObject="48" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
@@ -104,13 +103,13 @@
             <point angle="360" basePoint="161" id="167" length="Line_B0_B6" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F6" showPointName="true" type="endLine"/>
             <point angle="90" basePoint="167" id="168" length="1.3" lineColor="black" lineType="solidLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F7" showPointName="true" type="endLine"/>
             <point angle="360" basePoint="164" id="169" length="Line_B3_B8" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.243982" my="0.432118" name="F8" showPointName="true" type="endLine"/>
-            <point firstPoint="169" id="170" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="-1.80431" my="0.990809" name="F9" secondPoint="165" showPointName="true" type="intersectXY"/>
+            <point firstPoint="169" id="170" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="1.04812" my="1.04786" name="F9" secondPoint="165" showPointName="true" type="intersectXY"/>
             <point firstPoint="169" id="171" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.26295" my="0.329912" name="F10" secondPoint="166" showPointName="true" type="intersectXY"/>
-            <point angle="360" basePoint="171" id="172" length="1" lineColor="black" lineType="solidLine" lineWeight="0.35" mx="2.63284" my="-0.757991" name="F11" showPointName="true" type="endLine"/>
+            <point angle="360" basePoint="171" id="172" length="1" lineColor="black" lineType="solidLine" lineWeight="0.35" mx="1.20662" my="-0.529797" name="F11" showPointName="true" type="endLine"/>
             <point angle="360" basePoint="164" id="173" length="Line_B3_B12" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F12" showPointName="true" type="endLine"/>
-            <point firstPoint="173" id="174" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="-2.18248" my="0.677935" name="F13" secondPoint="162" showPointName="true" type="intersectXY"/>
+            <point firstPoint="173" id="174" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="1.18339" my="1.07728" name="F13" secondPoint="162" showPointName="true" type="intersectXY"/>
             <point firstPoint="173" id="175" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="-2.50096" my="0.515369" name="F14" secondPoint="163" showPointName="true" type="intersectXY"/>
-            <point angle="180" basePoint="174" id="176" length="Line_B13_B15" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.571163" my="1.7693" name="F15" showPointName="true" type="endLine"/>
+            <point angle="180" basePoint="174" id="176" length="Line_B13_B15" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="-1.65373" my="1.59815" name="F15" showPointName="true" type="endLine"/>
             <point angle="270" basePoint="161" id="177" length="neck_circ/6-1" lineColor="black" lineType="solidLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F16" showPointName="true" type="endLine"/>
             <line firstPoint="168" id="223" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="172"/>
             <spline angle1="2.69827" angle2="269.985" color="darkGreen" id="238" length1="2.62685" length2="3.88435" lineWeight="0.7" penStyle="solidLine" point1="177" point4="168" type="simpleInteractive"/>
@@ -118,7 +117,7 @@
             <line firstPoint="172" id="266" lineColor="black" lineType="dotLine" lineWeight="0.35" secondPoint="173"/>
             <spline angle1="262.72" angle2="82.9263" color="darkGreen" id="4278190094" length1="3.1444" length2="3.96118" lineWeight="0.7" penStyle="solidLine" point1="172" point4="170" type="simpleInteractive"/>
             <spline angle1="270" angle2="180" autoSmooth="true" color="darkGreen" id="4278190095" length="SplPath_B11_B12-Spl_F11_F9" length1="3.36694" length2="4.71461" lengthMode="3" lineWeight="0.7" penStyle="solidLine" point1="170" point4="173" type="simpleInteractive"/>
-            <spline angle1="288.242" angle2="87.2649" color="darkGreen" id="4278190110" length1="2.39282" length2="2.6697" lineWeight="0.7" penStyle="solidLine" point1="176" point4="175" type="simpleInteractive"/>
+            <spline angle1="288.242" angle2="87.2649" color="darkGreen" id="4278190110" length="Spl_B15_B14" length1="2.39282" length2="2.6697" lengthMode="3" lineWeight="0.7" penStyle="solidLine" point1="176" point4="175" type="simpleInteractive"/>
         </calculation>
         <modeling>
             <point id="267" idObject="177" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
@@ -126,35 +125,6 @@
             <point id="269" idObject="168" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
             <point id="270" idObject="172" inUse="true" mx="2.14869" my="-0.757991" showPointName="true" type="modeling"/>
             <point id="272" idObject="173" inUse="true" mx="-2.77812" my="0.9525" showPointName="true" type="modeling"/>
-            <point id="273" idObject="219" inUse="false" mx="-4.50757" my="-1.02981" showPointName="true" type="modeling"/>
-            <point id="279" idObject="189" inUse="false" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
-            <point id="280" idObject="193" inUse="false" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
-            <point id="281" idObject="191" inUse="false" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
-            <point id="298" idObject="285" inUse="false" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
-            <point id="299" idObject="286" inUse="false" mx="0.633864" my="-1.61631" showPointName="true" type="modeling"/>
-            <point id="300" idObject="292" inUse="false" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
-            <point id="301" idObject="293" inUse="false" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
-            <point id="302" idObject="285" inUse="false" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
-            <point id="303" idObject="249" inUse="false" mx="-2.81444" my="-1.99249" showPointName="true" type="modeling"/>
-            <point id="304" idObject="286" inUse="false" mx="0.633864" my="-1.61631" showPointName="true" type="modeling"/>
-            <path cut="false" extendEndPoint="false" extendStartPoint="false" id="305" inUse="false" lineColor="black" lineType="solidLine" lineWeight="0.35" name="Dart1" type="2">
-                <nodes>
-                    <node idObject="302" type="NodePoint"/>
-                    <node idObject="303" type="NodePoint"/>
-                    <node idObject="304" type="NodePoint"/>
-                </nodes>
-            </path>
-            <point id="310" idObject="292" inUse="false" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
-            <point id="311" idObject="250" inUse="false" mx="-1.874" my="0.389976" showPointName="true" type="modeling"/>
-            <point id="312" idObject="293" inUse="false" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
-            <path cut="false" extendEndPoint="false" extendStartPoint="false" id="313" inUse="false" lineColor="black" lineType="solidLine" lineWeight="0.35" name="Dar2" type="2">
-                <nodes>
-                    <node idObject="310" type="NodePoint"/>
-                    <node idObject="311" type="NodePoint"/>
-                    <node idObject="312" type="NodePoint"/>
-                </nodes>
-            </path>
-            <spline id="315" idObject="314" inUse="false" type="modelingSpline"/>
             <spline id="4278190096" idObject="4278190094" inUse="true" type="modelingSpline"/>
             <spline id="4278190097" idObject="4278190095" inUse="true" type="modelingSpline"/>
             <point id="4278190109" idObject="176" inUse="true" mx="0.571163" my="1.7693" showPointName="true" type="modeling"/>
