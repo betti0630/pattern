@@ -3,10 +3,10 @@
     <!--Pattern created with Seamly2D v2026.8.31.143 (https://seamly.io).-->
     <version>0.7.4</version>
     <unit>cm</unit>
-    <description>Aldrich close fitting body</description>
+    <description>Aldrich close fitting body block for Betti</description>
     <notes>enyhén rugalmas anyagra mért</notes>
-    <patternName>Póló (enyhén rugalmas)</patternName>
-    <patternNumber/>
+    <patternName>Aldrich close fitting body blo</patternName>
+    <patternNumber></patternNumber>
     <company>Aldrich</company>
     <customer>Dudás Beáta</customer>
     <patternLabel dateFormat="yyyy-MM-dd" timeFormat="hh:mm:ss">
