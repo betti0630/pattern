@@ -48,7 +48,7 @@
             <point firstPoint="41" id="43" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="-1.76324" my="0.599088" name="B10" secondPoint="38" showPointName="true" type="intersectXY"/>
             <point angle="358.467" basePoint="43" id="44" length="1" lineColor="black" lineType="solidLine" lineWeight="0.35" mx="2.46268" my="-0.0196106" name="B11" showPointName="true" type="endLine"/>
             <line firstPoint="40" id="45" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="44"/>
-            <point angle="360" basePoint="36" id="46" length="bust_arc_b/2-1+#armpit_transfer" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="B12" showPointName="true" type="endLine"/>
+            <point angle="360" basePoint="36" id="46" length="bust_arc_b/2-1+#armpit_transfer" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.188962" my="0.264583" name="B12" showPointName="true" type="endLine"/>
             <point firstPoint="46" id="47" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="-4.02505" my="1.68683" name="B13" secondPoint="34" showPointName="true" type="intersectXY"/>
             <point firstPoint="46" id="48" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="B14" secondPoint="35" showPointName="true" type="intersectXY"/>
             <point angle="0" basePoint="35" id="316" length="#hip/4-1" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" mx="0.132292" my="0.264583" name="B144" showPointName="true" type="endLine"/>
@@ -267,7 +267,7 @@
                 <data annotation="" foldPosition="Undefined" fontSize="0" height="2" letter="" mx="685.689" my="1324.67" onFold="false" orientation="Undefined" quantity="1" rotation="0" rotationWay="None" tilt="None" visible="true" width="3">
                     <line alignment="0" bold="false" italic="false" sfIncrement="0" text="%pName%"/>
                 </data>
-                <patternInfo fontSize="0" height="2" mx="208.578" my="1324.67" rotation="0" visible="true" width="3"/>
+                <patternInfo fontSize="0" height="6" mx="208.578" my="1324.67" rotation="0" visible="true" width="10"/>
                 <grainline arrowLength="1.27" arrows="0" length="20" mx="503.827" my="1412.87" rotation="90" visible="false"/>
                 <nodes>
                     <node before="0" idObject="267" notch="true" notchAngle="0" notchCount="1" notchLength="1.25" notchSubtype="straightforward" notchType="vExternal" notchWidth="0.5" showNotch="false" showSecondNotch="false" type="NodePoint"/>
