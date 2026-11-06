@@ -15,6 +15,14 @@
     </personal>
     <body-measurements>
         <m name="height" value="170"/>
+        <m name="crotch_length" value="78"/>
+        <m name="leg_thigh_upper_circ" value="56"/>
+        <m name="leg_knee_circ" value="37"/>
+        <m name="leg_calf_circ" value="35"/>
+        <m name="leg_ankle_circ" value="23"/>
+        <m name="leg_thigh_mid_circ" value="49"/>
+        <m name="crotch_length_b" value="42"/>
+        <m name="crotch_length_f" value="(crotch_length - crotch_length_b)"/>
         <m name="highhip_circ" value="94"/>
         <m name="rise_length_side_sitting" value="29"/>
         <m name="rise_length_side" value="27"/>
