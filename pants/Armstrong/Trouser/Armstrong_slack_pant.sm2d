@@ -18,7 +18,7 @@
     <variables>
         <variable description="" formula="103" name="#waist_to_ankle"/>
         <variable description="" formula="16" name="#hemline_width"/>
-        <variable description="" formula="rise_length_side+2" name="#crotch_depth"/>
+        <variable description="" formula="rise_length_side" name="#crotch_depth"/>
         <variable description="" formula="hip_arc_f/2" name="#front_hip_arc"/>
         <variable description="" formula="hip_arc_b/2" name="#back_hip_arc"/>
         <variable description="" formula="waist_arc_f/2" name="#front_waist_arc"/>
@@ -40,7 +40,7 @@
         <calculation>
             <point id="1" mx="0.132292" my="0.264583" name="A" showPointName="true" type="single" x="0.79375" y="1.05833"/>
             <point angle="270" basePoint="1" id="2" length="#waist_to_ankle" lineColor="black" lineType="solidLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="B" showPointName="true" type="endLine"/>
-            <point firstPoint="1" id="3" length="#crotch_depth+3" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="D" secondPoint="2" showPointName="true" type="alongLine"/>
+            <point firstPoint="1" id="3" length="#crotch_depth+2" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="D" secondPoint="2" showPointName="true" type="alongLine"/>
             <point firstPoint="1" id="4" length="#waist_to_hip" lineColor="black" lineType="none" lineWeight="0.35" mx="2.75816" my="-3.94997" name="C" secondPoint="3" showPointName="true" type="alongLine"/>
             <point firstPoint="2" id="5" length="CurrentLength/2+2.54" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="E" secondPoint="3" showPointName="true" type="alongLine"/>
             <point angle="0" firstPoint="4" id="6" length="#back_hip_arc+#ease" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="F" secondPoint="1" showPointName="true" type="normal"/>
@@ -166,8 +166,8 @@
                 <pathPoint angle1="81.2638" angle2="261.264" length1="2.83878" length2="1.3109" pSpline="109"/>
             </spline>
             <spline color="darkGreen" id="126" lineWeight="0.7" penStyle="solidLine" type="pathInteractive">
-                <pathPoint angle1="74.6866" angle2="254.687" length1="0" length2="3.37622" pSpline="4"/>
-                <pathPoint angle1="80.4373" angle2="260.437" length1="3.79713" length2="9.08943" pSpline="116"/>
+                <pathPoint angle1="73.2025" angle2="253.202" length1="0" length2="3.40148" pSpline="4"/>
+                <pathPoint angle1="76.8074" angle2="256.807" length1="3.56441" length2="9.08943" pSpline="116"/>
                 <pathPoint angle1="83.2902" angle2="263.29" length1="6.09178" length2="4.77026" pSpline="119"/>
                 <pathPoint angle1="80.2405" angle2="260.24" length1="5.67776" length2="1.36543" pSpline="104"/>
             </spline>
