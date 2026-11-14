@@ -25,14 +25,14 @@
         <variable description="" formula="waist_arc_b/2" name="#back_waist_arc"/>
         <variable description="" formula="crotch_length_f" name="#front_crotch_length"/>
         <variable description="" formula="crotch_length_b" name="#back_crotch_length"/>
-        <variable description="" formula="leg_thigh_upper_circ+6" name="#upper_thigh"/>
+        <variable description="" formula="leg_thigh_upper_circ+7" name="#upper_thigh"/>
         <variable description="" formula="waist_to_hip_f" name="#waist_to_hip"/>
         <variable description="" formula="leg_thigh_mid_circ+5" name="#mid_thigh"/>
         <variable description="" formula="leg_knee_circ+7" name="#knee"/>
         <variable description="" formula="leg_calf_circ" name="#calf"/>
         <variable description="" formula="leg_ankle_circ" name="#ankle"/>
         <variable description="" formula="1.27" name="#crotch_ease"/>
-        <variable description="" formula="2.54/4" name="#ease"/>
+        <variable description="" formula="0.7" name="#ease"/>
         <variable description="" formula="#back_hip_arc-#back_waist_arc" name="#back_waist_diff"/>
         <variable description="" formula="#front_hip_arc-#front_waist_arc" name="#front_waist_diff"/>
     </variables>
@@ -51,26 +51,26 @@
             <point firstPoint="10" id="11" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="1.07847" my="-0.129658" name="L" secondPoint="1" showPointName="true" type="intersectXY"/>
             <point firstPoint="10" id="12" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="K" secondPoint="3" showPointName="true" type="intersectXY"/>
             <point firstPoint="11" id="13" length="CurrentLength/2" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="X2" secondPoint="12" showPointName="true" type="alongLine"/>
-            <point angle="180" basePoint="7" id="14" length="Line_D_G/2-3" lineColor="black" lineType="solidLine" lineWeight="0.35" mx="-3.919" my="1.25823" name="I" showPointName="true" type="endLine"/>
+            <point angle="180" basePoint="7" id="14" length="Line_D_G/2-3.5" lineColor="black" lineType="solidLine" lineWeight="0.35" mx="-3.919" my="1.25823" name="I" showPointName="true" type="endLine"/>
             <point angle="360" basePoint="12" id="15" length="Line_D_K/4+2" lineColor="black" lineType="solidLine" lineWeight="0.35" mx="2.09118" my="-0.554728" name="M" showPointName="true" type="endLine"/>
-            <point firstPoint="8" id="16" length="#back_waist_diff/4" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="N" secondPoint="1" showPointName="true" type="alongLine"/>
+            <point firstPoint="8" id="16" length="#back_waist_diff/4" lineColor="black" lineType="none" lineWeight="0.35" mx="0.242815" my="0.264583" name="N" secondPoint="1" showPointName="true" type="alongLine"/>
             <point firstPoint="16" id="17" length="#back_waist_arc+#ease+#back_waist_diff/2" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="O" secondPoint="1" showPointName="true" type="alongLine"/>
             <point firstPoint="16" id="18" length="11" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="P" secondPoint="17" showPointName="true" type="alongLine"/>
             <point firstPoint="18" id="19" length="#back_waist_diff/4" lineColor="black" lineType="none" lineWeight="0.35" mx="-1.25544" my="0.611515" name="P1" secondPoint="16" showPointName="true" type="alongLine"/>
             <point firstPoint="18" id="20" length="#back_waist_diff/4" lineColor="black" lineType="none" lineWeight="0.35" mx="0.392491" my="0.958448" name="P2" secondPoint="17" showPointName="true" type="alongLine"/>
-            <point angle="0" firstPoint="18" id="24" length="12" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="P3" secondPoint="8" showPointName="true" type="normal"/>
+            <point angle="0" firstPoint="18" id="24" length="#waist_to_hip-3" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="P3" secondPoint="8" showPointName="true" type="normal"/>
             <point firstPoint="11" id="26" length="#front_waist_arc+#ease+#front_waist_diff" lineColor="black" lineType="none" lineWeight="0.35" mx="1.86695" my="-1.70662" name="Q" secondPoint="1" showPointName="true" type="alongLine"/>
             <point firstPoint="11" id="27" length="11" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="R" secondPoint="26" showPointName="true" type="alongLine"/>
             <point firstPoint="27" id="28" length="#front_waist_diff/2" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="R1" secondPoint="26" showPointName="true" type="alongLine"/>
             <point firstPoint="27" id="29" length="#front_waist_diff/2" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="R2" secondPoint="11" showPointName="true" type="alongLine"/>
-            <point angle="0" firstPoint="27" id="30" length="8" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="R3" secondPoint="26" showPointName="true" type="normal"/>
+            <point angle="0" firstPoint="27" id="30" length="12" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="R3" secondPoint="26" showPointName="true" type="normal"/>
             <point angle="90" basePoint="16" id="31" length="1" lineColor="black" lineType="solidLine" lineWeight="0.35" mx="0.91289" my="-1.12315" name="S" showPointName="true" type="endLine"/>
-            <point firstPoint="14" id="32" length="5" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="-1.4289" my="-0.94968" name="T" secondPoint="7" showPointName="true" thirdPoint="6" type="bisector"/>
+            <point firstPoint="14" id="32" length="4" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="-1.4289" my="-0.94968" name="T" secondPoint="7" showPointName="true" thirdPoint="6" type="bisector"/>
             <point firstPoint="10" id="34" length="3.8" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="-0.282896" my="1.51015" name="U" secondPoint="12" showPointName="true" thirdPoint="15" type="bisector"/>
             <point firstPoint="11" id="35" length="0.1" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="L1" secondPoint="13" showPointName="true" type="alongLine"/>
             <point baseLineP1="31" baseLineP2="35" dartP1="19" dartP2="24" dartP3="20" id="36" mx1="0.526533" mx2="0.132292" my1="-2.41626" my2="-1.62778" name1="D1" name2="D2" point1="37" point2="38" showPointName1="true" showPointName2="true" type="trueDarts"/>
             <point baseLineP1="1" baseLineP2="35" dartP1="28" dartP2="30" dartP3="29" id="42" mx1="0.605382" mx2="0.841926" my1="-2.73165" my2="-1.86432" name1="D5" name2="D6" point1="43" point2="44" showPointName1="true" showPointName2="true" type="trueDarts"/>
-            <operation angle="349" center="4" id="45" suffix="_b" type="rotation">
+            <operation angle="350" center="4" id="45" suffix="_b" type="rotation">
                 <source>
                     <item alias="" color="black" idObject="9" lineType="solidLine"/>
                     <item alias="" color="black" idObject="31" lineType="solidLine"/>
@@ -89,10 +89,10 @@
                 </destination>
             </operation>
             <spline color="darkGreen" id="55" lineWeight="0.7" penStyle="solidLine" type="pathInteractive">
-                <pathPoint angle1="180" angle2="0" length1="0" length2="0" pSpline="47"/>
-                <pathPoint angle1="76.475" angle2="256.475" length1="2.3529" length2="3.51856" pSpline="46"/>
-                <pathPoint angle1="50.9135" angle2="230.913" length1="3.21558" length2="1.23824" pSpline="32"/>
-                <pathPoint angle1="9.48345" angle2="189.483" length1="5.05681" length2="0" pSpline="14"/>
+                <pathPoint angle1="83.5383" angle2="263.538" length1="0" length2="8.24744" pSpline="47"/>
+                <pathPoint angle1="73.4211" angle2="253.421" length1="4.90921" length2="3.64168" pSpline="46"/>
+                <pathPoint angle1="57.3721" angle2="237.372" length1="3.21558" length2="2.05442" pSpline="32"/>
+                <pathPoint angle1="1.99672" angle2="181.997" length1="4.88014" length2="0" pSpline="14"/>
             </spline>
             <line firstPoint="47" id="56" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="48"/>
             <line firstPoint="48" id="57" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="49"/>
@@ -116,10 +116,10 @@
                 </destination>
             </operation>
             <spline color="darkRed" id="71" lineWeight="0.7" penStyle="solidLine" type="pathInteractive">
-                <pathPoint angle1="94.6068" angle2="274.607" length1="0" length2="4.32706" pSpline="66"/>
+                <pathPoint angle1="94.4877" angle2="274.488" length1="0" length2="5.60906" pSpline="66"/>
                 <pathPoint angle1="99.6289" angle2="279.629" length1="1.84591" length2="4.64405" pSpline="65"/>
                 <pathPoint angle1="129.201" angle2="309.201" length1="2.40972" length2="0.982318" pSpline="34"/>
-                <pathPoint angle1="175.714" angle2="355.714" length1="1.92235" length2="0.852403" pSpline="15"/>
+                <pathPoint angle1="181.24" angle2="1.24" length1="3.57566" length2="0.852403" pSpline="15"/>
             </spline>
             <line firstPoint="70" id="72" lineColor="darkRed" lineType="solidLine" lineWeight="0.7" secondPoint="69"/>
             <line firstPoint="69" id="73" lineColor="darkRed" lineType="solidLine" lineWeight="0.7" secondPoint="68"/>
@@ -150,29 +150,29 @@
             <point firstPoint="15" id="117" length="#upper_thigh/2-1" lineColor="black" lineType="none" lineWeight="0.35" mx="1.37786" my="0.347621" name="T2" secondPoint="3" showPointName="true" type="alongLine"/>
             <point firstPoint="78" id="118" length="CurrentLength/2" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="TCB" secondPoint="102" showPointName="true" type="alongLine"/>
             <point angle="0" firstPoint="118" id="119" length="#mid_thigh/4+0.5" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.439111" my="2.32305" name="TCB1" secondPoint="102" showPointName="true" type="normal"/>
-            <point angle="0" firstPoint="118" id="120" length="#mid_thigh/4+0.5" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="-3.0773" my="0.665782" name="TCB2" secondPoint="78" showPointName="true" type="normal"/>
+            <point angle="0" firstPoint="118" id="120" length="#mid_thigh/4-0.5" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="-3.0773" my="0.665782" name="TCB2" secondPoint="78" showPointName="true" type="normal"/>
             <point firstPoint="79" id="121" length="CurrentLength/2" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="TCF" secondPoint="107" showPointName="true" type="alongLine"/>
-            <point angle="0" firstPoint="121" id="122" length="#mid_thigh/4-0.5" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="TCF1" secondPoint="107" showPointName="true" type="normal"/>
+            <point angle="0" firstPoint="121" id="122" length="#mid_thigh/4-1.5" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="TCF1" secondPoint="107" showPointName="true" type="normal"/>
             <point angle="0" firstPoint="121" id="123" length="#mid_thigh/4-0.5" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="2.40575" my="1.46818" name="TCF2" secondPoint="79" showPointName="true" type="normal"/>
             <spline color="darkRed" id="124" lineWeight="0.7" penStyle="solidLine" type="pathInteractive">
-                <pathPoint angle1="102.202" angle2="282.202" length1="0" length2="2.34664" pSpline="4"/>
+                <pathPoint angle1="98.0201" angle2="278.02" length1="0" length2="2.76274" pSpline="4"/>
                 <pathPoint angle1="97.7756" angle2="277.776" length1="2.54248" length2="7.88042" pSpline="117"/>
                 <pathPoint angle1="98.7431" angle2="278.743" length1="4.61583" length2="3.90098" pSpline="123"/>
                 <pathPoint angle1="97.4895" angle2="277.49" length1="4.35952" length2="0.722954" pSpline="108"/>
             </spline>
             <spline color="darkRed" id="125" lineWeight="0.7" penStyle="solidLine" type="pathInteractive">
-                <pathPoint angle1="86.2016" angle2="266.202" length1="0" length2="6.22798" pSpline="15"/>
+                <pathPoint angle1="73.8207" angle2="253.821" length1="0" length2="6.24041" pSpline="15"/>
                 <pathPoint angle1="81.2679" angle2="261.268" length1="1.0004" length2="1.82241" pSpline="122"/>
                 <pathPoint angle1="81.2638" angle2="261.264" length1="2.83878" length2="1.3109" pSpline="109"/>
             </spline>
             <spline color="darkGreen" id="126" lineWeight="0.7" penStyle="solidLine" type="pathInteractive">
-                <pathPoint angle1="73.2025" angle2="253.202" length1="0" length2="3.40148" pSpline="4"/>
-                <pathPoint angle1="76.8074" angle2="256.807" length1="3.56441" length2="9.08943" pSpline="116"/>
-                <pathPoint angle1="83.2902" angle2="263.29" length1="6.09178" length2="4.77026" pSpline="119"/>
-                <pathPoint angle1="80.2405" angle2="260.24" length1="5.67776" length2="1.36543" pSpline="104"/>
+                <pathPoint angle1="82.6482" angle2="262.648" length1="0" length2="3.74776" pSpline="4"/>
+                <pathPoint angle1="76.9503" angle2="256.95" length1="2.93013" length2="1.88298" pSpline="116"/>
+                <pathPoint angle1="80.6694" angle2="260.669" length1="6.09178" length2="4.80111" pSpline="119"/>
+                <pathPoint angle1="87.0542" angle2="267.054" length1="5.82433" length2="1.36543" pSpline="104"/>
             </spline>
             <spline color="darkGreen" id="127" lineWeight="0.7" penStyle="solidLine" type="pathInteractive">
-                <pathPoint angle1="94.5977" angle2="274.598" length1="0" length2="3.42061" pSpline="14"/>
+                <pathPoint angle1="112.027" angle2="292.027" length1="0" length2="3.67807" pSpline="14"/>
                 <pathPoint angle1="96.6226" angle2="276.623" length1="2.02095" length2="0.846777" pSpline="120"/>
                 <pathPoint angle1="88.7903" angle2="268.79" length1="1.75734" length2="1.23865" pSpline="103"/>
             </spline>
