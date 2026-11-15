@@ -4,10 +4,10 @@
     <version>0.7.4</version>
     <unit>cm</unit>
     <description>Armstrong pant block</description>
-    <notes></notes>
+    <notes/>
     <patternName>Armstrong pant block</patternName>
-    <patternNumber></patternNumber>
-    <company></company>
+    <patternNumber/>
+    <company/>
     <customer>Dudás Beáta</customer>
     <patternLabel dateFormat="yyyy-MM-dd" timeFormat="hh:mm:ss">
         <line alignment="0" bold="false" italic="false" sfIncrement="0" text="%patternName%"/>
@@ -58,12 +58,12 @@
             <point firstPoint="16" id="18" length="11" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="P" secondPoint="17" showPointName="true" type="alongLine"/>
             <point firstPoint="18" id="19" length="#back_waist_diff/4" lineColor="black" lineType="none" lineWeight="0.35" mx="-1.25544" my="0.611515" name="P1" secondPoint="16" showPointName="true" type="alongLine"/>
             <point firstPoint="18" id="20" length="#back_waist_diff/4" lineColor="black" lineType="none" lineWeight="0.35" mx="0.392491" my="0.958448" name="P2" secondPoint="17" showPointName="true" type="alongLine"/>
-            <point angle="0" firstPoint="18" id="24" length="#waist_to_hip-3" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="P3" secondPoint="8" showPointName="true" type="normal"/>
+            <point angle="0" firstPoint="18" id="24" length="12" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="P3" secondPoint="8" showPointName="true" type="normal"/>
             <point firstPoint="11" id="26" length="#front_waist_arc+#ease+#front_waist_diff" lineColor="black" lineType="none" lineWeight="0.35" mx="1.86695" my="-1.70662" name="Q" secondPoint="1" showPointName="true" type="alongLine"/>
             <point firstPoint="11" id="27" length="11" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="R" secondPoint="26" showPointName="true" type="alongLine"/>
             <point firstPoint="27" id="28" length="#front_waist_diff/2" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="R1" secondPoint="26" showPointName="true" type="alongLine"/>
             <point firstPoint="27" id="29" length="#front_waist_diff/2" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="R2" secondPoint="11" showPointName="true" type="alongLine"/>
-            <point angle="0" firstPoint="27" id="30" length="12" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="R3" secondPoint="26" showPointName="true" type="normal"/>
+            <point angle="0" firstPoint="27" id="30" length="9" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="R3" secondPoint="26" showPointName="true" type="normal"/>
             <point angle="90" basePoint="16" id="31" length="1" lineColor="black" lineType="solidLine" lineWeight="0.35" mx="0.91289" my="-1.12315" name="S" showPointName="true" type="endLine"/>
             <point firstPoint="14" id="32" length="4" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="-1.4289" my="-0.94968" name="T" secondPoint="7" showPointName="true" thirdPoint="6" type="bisector"/>
             <point firstPoint="10" id="34" length="3.8" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="-0.282896" my="1.51015" name="U" secondPoint="12" showPointName="true" thirdPoint="15" type="bisector"/>
@@ -81,19 +81,13 @@
                 </source>
                 <destination>
                     <item idObject="46" mx="1.86695" my="-0.689481" showPointName="true"/>
-                    <item idObject="47" mx="0.91289" my="-1.12315" showPointName="true"/>
+                    <item idObject="47" mx="2.09696" my="-2.0112" showPointName="true"/>
                     <item idObject="48" mx="0.526533" my="-2.41626" showPointName="true"/>
                     <item idObject="49" mx="0.132292" my="0.264583" showPointName="true"/>
                     <item idObject="50" mx="0.132292" my="-1.62778" showPointName="true"/>
                     <item idObject="54" mx="2.56963" my="2.61218" showPointName="true"/>
                 </destination>
             </operation>
-            <spline color="darkGreen" id="55" lineWeight="0.7" penStyle="solidLine" type="pathInteractive">
-                <pathPoint angle1="83.5383" angle2="263.538" length1="0" length2="8.24744" pSpline="47"/>
-                <pathPoint angle1="73.4211" angle2="253.421" length1="4.90921" length2="3.64168" pSpline="46"/>
-                <pathPoint angle1="57.3721" angle2="237.372" length1="3.21558" length2="2.05442" pSpline="32"/>
-                <pathPoint angle1="1.99672" angle2="181.997" length1="4.88014" length2="0" pSpline="14"/>
-            </spline>
             <line firstPoint="47" id="56" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="48"/>
             <line firstPoint="48" id="57" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="49"/>
             <line firstPoint="49" id="58" lineColor="darkGreen" lineType="solidLine" lineWeight="0.7" secondPoint="50"/>
@@ -176,6 +170,11 @@
                 <pathPoint angle1="96.6226" angle2="276.623" length1="2.02095" length2="0.846777" pSpline="120"/>
                 <pathPoint angle1="88.7903" angle2="268.79" length1="1.75734" length2="1.23865" pSpline="103"/>
             </spline>
+            <spline color="darkGreen" duplicate="1" id="180" lineWeight="0.7" penStyle="solidLine" type="pathInteractive">
+                <pathPoint angle1="84.3114" angle2="264.311" length1="0" length2="3.94895" pSpline="47"/>
+                <pathPoint angle1="54.5548" angle2="234.555" length1="2.8298" length2="1.56898" pSpline="32"/>
+                <pathPoint angle1="3.36097" angle2="183.361" length1="4.83643" length2="4.37932" pSpline="14"/>
+            </spline>
         </calculation>
         <modeling>
             <point id="128" idObject="47" inUse="true" mx="0.91289" my="-1.12315" showPointName="true" type="modeling"/>
@@ -190,7 +189,7 @@
             <point id="137" idObject="82" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
             <point id="138" idObject="103" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
             <spline id="139" idObject="127" inUse="true" type="modelingPath"/>
-            <spline id="140" idObject="55" inUse="true" type="modelingPath"/>
+            <spline id="140" idObject="55" inUse="false" type="modelingPath"/>
             <point id="142" idObject="70" inUse="true" mx="-2.24341" my="1.2163" showPointName="true" type="modeling"/>
             <point id="143" idObject="69" inUse="true" mx="0.605382" my="-2.73165" showPointName="true" type="modeling"/>
             <point id="144" idObject="68" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
@@ -268,6 +267,7 @@
                     <node idObject="178" type="NodePoint"/>
                 </nodes>
             </path>
+            <spline id="181" idObject="180" inUse="true" type="modelingPath"/>
         </modeling>
         <pieces>
             <piece color="#ffffff" fill="nobrush" forbidFlipping="false" hideMainPath="false" id="141" inLayout="true" locked="false" mx="0" my="0" name="Back" seamAllowance="false" united="false" version="2" width="1">
@@ -277,7 +277,7 @@
                 <patternInfo fontSize="0" height="6" mx="-984.119" my="1851.28" rotation="0" visible="true" width="10"/>
                 <grainline arrowLength="1.27" arrows="0" length="2.667" mx="-573.261" my="1939.47" rotation="90" visible="true"/>
                 <nodes>
-                    <node idObject="128" type="NodePoint"/>
+                    <node excluded="true" idObject="128" type="NodePoint"/>
                     <node idObject="129" type="NodePoint"/>
                     <node idObject="130" type="NodePoint"/>
                     <node idObject="131" type="NodePoint"/>
@@ -289,7 +289,7 @@
                     <node idObject="137" type="NodePoint"/>
                     <node idObject="138" type="NodePoint"/>
                     <node idObject="139" reverse="1" type="NodeSplinePath"/>
-                    <node idObject="140" reverse="1" type="NodeSplinePath"/>
+                    <node idObject="181" reverse="1" type="NodeSplinePath"/>
                 </nodes>
                 <iPaths>
                     <record path="158"/>
